@@ -1,4 +1,4 @@
-﻿Log file open, 03/03/18 13:32:20
+﻿Log file open, 03/03/18 14:21:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,11 +7,11 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: QuickFixGarage
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(363925205) SRandInit(363925205).
+LogInit: Display: RandInit(-1115758675) SRandInit(-1115758675).
 LogInit: Read version file with build ID '4750f96d-4c1b-460c-910b-a626738d9d59'
 LogInit: Registered custom module enumerator with build ID '4750f96d-4c1b-460c-910b-a626738d9d59'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.169553
+LogStats: Stats thread started at 0.167957
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
@@ -193,248 +193,1273 @@ LogInit: Base directory: C:/Users/Patrique/Desktop/MICROSOFT_UWP_UNREAL-release_
 LogInit: Installed Engine Build: 0
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.03-18.32.21:503][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.03-18.32.21:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.03-18.32.21:509][  0]LogInit: Computer: PAT-DESKTOP
-[2018.03.03-18.32.21:509][  0]LogInit: User: Patrique
-[2018.03.03-18.32.21:509][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.03-18.32.21:509][  0]LogInit: High frequency timer resolution =3.903990 MHz
-[2018.03.03-18.32.21:509][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.03-18.32.21:509][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.03-18.32.21:509][  0]LogMemory: Process Physical Memory: 271.58 MB used, 271.58 MB peak
-[2018.03.03-18.32.21:509][  0]LogMemory: Process Virtual Memory: 263.36 MB used, 263.36 MB peak
-[2018.03.03-18.32.21:509][  0]LogMemory: Physical Memory: 6576.41 MB used,  9750.25 MB free, 16326.66 MB total
-[2018.03.03-18.32.21:509][  0]LogMemory: Virtual Memory: 674.99 MB used,  9750.25 MB free, 134217728.00 MB total
-[2018.03.03-18.32.21:681][  0]LogInit: Using OS detected language (en-US).
-[2018.03.03-18.32.21:681][  0]LogInit: Using OS detected locale (en-CA).
-[2018.03.03-18.32.21:684][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.03-18.32.22:043][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.03-18.32.22:275][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.03-18.32.22:318][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.03.03-18.32.22:318][  0]LogD3D11RHI:       4043/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.03.03-18.32.22:321][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.03-18.32.22:321][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.03-18.32.22:321][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.03-18.32.22:326][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.03-18.32.22:326][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.03-18.32.22:326][  0]LogWindows: EnumDisplayDevices:
-[2018.03.03-18.32.22:326][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.03.03-18.32.22:326][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.03.03-18.32.22:326][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.03.03-18.32.22:327][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.03.03-18.32.22:327][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.03-18.32.22:327][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.03.03-18.32.22:327][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.03-18.32.22:327][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.03-18.32.22:327][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.03.03-18.32.22:349][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.03-18.32.22:368][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.03-18.32.22:455][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Documents/GitHub/QuickFixGarage/Intermediate/Shaders/WorkingDirectory/5700/).
-[2018.03.03-18.32.22:456][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Patrique/AppData/Local/Temp/UnrealShaderWorkingDir/2CAC34D848F1E00FA4A7A2891BFABFF4/'.
-[2018.03.03-18.32.22:456][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.03-18.32.23:246][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.03-18.32.23:293][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.03-18.32.23:339][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.03-18.32.23:388][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.03-18.32.23:434][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.03-18.32.23:509][  0]LogTemp: Display: Loaded TP UWP32TargetPlatform
-[2018.03.03-18.32.23:552][  0]LogTemp: Display: Loaded TP UWPTargetPlatform
-[2018.03.03-18.32.23:600][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.03-18.32.23:646][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.03-18.32.23:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.03-18.32.23:737][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.03-18.32.23:781][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.03-18.32.23:826][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.03-18.32.23:871][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.03-18.32.23:916][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.03-18.32.23:961][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.03-18.32.24:051][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.03-18.32.24:051][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.03-18.32.24:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.03-18.32.24:136][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.03-18.32.24:221][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.03-18.32.24:243][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.03-18.32.24:243][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.03-18.32.24:686][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.03-18.32.25:268][  0]LogDerivedDataCache: Loaded boot cache 0.58s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
-[2018.03.03-18.32.25:268][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc
-[2018.03.03-18.32.25:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.03-18.32.25:269][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.03-18.32.25:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.03-18.32.25:269][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2018.03.03-18.32.25:284][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2018.03.03-18.32.25:284][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.03.03-18.32.25:284][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.03.03-18.32.25:309][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.03-18.32.25:310][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.03-18.32.25:311][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.03-18.32.25:311][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.03-18.32.25:609][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.03-18.32.25:876][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.03-18.32.25:876][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.03-18.32.25:876][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.03-18.32.25:876][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2018.03.03-18.32.25:876][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.03-18.32.25:876][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2018.03.03-18.32.25:905][  0]LogNetVersion: QuickFixGarage , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109594481)
-[2018.03.03-18.32.26:049][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
-[2018.03.03-18.32.26:520][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.066693 seconds
-[2018.03.03-18.32.26:526][  0]LogUObjectArray: 35857 objects as part of root set at end of initial load.
-[2018.03.03-18.32.26:526][  0]LogUObjectAllocator: 7365032 out of 0 bytes used by permanent object pool.
-[2018.03.03-18.32.26:526][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.03-18.32.26:579][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:130][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:130][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:131][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.03.03-18.32.27:131][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.27:132][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.03.03-18.32.27:132][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.03.03-18.32.29:106][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.03-18.32.29:149][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.03-18.32.29:858][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.03-18.32.30:320][  0]SourceControl: Source control is disabled
-[2018.03.03-18.32.30:320][  0]SourceControl: Source control is disabled
-[2018.03.03-18.32.30:372][  0]SourceControl: Source control is disabled
-[2018.03.03-18.32.30:424][  0]SourceControl: Source control is disabled
-[2018.03.03-18.32.31:252][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.03-18.32.31:516][  0]LogOcInput: OculusInput pre-init called
-[2018.03.03-18.32.31:768][  0]LogEngine: Initializing Engine...
-[2018.03.03-18.32.31:770][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.03-18.32.31:948][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.03-18.32.31:948][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.03-18.32.32:071][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.03-18.32.32:094][  0]LogInit: FAudioDevice initialized.
-[2018.03.03-18.32.32:203][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
-[2018.03.03-18.32.32:215][  0]LogInit: Texture streaming: Enabled
-[2018.03.03-18.32.32:312][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.03-18.32.32:433][  0]LogInit: Transaction tracking system initialized
-[2018.03.03-18.32.32:768][  0]BlueprintLog: New page: Editor Load
-[2018.03.03-18.32.33:719][  0]LocalizationService: Localization service is disabled
-[2018.03.03-18.32.34:496][  0]LogConsoleResponse: Display: 
-[2018.03.03-18.32.34:652][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.03-18.32.34:652][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.03-18.32.34:652][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.03-18.32.35:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/' took 0.01s
-[2018.03.03-18.32.35:909][  0]SourceControl: Source control is disabled
-[2018.03.03-18.32.35:909][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.03-18.32.35:910][  0]LightingResults: New page: Lighting Build
-[2018.03.03-18.32.35:950][  0]MapCheck: New page: Map Check
-[2018.03.03-18.32.35:950][  0]LightingResults: New page: Lighting Build
-[2018.03.03-18.32.36:585][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.03.03-18.32.36:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.03-18.32.36:604][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.03-18.32.36:656][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.918ms to complete.
-[2018.03.03-18.32.36:656][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.747
-[2018.03.03-18.32.36:835][  0]LogCollectionManager: Loaded 0 collections in 0.001578 seconds
-[2018.03.03-18.32.36:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Saved/Collections/' took 0.01s
-[2018.03.03-18.32.36:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Developers/Patrique/Collections/' took 0.01s
-[2018.03.03-18.32.36:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Collections/' took 0.01s
-[2018.03.03-18.32.36:917][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.03-18.32.36:924][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2363 classes and 519 folders.
-[2018.03.03-18.32.36:986][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.03-18.32.37:026][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.03-18.32.37:068][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.03-18.32.37:104][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.03-18.32.37:107][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.03-18.32.37:114][  0]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.03-18.32.37:176][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.03.03-18.32.37:340][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.03-18.32.37:340][  0]LogLoad: (Engine Initialization) Total time: 18.21 seconds
-[2018.03.03-18.32.37:340][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.03-18.32.37:341][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.03-18.32.37:350][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.03-18.32.37:369][  0]LogAssetRegistry: Asset discovery search completed in 11.3414 seconds
-[2018.03.03-18.32.37:371][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2018.03.03-18.32.37:371][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2018.03.03-18.32.37:374][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.03-18.32.37:413][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-19.21.02:791][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.03-19.21.02:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.03-19.21.02:818][  0]LogInit: Computer: PAT-DESKTOP
+[2018.03.03-19.21.02:818][  0]LogInit: User: Patrique
+[2018.03.03-19.21.02:818][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.03-19.21.02:819][  0]LogInit: High frequency timer resolution =3.903990 MHz
+[2018.03.03-19.21.02:819][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.03-19.21.02:820][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.03-19.21.02:820][  0]LogMemory: Process Physical Memory: 271.96 MB used, 271.96 MB peak
+[2018.03.03-19.21.02:820][  0]LogMemory: Process Virtual Memory: 271.40 MB used, 271.40 MB peak
+[2018.03.03-19.21.02:820][  0]LogMemory: Physical Memory: 6818.21 MB used,  9508.46 MB free, 16326.66 MB total
+[2018.03.03-19.21.02:820][  0]LogMemory: Virtual Memory: 682.99 MB used,  9508.46 MB free, 134217728.00 MB total
+[2018.03.03-19.21.03:003][  0]LogInit: Using OS detected language (en-US).
+[2018.03.03-19.21.03:003][  0]LogInit: Using OS detected locale (en-CA).
+[2018.03.03-19.21.03:006][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.03-19.21.03:400][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.03-19.21.03:606][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.03-19.21.03:651][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.03.03-19.21.03:651][  0]LogD3D11RHI:       4043/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.03-19.21.03:654][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.03-19.21.03:654][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.03-19.21.03:654][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.03-19.21.03:659][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.03-19.21.03:659][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.03-19.21.03:659][  0]LogWindows: EnumDisplayDevices:
+[2018.03.03-19.21.03:659][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.03.03-19.21.03:659][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.03.03-19.21.03:659][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.03-19.21.03:659][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.03.03-19.21.03:659][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.03-19.21.03:659][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.03.03-19.21.03:659][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.03-19.21.03:659][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.03-19.21.03:659][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.03.03-19.21.03:681][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.03-19.21.03:697][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.03-19.21.03:785][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../Documents/GitHub/QuickFixGarage/Intermediate/Shaders/WorkingDirectory/13492/).
+[2018.03.03-19.21.03:786][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Patrique/AppData/Local/Temp/UnrealShaderWorkingDir/54E979EC4C7CC203921998A7363F46B5/'.
+[2018.03.03-19.21.03:786][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.03-19.21.04:605][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.03-19.21.04:650][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.03-19.21.04:696][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.03-19.21.04:741][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.03-19.21.04:786][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.03-19.21.04:882][  0]LogTemp: Display: Loaded TP UWP32TargetPlatform
+[2018.03.03-19.21.04:925][  0]LogTemp: Display: Loaded TP UWPTargetPlatform
+[2018.03.03-19.21.04:970][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.03-19.21.05:015][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.03-19.21.05:061][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.03-19.21.05:102][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.03-19.21.05:145][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.03-19.21.05:192][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.03-19.21.05:237][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.03-19.21.05:283][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.03-19.21.05:327][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.03-19.21.05:416][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.03-19.21.05:416][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.03-19.21.05:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.03-19.21.05:498][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.03-19.21.05:581][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.03-19.21.05:604][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.03-19.21.05:604][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.03-19.21.06:085][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.03-19.21.06:148][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
+[2018.03.03-19.21.06:148][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc
+[2018.03.03-19.21.06:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.03-19.21.06:148][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.03-19.21.06:149][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.03-19.21.06:149][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.03.03-19.21.06:161][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.03.03-19.21.06:161][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.03.03-19.21.06:161][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.03.03-19.21.06:170][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.03-19.21.06:170][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.03-19.21.06:171][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.03-19.21.06:171][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.03-19.21.06:477][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.03-19.21.06:779][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.03-19.21.06:779][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.03-19.21.06:779][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.03-19.21.06:779][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.03.03-19.21.06:779][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.03-19.21.06:779][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.03.03-19.21.06:815][  0]LogNetVersion: QuickFixGarage , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109594481)
+[2018.03.03-19.21.06:977][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2018.03.03-19.21.07:459][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056325 seconds
+[2018.03.03-19.21.07:465][  0]LogUObjectArray: 35857 objects as part of root set at end of initial load.
+[2018.03.03-19.21.07:465][  0]LogUObjectAllocator: 7365032 out of 0 bytes used by permanent object pool.
+[2018.03.03-19.21.07:465][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.03-19.21.07:517][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.03-19.21.08:108][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:108][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:109][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:109][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.08:110][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.03-19.21.08:110][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.03-19.21.10:168][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.03-19.21.10:210][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.03-19.21.10:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.03-19.21.11:388][  0]SourceControl: Source control is disabled
+[2018.03.03-19.21.11:388][  0]SourceControl: Source control is disabled
+[2018.03.03-19.21.11:441][  0]SourceControl: Source control is disabled
+[2018.03.03-19.21.11:498][  0]SourceControl: Source control is disabled
+[2018.03.03-19.21.12:350][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.03-19.21.12:663][  0]LogOcInput: OculusInput pre-init called
+[2018.03.03-19.21.12:955][  0]LogEngine: Initializing Engine...
+[2018.03.03-19.21.12:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.03-19.21.13:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.03-19.21.13:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.03-19.21.13:285][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.03-19.21.13:307][  0]LogInit: FAudioDevice initialized.
+[2018.03.03-19.21.13:413][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
+[2018.03.03-19.21.13:429][  0]LogInit: Texture streaming: Enabled
+[2018.03.03-19.21.13:548][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.03-19.21.13:671][  0]LogInit: Transaction tracking system initialized
+[2018.03.03-19.21.14:011][  0]BlueprintLog: New page: Editor Load
+[2018.03.03-19.21.14:881][  0]LocalizationService: Localization service is disabled
+[2018.03.03-19.21.15:648][  0]LogConsoleResponse: Display: 
+[2018.03.03-19.21.15:808][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.03-19.21.15:808][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.03-19.21.15:808][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.03-19.21.16:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/' took 0.02s
+[2018.03.03-19.21.16:972][  0]SourceControl: Source control is disabled
+[2018.03.03-19.21.16:972][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.21.16:975][  0]LightingResults: New page: Lighting Build
+[2018.03.03-19.21.17:015][  0]MapCheck: New page: Map Check
+[2018.03.03-19.21.17:015][  0]LightingResults: New page: Lighting Build
+[2018.03.03-19.21.17:359][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.03-19.21.17:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.21.17:382][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.21.17:437][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.053ms to complete.
+[2018.03.03-19.21.17:437][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.465
+[2018.03.03-19.21.17:582][  0]LogCollectionManager: Loaded 0 collections in 0.002250 seconds
+[2018.03.03-19.21.17:661][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Saved/Collections/' took 0.01s
+[2018.03.03-19.21.17:661][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Developers/Patrique/Collections/' took 0.01s
+[2018.03.03-19.21.17:661][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Collections/' took 0.01s
+[2018.03.03-19.21.17:661][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.03-19.21.17:668][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2363 classes and 519 folders.
+[2018.03.03-19.21.17:730][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.03-19.21.17:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.03-19.21.17:810][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.03-19.21.17:846][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.03-19.21.17:848][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.03-19.21.17:854][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.03-19.21.17:914][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.03-19.21.18:112][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.03-19.21.18:112][  0]LogLoad: (Engine Initialization) Total time: 17.56 seconds
+[2018.03.03-19.21.18:112][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.03-19.21.18:112][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.03-19.21.18:484][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.03-19.21.18:595][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-19.21.19:471][  3]LogAssetRegistry: Asset discovery search completed in 12.5161 seconds
+[2018.03.03-19.21.19:476][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
+[2018.03.03-19.21.19:476][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000174 seconds (updated 0 objects)
+[2018.03.03-19.22.33:955][537]LogSlate: Took 0.027919 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.03-19.22.48:264][ 96]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpTchEvt_Pressed' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:407][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpTchEvt_Released' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2018.03.03-19.24.18:812][858]LogMetaData: Removing '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2018.03.03-19.24.18:812][858]LogMetaData: Removing '/Game/Blueprints/Maps/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2018.03.03-19.24.18:819][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.03.03-19.24.18:819][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.03.03-19.24.18:819][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.03.03-19.24.18:819][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.03.03-19.24.18:819][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.03.03-19.24.18:819][858]LogMetaData: Removing '/Game/Blueprints/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2018.03.03-19.24.18:864][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/ThirdPersonCharacter" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2018.03.03-19.24.18:919][858]LogSavePackage: Save=53.44ms
+[2018.03.03-19.24.18:919][858]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/ThirdPersonCharacter319B04ED4C7ACAEEC57694AC8692F7B2.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.03-19.24.18:922][858]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.03-19.24.19:189][858]LogSavePackage: Save=195.46ms
+[2018.03.03-19.24.19:189][858]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/ThirdPersonExampleMapBC9FE46042F6A8C0C17CE6851DFDB167.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap'
+[2018.03.03-19.24.19:192][858]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap
+[2018.03.03-19.24.19:215][858]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.286
+[2018.03.03-19.24.19:218][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/ThirdPersonGameMode" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2018.03.03-19.24.19:223][858]LogSavePackage: Save=4.01ms
+[2018.03.03-19.24.19:223][858]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/ThirdPersonGameMode2320B71A415386D3FFBE67B1056395EB.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonGameMode.uasset'
+[2018.03.03-19.24.19:225][858]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonGameMode.uasset
+[2018.03.03-19.24.19:228][858]EditorErrors: New page: Save Output
+[2018.03.03-19.24.19:228][858]EditorErrors: Warning: Missing filename
+[2018.03.03-19.24.42:448][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Level_1" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.03-19.24.42:462][273]LogSavePackage: Save=4.43ms
+[2018.03.03-19.24.42:462][273]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_12073A3C94B3106A8EAE112A00EA7C83A.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap'
+[2018.03.03-19.24.42:465][273]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap
+[2018.03.03-19.24.42:465][273]LogFileHelpers: Saving map 'Level_1' took 0.073
+[2018.03.03-19.24.42:467][273]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.24.42:467][273]LightingResults: New page: Lighting Build
+[2018.03.03-19.24.42:468][273]LoadErrors: New page: Loading map: Level_1.umap
+[2018.03.03-19.24.42:469][273]MapCheck: New page: Map Check
+[2018.03.03-19.24.42:469][273]LightingResults: New page: Lighting Build
+[2018.03.03-19.24.42:482][273]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.24.42:482][273]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-19.24.42:492][273]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.03-19.24.42:507][273]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.24.42:560][273]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.609ms to complete.
+[2018.03.03-19.24.42:560][273]LogFileHelpers: Loading map 'Level_1' took 0.094
+[2018.03.03-19.24.45:350][588]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.03-19.24.45:371][588]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.24.45:371][588]LightingResults: New page: Lighting Build
+[2018.03.03-19.24.45:372][588]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.03.03-19.24.45:372][588]MapCheck: New page: Map Check
+[2018.03.03-19.24.45:372][588]LightingResults: New page: Lighting Build
+[2018.03.03-19.24.45:384][588]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.24.45:403][588]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.24.45:457][588]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.149ms to complete.
+[2018.03.03-19.24.45:457][588]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.087
+[2018.03.03-19.27.48:692][ 33]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.03-19.27.48:711][ 33]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.27.48:711][ 33]LightingResults: New page: Lighting Build
+[2018.03.03-19.27.48:712][ 33]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2018.03.03-19.27.48:713][ 33]MapCheck: New page: Map Check
+[2018.03.03-19.27.48:713][ 33]LightingResults: New page: Lighting Build
+[2018.03.03-19.27.48:724][ 33]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.27.48:743][ 33]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.27.48:804][ 33]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.997ms to complete.
+[2018.03.03-19.27.48:804][ 33]LogFileHelpers: Loading map 'Minimal_Default' took 0.094
+[2018.03.03-19.27.59:986][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.03-19.28.01:393][512]Cmd: DELETE
+[2018.03.03-19.28.01:393][512]Cmd: ACTOR DELETE
+[2018.03.03-19.28.01:396][512]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.28.01:404][512]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.03-19.28.01:770][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.03-19.28.01:899][567]Cmd: DELETE
+[2018.03.03-19.28.01:899][567]Cmd: ACTOR DELETE
+[2018.03.03-19.28.01:900][567]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.28.01:908][567]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.03-19.28.02:523][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2018.03.03-19.28.02:603][646]Cmd: DELETE
+[2018.03.03-19.28.02:603][646]Cmd: ACTOR DELETE
+[2018.03.03-19.28.02:604][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.28.02:612][646]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.03-19.28.03:052][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2018.03.03-19.28.03:156][707]Cmd: DELETE
+[2018.03.03-19.28.03:156][707]Cmd: ACTOR DELETE
+[2018.03.03-19.28.03:157][707]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.28.03:165][707]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.03-19.28.03:665][767]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.03-19.28.03:720][770]Cmd: DELETE
+[2018.03.03-19.28.03:720][770]Cmd: ACTOR DELETE
+[2018.03.03-19.28.03:721][770]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.03.03-19.28.03:728][770]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.03-19.28.04:318][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2018.03.03-19.28.05:805][ 14]Cmd: TRANSACTION UNDO
+[2018.03.03-19.28.05:805][ 14]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.03-19.28.05:814][ 14]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.03-19.28.07:559][223]Cmd: TRANSACTION UNDO
+[2018.03.03-19.28.07:559][223]LogEditorTransaction: Undo Delete Actors
+[2018.03.03-19.28.10:473][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2018.03.03-19.28.11:318][647]Cmd: DELETE
+[2018.03.03-19.28.11:318][647]Cmd: ACTOR DELETE
+[2018.03.03-19.28.11:319][647]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.28.11:327][647]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.03-19.28.12:193][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2018.03.03-19.28.12:549][789]Cmd: DELETE
+[2018.03.03-19.28.12:549][789]Cmd: ACTOR DELETE
+[2018.03.03-19.28.12:550][789]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.28.12:558][789]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.03-19.29.43:651][487]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-19.29.47:455][487]LogSavePackage: Save=77.41ms
+[2018.03.03-19.29.47:455][487]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Minimal_Default60B83BCC4966296316DCC39F411039C9.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.03.03-19.29.47:459][487]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.03.03-19.29.47:469][487]LogFileHelpers: Saving map 'Minimal_Default' took 0.165
+[2018.03.03-19.29.47:471][487]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.29.47:471][487]LightingResults: New page: Lighting Build
+[2018.03.03-19.29.47:471][487]LoadErrors: New page: Loading map: Level_1.umap
+[2018.03.03-19.29.47:472][487]MapCheck: New page: Map Check
+[2018.03.03-19.29.47:472][487]LightingResults: New page: Lighting Build
+[2018.03.03-19.29.47:482][487]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.29.47:502][487]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.29.47:560][487]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.662ms to complete.
+[2018.03.03-19.29.47:561][487]LogFileHelpers: Loading map 'Level_1' took 0.091
+[2018.03.03-19.29.56:132][497]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.03-19.29.56:156][497]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.29.56:156][497]LightingResults: New page: Lighting Build
+[2018.03.03-19.29.56:157][497]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.03.03-19.29.56:157][497]MapCheck: New page: Map Check
+[2018.03.03-19.29.56:157][497]LightingResults: New page: Lighting Build
+[2018.03.03-19.29.56:169][497]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.29.56:188][497]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.29.56:249][497]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.95ms to complete.
+[2018.03.03-19.29.56:249][497]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.094
+[2018.03.03-19.33.29:893][904]Cmd: TRANSACTION UNDO
+[2018.03.03-19.33.29:894][904]LogEditorTransaction: Undo Move Actors
+[2018.03.03-19.33.53:070][610]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-19.33.58:660][610]LogSavePackage: Save=263.52ms
+[2018.03.03-19.33.58:660][610]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/ThirdPersonExampleMap0456A0D44921CE2DE0FF2F95782A4AF1.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap'
+[2018.03.03-19.33.58:663][610]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap
+[2018.03.03-19.33.58:687][610]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.379
+[2018.03.03-19.33.58:689][610]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-19.33.58:689][610]LightingResults: New page: Lighting Build
+[2018.03.03-19.33.58:689][610]LoadErrors: New page: Loading map: Level_1.umap
+[2018.03.03-19.33.58:690][610]MapCheck: New page: Map Check
+[2018.03.03-19.33.58:690][610]LightingResults: New page: Lighting Build
+[2018.03.03-19.33.58:704][610]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-19.33.58:731][610]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-19.33.58:793][610]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.135ms to complete.
+[2018.03.03-19.33.58:793][610]LogFileHelpers: Loading map 'Level_1' took 0.106
+[2018.03.03-19.34.25:350][764]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.03-19.35.14:230][576]LogActorFactory: Actor Factory created Plane
+[2018.03.03-19.35.14:233][576]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2018.03.03-19.35.15:757][729]LogActorFactory: Actor Factory created Plane
+[2018.03.03-19.35.43:810][994]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.03.03-19.35.47:004][370]Cmd: DELETE
+[2018.03.03-19.35.47:004][370]Cmd: ACTOR DELETE
+[2018.03.03-19.35.47:006][370]LogEditorActor: Deleted Actor: SkyLight
+[2018.03.03-19.35.47:015][370]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.03.03-19.35.47:829][468]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.03-19.36.02:789][242]MapCheck: New page: Map Check
+[2018.03.03-19.36.02:801][242]LightingResults: New page: Lighting Build - Mar 3, 2018, 9:36:02 AM
+[2018.03.03-19.36.02:839][242]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-19.36.02:899][242]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-19.36.02:908][242]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-19.36.03:420][242]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-19.36.03:420][242]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-19.36.05:934][242]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-19.36.05:934][242]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-19.36.05:934][242]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-19.36.05:934][242]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-19.36.05:934][242]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-19.36.05:934][242]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-19.36.06:022][242]LogEditorBuildUtils: Build time 0:03
+[2018.03.03-19.36.06:123][243]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.03.03-19.36.06:136][243]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.03.03-19.36.08:452][347]Job is a success!
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2018.03.03-19.36.08:497][348]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2018.03.03-19.36.08:511][348]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.03-19.36.08:511][348]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.03-19.36.08:511][348]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.03-19.36.08:511][348]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.03-19.36.08:511][348]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.03.03-19.36.08:511][348]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
+[2018.03.03-19.36.08:539][348]Lightmass on PAT-DESKTOP: 863 ms total, 116 ms importing, 22 ms setup, 378 ms photons, 308 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.99 sec total, 57 ms processing.
+[2018.03.03-19.36.08:546][348]LogStaticLightingSystem: Illumination: 5.72 sec (2 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2018.03.03-19.36.08:546][348]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-19.36.08:546][348]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-19.36.08:940][348]DumpUnbuiltLightIteractions
+[2018.03.03-19.36.08:940][348]Lights with unbuilt interactions: 0
+[2018.03.03-19.36.08:940][348]
+[2018.03.03-19.36.08:940][348]Primitives with unbuilt interactions: 0
+[2018.03.03-19.36.08:967][349]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-19.36.08:968][349]MapCheck: New page: Level_1 - Mar 3, 2018, 9:36:08 AM
+[2018.03.03-19.36.09:049][349]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.753ms to complete.
+[2018.03.03-19.36.20:242][680]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.03-19.36.49:998][208]MapCheck: New page: Map Check
+[2018.03.03-19.36.50:007][208]LightingResults: New page: Lighting Build - Mar 3, 2018, 9:36:50 AM
+[2018.03.03-19.36.50:015][208]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-19.36.50:018][208]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-19.36.50:018][208]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-19.36.50:019][208]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-19.36.50:019][208]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-19.36.54:543][208]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-19.36.54:543][208]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-19.36.54:543][208]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-19.36.54:543][208]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-19.36.54:543][208]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-19.36.54:543][208]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-19.36.54:664][208]LogEditorBuildUtils: Build time 0:04
+[2018.03.03-19.36.56:350][322]Job is a success!
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2018.03.03-19.36.56:396][323]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.03.03-19.36.56:408][323]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.03-19.36.56:408][323]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.03-19.36.56:408][323]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.03-19.36.56:408][323]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.03-19.36.56:408][323]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.03-19.36.56:408][323]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 64X64)
+[2018.03.03-19.36.56:423][323]Lightmass on PAT-DESKTOP: 956 ms total, 88 ms importing, 22 ms setup, 377 ms photons, 431 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.86 sec total, 60 ms processing.
+[2018.03.03-19.36.56:427][323]LogStaticLightingSystem: Illumination: 6.40 sec (2 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2018.03.03-19.36.56:427][323]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-19.36.56:427][323]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-19.36.56:547][323]DumpUnbuiltLightIteractions
+[2018.03.03-19.36.56:547][323]Lights with unbuilt interactions: 0
+[2018.03.03-19.36.56:548][323]
+[2018.03.03-19.36.56:548][323]Primitives with unbuilt interactions: 0
+[2018.03.03-19.36.56:559][324]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-19.36.56:559][324]MapCheck: New page: Level_1 - Mar 3, 2018, 9:36:56 AM
+[2018.03.03-19.36.56:651][324]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.988ms to complete.
+[2018.03.03-19.37.03:339][121]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.03-19.37.04:516][258]Cmd: TRANSACTION UNDO
+[2018.03.03-19.37.04:516][258]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.03-19.37.29:355][191]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.03-19.37.50:866][743]MapCheck: New page: Map Check
+[2018.03.03-19.37.50:881][743]LightingResults: New page: Lighting Build - Mar 3, 2018, 9:37:50 AM
+[2018.03.03-19.37.50:888][743]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-19.37.50:890][743]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-19.37.50:890][743]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-19.37.50:891][743]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-19.37.50:891][743]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-19.37.55:401][743]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-19.37.55:402][743]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-19.37.55:402][743]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-19.37.55:402][743]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-19.37.55:402][743]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-19.37.55:402][743]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-19.37.55:473][743]LogEditorBuildUtils: Build time 0:04
+[2018.03.03-19.37.57:958][751]Job is a success!
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.017s
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2018.03.03-19.37.58:348][752]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2018.03.03-19.37.58:376][752]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.03-19.37.58:376][752]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.03-19.37.58:376][752]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.03-19.37.58:376][752]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.03-19.37.58:376][752]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 64X64)
+[2018.03.03-19.37.58:376][752]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.03.03-19.37.58:401][752]Lightmass on PAT-DESKTOP: 1.40 sec total, 105 ms importing, 25 ms setup, 378 ms photons, 856 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 5.83 sec total, 62 ms processing.
+[2018.03.03-19.37.58:408][752]LogStaticLightingSystem: Illumination: 7.19 sec (2 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2018.03.03-19.37.58:408][752]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-19.37.58:408][752]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-19.37.59:405][752]DumpUnbuiltLightIteractions
+[2018.03.03-19.37.59:405][752]Lights with unbuilt interactions: 0
+[2018.03.03-19.37.59:405][752]
+[2018.03.03-19.37.59:405][752]Primitives with unbuilt interactions: 0
+[2018.03.03-19.37.59:414][753]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-19.37.59:414][753]MapCheck: New page: Level_1 - Mar 3, 2018, 9:37:59 AM
+[2018.03.03-19.37.59:480][753]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.246ms to complete.
+[2018.03.03-19.40.19:755][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-19.40.27:480][105]LogMaterial: Missing cached shader map for material BasicAsset01, compiling. 
+[2018.03.03-19.41.12:863][341]Cmd: DELETE
+[2018.03.03-19.41.12:863][341]Cmd: ACTOR DELETE
+[2018.03.03-19.41.12:864][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.03-19.41.12:873][341]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.03-19.41.26:247][932]LogActorFactory: Actor Factory created Plane
+[2018.03.03-19.41.27:496][ 81]LogActorFactory: Actor Factory created Plane
+[2018.03.03-19.42.06:263][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-19.42.39:852][556]MapCheck: New page: Map Check
+[2018.03.03-19.42.39:867][556]LightingResults: New page: Lighting Build - Mar 3, 2018, 9:42:39 AM
+[2018.03.03-19.42.39:874][556]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-19.42.39:878][556]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-19.42.39:878][556]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-19.42.39:879][556]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-19.42.39:879][556]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-19.42.44:398][556]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-19.42.44:398][556]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-19.42.44:398][556]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-19.42.44:399][556]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-19.42.44:399][556]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-19.42.44:399][556]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-19.42.44:504][556]LogEditorBuildUtils: Build time 0:04
+[2018.03.03-19.42.46:241][639]Job is a success!
+[2018.03.03-19.42.46:298][641]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
+[2018.03.03-19.42.46:298][641]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-19.42.46:299][641]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb
+[2018.03.03-19.42.46:299][641]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-19.42.46:299][641]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2018.03.03-19.42.46:299][641]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2018.03.03-19.42.46:299][641]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2018.03.03-19.42.46:314][641]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.03-19.42.46:314][641]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.03-19.42.46:314][641]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.03-19.42.46:314][641]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.03-19.42.46:314][641]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.03.03-19.42.46:314][641]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 64X64)
+[2018.03.03-19.42.46:333][641]Lightmass on PAT-DESKTOP: 818 ms total, 69 ms importing, 24 ms setup, 378 ms photons, 310 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.01 sec total, 63 ms processing.
+[2018.03.03-19.42.46:339][641]LogStaticLightingSystem: Illumination: 6.44 sec (2 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2018.03.03-19.42.46:339][641]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-19.42.46:339][641]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-19.42.46:400][641]DumpUnbuiltLightIteractions
+[2018.03.03-19.42.46:400][641]Lights with unbuilt interactions: 0
+[2018.03.03-19.42.46:400][641]
+[2018.03.03-19.42.46:400][641]Primitives with unbuilt interactions: 0
+[2018.03.03-19.42.46:409][642]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-19.42.46:409][642]MapCheck: New page: Level_1 - Mar 3, 2018, 9:42:46 AM
+[2018.03.03-19.42.46:473][642]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.281ms to complete.
+[2018.03.03-19.43.09:677][227]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.03.03-19.43.57:686][141]LogSavePackage: Save=10.47ms
+[2018.03.03-19.43.57:686][141]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_Auto10AC77F594E16715FE2E4DB904A7DE613.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_Auto1.umap'
+[2018.03.03-19.43.57:688][141]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_Auto1.umap
+[2018.03.03-19.43.57:690][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Level_1' took 0.028
+[2018.03.03-19.43.57:690][141]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.028
+[2018.03.03-19.43.57:692][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/Level_1_BuiltData] ([1] browsable assets)...
+[2018.03.03-19.43.57:692][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/Level_1_BuiltData]
+[2018.03.03-19.43.57:699][141]LogSavePackage: Save=5.15ms
+[2018.03.03-19.43.57:699][141]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_BuiltData_Auto142788DA14ECB89BEBA0F9E9AB053BD96.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_BuiltData_Auto1.uasset'
+[2018.03.03-19.43.57:700][141]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_BuiltData_Auto1.uasset
+[2018.03.03-19.43.57:700][141]LogFileHelpers: Auto-saving content packages took 0.009
+[2018.03.03-19.46.43:958][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-19.47.02:624][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-19.47.43:649][452]MapCheck: New page: Map Check
+[2018.03.03-19.47.43:659][452]LightingResults: New page: Lighting Build - Mar 3, 2018, 9:47:43 AM
+[2018.03.03-19.47.43:666][452]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-19.47.43:668][452]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-19.47.43:668][452]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-19.47.43:669][452]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-19.47.43:669][452]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-19.47.48:186][452]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-19.47.48:187][452]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-19.47.48:187][452]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-19.47.48:187][452]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-19.47.48:187][452]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-19.47.48:187][452]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-19.47.48:275][452]LogEditorBuildUtils: Build time 0:04
+[2018.03.03-19.47.48:291][452]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2018.03.03-19.47.48:301][452]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2018.03.03-19.47.50:652][534]Job is a success!
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport:      BrickData 150x5x5 = 0.1Mb
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport:          0: 3.3% covering 100.0% of volume
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport:          1: 13.3% covering 6.3% of volume
+[2018.03.03-19.47.50:707][535]LogVolumetricLightmapImport:          2: 83.3% covering 0.6% of volume
+[2018.03.03-19.47.50:721][535]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.03-19.47.50:721][535]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.03-19.47.50:721][535]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.03-19.47.50:721][535]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.03-19.47.50:721][535]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2018.03.03-19.47.50:721][535]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 64X64)
+[2018.03.03-19.47.50:739][535]Lightmass on PAT-DESKTOP: 835 ms total, 91 ms importing, 23 ms setup, 379 ms photons, 310 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.01 sec total, 129 ms processing.
+[2018.03.03-19.47.50:744][535]LogStaticLightingSystem: Illumination: 7.06 sec (2 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2018.03.03-19.47.50:744][535]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-19.47.50:744][535]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-19.47.51:201][535]DumpUnbuiltLightIteractions
+[2018.03.03-19.47.51:202][535]Lights with unbuilt interactions: 0
+[2018.03.03-19.47.51:202][535]
+[2018.03.03-19.47.51:202][535]Primitives with unbuilt interactions: 0
+[2018.03.03-19.47.51:229][536]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-19.47.51:230][536]MapCheck: New page: Level_1 - Mar 3, 2018, 9:47:51 AM
+[2018.03.03-19.47.51:339][536]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.386ms to complete.
+[2018.03.03-19.48.59:687][596]LogMaterial: Missing cached shader map for material T_MacroVariation_Mat, compiling. 
+[2018.03.03-19.48.59:715][596]LogMaterial: Warning: Material /Game/StarterContent/Textures/T_MacroVariation_Mat.T_MacroVariation_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.03.03-19.48.59:717][596]LogMaterial: Missing cached shader map for material T_MacroVariation_Mat, compiling. 
+[2018.03.03-19.49.03:135][857]Cmd: TRANSACTION UNDO
+[2018.03.03-19.49.03:135][857]LogEditorTransaction: Undo Create Actors
+[2018.03.03-19.50.51:998][448]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.03.03-19.50.52:001][448]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.50.57:964][448]LogTexture: Display: Building textures: EpicQuadPanorama_CC+EV1 (RGBA16F, 1024X512)
+[2018.03.03-19.50.58:035][448]LogStaticMesh: Building static mesh Sphere_inversenormals...
+[2018.03.03-19.50.58:042][448]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2018.03.03-19.51.03:843][448]LogTexture: Display: Building textures: SunsetAmbientCubemap (RGBA16F, 1024X768)
+[2018.03.03-19.51.03:843][448]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2018.03.03-19.51.03:867][448]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2018.03.03-19.51.03:890][448]LogStaticMesh: Building static mesh Floor_Mesh...
+[2018.03.03-19.51.03:891][448]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2018.03.03-19.51.03:982][448]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.51.04:025][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.03.03-19.51.04:029][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.03-19.51.04:033][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.03.03-19.51.04:041][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.03-19.51.04:045][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.03.03-19.51.04:050][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.03-19.51.04:056][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.03-19.51.04:061][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.03.03-19.51.04:090][448]LogSlate: Took 0.017916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.03-19.51.08:242][685]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.03-19.51.08:242][685]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.03-19.51.08:242][685]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.03-19.51.08:242][685]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.03-19.51.08:242][685]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.03-19.51.08:242][685]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.03-19.52.29:311][208]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.30:923][310]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.03-19.52.30:923][310]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.03-19.52.30:924][310]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.03-19.52.30:924][310]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.03-19.52.30:924][310]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.03-19.52.30:924][310]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.03-19.52.33:044][502]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.34:374][582]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.03-19.52.34:374][582]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.03-19.52.34:374][582]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.03-19.52.34:374][582]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.03-19.52.34:374][582]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.03-19.52.34:374][582]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.03-19.52.36:917][814]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.36:991][818]LogMaterialEditor: Saving and Compiling material M_Concrete_Tiles
+[2018.03.03-19.52.37:624][818]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.37:693][818]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.37:751][818]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.37:819][818]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
+[2018.03.03-19.52.38:997][818]TextureStreamingBuild: Display: Compiling optional shaders took 1.185 seconds.
+[2018.03.03-19.52.41:014][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Concrete_Tiles" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" SILENT=true
+[2018.03.03-19.52.41:042][818]LogSavePackage: Save=24.79ms
+[2018.03.03-19.52.41:042][818]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/M_Concrete_TilesA8B747B44D49AFB747AAF9A5F43A6E9C.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/StarterContent/Materials/M_Concrete_Tiles.uasset'
+[2018.03.03-19.52.41:046][818]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2018.03.03-19.53.30:985][871]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-19.53.31:051][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-19.53.31:051][871]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 9:53:31 AM)
+[2018.03.03-19.53.31:051][871]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-19.53.31:052][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001094s)
+[2018.03.03-19.53.31:053][871]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-19.53.31:053][871]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2018.03.03-19.53.31:053][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001957s)
+[2018.03.03-19.53.31:072][871]LogInit: FAudioDevice initialized.
+[2018.03.03-19.53.31:114][871]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2018.03.03-19.53.31:115][871]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2018.03.03-19.53.31:115][871]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2018.03.03-19.53.31:115][871]LogLoad: Game class is 'GameModeBase'
+[2018.03.03-19.53.31:117][871]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-14.53.31
+[2018.03.03-19.53.31:118][871]LogWorld: Bringing up level for play took: 0.001601
+[2018.03.03-19.53.31:161][871]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.03-19.53.31:162][871]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.971
+[2018.03.03-19.54.01:895][646]LogSavePackage: Save=21.69ms
+[2018.03.03-19.54.01:895][646]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_Auto289BF57DC4C173AF067B06D8B3F150444.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_Auto2.umap'
+[2018.03.03-19.54.01:898][646]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_Auto2.umap
+[2018.03.03-19.54.01:899][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Level_1' took 0.048
+[2018.03.03-19.54.01:899][646]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.048
+[2018.03.03-19.54.01:901][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/Level_1_BuiltData] ([1] browsable assets)...
+[2018.03.03-19.54.01:901][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/Level_1_BuiltData]
+[2018.03.03-19.54.01:906][646]LogSavePackage: Save=4.07ms
+[2018.03.03-19.54.01:907][646]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_BuiltData_Auto2CA40B69C4C7E0119905B3B95154C3068.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_BuiltData_Auto2.uasset'
+[2018.03.03-19.54.01:908][646]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_BuiltData_Auto2.uasset
+[2018.03.03-19.54.01:908][646]LogFileHelpers: Auto-saving content packages took 0.008
+[2018.03.03-19.59.02:237][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.01.33:840][153]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.03-20.01.34:801][267]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.03-20.01.45:643][534]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.03-20.01.46:632][639]Cmd: DELETE
+[2018.03.03-20.01.46:632][639]Cmd: ACTOR DELETE
+[2018.03.03-20.01.46:633][639]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2018.03.03-20.01.46:669][639]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.03.03-20.01.47:576][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.01.47:585][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.01.47:585][748]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:01:47 AM)
+[2018.03.03-20.01.47:585][748]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.01.47:586][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000805s)
+[2018.03.03-20.01.47:587][748]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.01.47:587][748]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2018.03.03-20.01.47:587][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001571s)
+[2018.03.03-20.01.47:606][748]LogInit: FAudioDevice initialized.
+[2018.03.03-20.01.47:638][748]LogLoad: Game class is 'GameModeBase'
+[2018.03.03-20.01.47:639][748]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.01.47
+[2018.03.03-20.01.47:639][748]LogWorld: Bringing up level for play took: 0.000508
+[2018.03.03-20.01.47:640][748]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.551
+[2018.03.03-20.02.06:405][979]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.03-20.02.07:877][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Level_1" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.03-20.02.07:902][979]LogSavePackage: Save=13.20ms
+[2018.03.03-20.02.07:902][979]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1C3877EEE449EDD1C15ED889C0A2FADF6.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap'
+[2018.03.03-20.02.07:905][979]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap
+[2018.03.03-20.02.07:916][979]LogFileHelpers: Saving map 'Level_1' took 0.107
+[2018.03.03-20.02.07:916][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Level_1_BuiltData" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2018.03.03-20.02.07:923][979]LogSavePackage: Save=6.16ms
+[2018.03.03-20.02.07:923][979]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_BuiltDataD2F594E040733BAB2217C59D9DC81F84.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1_BuiltData.uasset'
+[2018.03.03-20.02.07:925][979]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1_BuiltData.uasset
+[2018.03.03-20.02.07:927][979]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-20.02.07:927][979]LightingResults: New page: Lighting Build
+[2018.03.03-20.02.07:928][979]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.03.03-20.02.07:929][979]MapCheck: New page: Map Check
+[2018.03.03-20.02.07:929][979]LightingResults: New page: Lighting Build
+[2018.03.03-20.02.07:942][979]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-20.02.07:961][979]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-20.02.08:024][979]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.756ms to complete.
+[2018.03.03-20.02.08:025][979]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.099
+[2018.03.03-20.02.16:913][ 18]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.02.16:922][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.03-20.02.16:922][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.02.16:922][ 18]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 3, 2018, 10:02:16 AM)
+[2018.03.03-20.02.16:922][ 18]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.03-20.02.16:945][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022662s)
+[2018.03.03-20.02.16:946][ 18]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.03-20.02.16:946][ 18]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2018.03.03-20.02.16:946][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Blueprints/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023736s)
+[2018.03.03-20.02.16:966][ 18]LogInit: FAudioDevice initialized.
+[2018.03.03-20.02.16:999][ 18]LogLoad: Game class is 'GameModeBase'
+[2018.03.03-20.02.17:001][ 18]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.03-15.02.17
+[2018.03.03-20.02.17:001][ 18]LogWorld: Bringing up level for play took: 0.001395
+[2018.03.03-20.02.17:002][ 18]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_ThirdPersonExampleMap 0.811
+[2018.03.03-20.02.17:002][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.03-20.02.20:629][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.03-20.02.20:664][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Blueprints/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.03-20.03.34:322][870]LogStreaming: Warning: Failed to read file '../../../../../Documents/GitHub/QuickFixGarage/Build/UWP/SigningCertificate.pfx' error.
+[2018.03.03-20.03.34:473][871]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.QuickFixGarage
+[2018.03.03-20.03.34:473][871]LogTemp: CWD: C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\DotNET\IOS
+[2018.03.03-20.03.34:473][871]LogTemp: Initial Dir: C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp
+[2018.03.03-20.03.34:473][871]LogTemp: Env CWD: C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\DotNET\IOS
+[2018.03.03-20.03.34:473][871]LogTemp: BranchPath = PAT-DESKTOP/C/Users/Patrique/Desktop/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries --- GameBranchPath = PAT-DESKTOP/C/Users/Patrique/Desktop/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries
+[2018.03.03-20.03.34:473][871]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Patrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.03-20.04.57:681][431]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.04.57:693][431]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.03-20.04.57:694][431]LightingResults: New page: Lighting Build
+[2018.03.03-20.04.57:694][431]LoadErrors: New page: Loading map: Level_1.umap
+[2018.03.03-20.04.57:724][431]MapCheck: New page: Map Check
+[2018.03.03-20.04.57:724][431]LightingResults: New page: Lighting Build
+[2018.03.03-20.04.57:779][431]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.03-20.04.57:800][431]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.03-20.04.57:867][431]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.264ms to complete.
+[2018.03.03-20.04.57:867][431]LogFileHelpers: Loading map 'Level_1' took 0.175
+[2018.03.03-20.05.24:706][612]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.05.24:715][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.05.24:716][612]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:05:24 AM)
+[2018.03.03-20.05.24:716][612]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.05.24:717][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001106s)
+[2018.03.03-20.05.24:717][612]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.05.24:717][612]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2018.03.03-20.05.24:717][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001846s)
+[2018.03.03-20.05.24:764][612]LogInit: FAudioDevice initialized.
+[2018.03.03-20.05.24:795][612]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.05.24:797][612]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.05.24
+[2018.03.03-20.05.24:797][612]LogWorld: Bringing up level for play took: 0.001162
+[2018.03.03-20.05.24:799][612]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.608
+[2018.03.03-20.05.31:252][370]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.03-20.05.32:076][456]Cmd: DELETE
+[2018.03.03-20.05.32:076][456]Cmd: ACTOR DELETE
+[2018.03.03-20.05.32:077][456]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2018.03.03-20.05.32:114][456]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.03.03-20.05.33:137][579]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.05.33:146][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.05.33:146][579]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:05:33 AM)
+[2018.03.03-20.05.33:146][579]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.05.33:147][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000811s)
+[2018.03.03-20.05.33:147][579]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.05.33:147][579]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2018.03.03-20.05.33:147][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001482s)
+[2018.03.03-20.05.33:166][579]LogInit: FAudioDevice initialized.
+[2018.03.03-20.05.33:195][579]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.05.33:196][579]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.05.33
+[2018.03.03-20.05.33:196][579]LogWorld: Bringing up level for play took: 0.000429
+[2018.03.03-20.05.33:198][579]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 1.007
+[2018.03.03-20.06.50:069][774]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.03-20.06.54:040][209]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.03-20.06.54:530][209]LogStaticMesh: Building static mesh PhAT_FloorBox...
+[2018.03.03-20.06.54:530][209]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2018.03.03-20.06.54:743][209]LogTexture: Display: Building textures: TilePatine_N (BC5, 512X512)
+[2018.03.03-20.06.54:744][209]LogTexture: Display: Building textures: TilePatine_D (AutoDXT, 512X512)
+[2018.03.03-20.06.54:744][209]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2018.03.03-20.07.01:609][658]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.03-20.07.31:595][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.07.31:617][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.07.31:618][ 21]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:07:31 AM)
+[2018.03.03-20.07.31:618][ 21]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.07.31:619][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001198s)
+[2018.03.03-20.07.31:619][ 21]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.07.31:620][ 21]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2018.03.03-20.07.31:620][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002000s)
+[2018.03.03-20.07.31:672][ 21]LogInit: FAudioDevice initialized.
+[2018.03.03-20.07.31:702][ 21]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.07.31:704][ 21]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.07.31
+[2018.03.03-20.07.31:704][ 21]LogWorld: Bringing up level for play took: 0.001236
+[2018.03.03-20.07.31:706][ 21]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.485
+[2018.03.03-20.07.39:841][979]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.03.03-20.07.40:693][ 69]Cmd: DELETE
+[2018.03.03-20.07.40:693][ 69]Cmd: ACTOR DELETE
+[2018.03.03-20.07.40:695][ 69]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2018.03.03-20.07.40:711][ 69]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.03.03-20.07.43:188][360]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.08.20:522][812]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.08.20:535][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.08.20:535][812]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:08:20 AM)
+[2018.03.03-20.08.20:536][812]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.08.20:536][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000920s)
+[2018.03.03-20.08.20:537][812]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.08.20:537][812]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2018.03.03-20.08.20:537][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001901s)
+[2018.03.03-20.08.20:594][812]LogInit: FAudioDevice initialized.
+[2018.03.03-20.08.20:625][812]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.08.20:626][812]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.08.20
+[2018.03.03-20.08.20:627][812]LogWorld: Bringing up level for play took: 0.000532
+[2018.03.03-20.08.20:628][812]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.437
+[2018.03.03-20.10.03:985][387]BlueprintLog: New page: Compile Level
+[2018.03.03-20.10.03:988][387]LogBlueprint: Error: [Compiler PersistentLevel.Level] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2018.03.03-20.10.04:011][387]LogTexture: Display: Building textures: BadBlueprintSprite (BGRA8, 128X128)
+[2018.03.03-20.10.04:013][387]LogBlueprint: Warning: [Compiler PersistentLevel.Level] [2943.46] Compile of PersistentLevel.Level failed. 1 Fatal Issue(s) 0 Warning(s) [in 28 ms] (/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level)
+[2018.03.03-20.10.41:495][936]BlueprintLog: New page: Compile Level
+[2018.03.03-20.10.43:505][155]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.10.43:516][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.10.43:516][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.10.43:517][155]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:10:43 AM)
+[2018.03.03-20.10.43:517][155]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.10.43:518][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001322s)
+[2018.03.03-20.10.43:519][155]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.10.43:519][155]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2018.03.03-20.10.43:519][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002225s)
+[2018.03.03-20.10.43:572][155]LogInit: FAudioDevice initialized.
+[2018.03.03-20.10.43:603][155]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.10.43:605][155]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.10.43
+[2018.03.03-20.10.43:605][155]LogWorld: Bringing up level for play took: 0.000542
+[2018.03.03-20.10.43:606][155]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.585
+[2018.03.03-20.10.43:607][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.11.05:698][805]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.11.05:735][805]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.11.09:854][286]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.03-20.11.14:764][836]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.03-20.11.20:473][495]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.11.59:955][ 68]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.11.59:968][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.11.59:968][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.11.59:968][ 68]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:11:59 AM)
+[2018.03.03-20.11.59:968][ 68]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.11.59:970][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001323s)
+[2018.03.03-20.11.59:970][ 68]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.11.59:971][ 68]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.03.03-20.11.59:971][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002156s)
+[2018.03.03-20.12.00:027][ 68]LogInit: FAudioDevice initialized.
+[2018.03.03-20.12.00:059][ 68]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.12.00:061][ 68]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.12.00
+[2018.03.03-20.12.00:061][ 68]LogWorld: Bringing up level for play took: 0.000526
+[2018.03.03-20.12.00:062][ 68]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.128
+[2018.03.03-20.12.00:063][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.10:923][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.10:957][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.13:487][662]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.03-20.12.15:506][899]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.03-20.12.16:151][975]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.12.21:832][642]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.12.21:845][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.21:845][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.12.21:846][642]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:12:21 AM)
+[2018.03.03-20.12.21:846][642]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.12.21:847][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001272s)
+[2018.03.03-20.12.21:847][642]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.12.21:848][642]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.03.03-20.12.21:848][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002179s)
+[2018.03.03-20.12.21:903][642]LogInit: FAudioDevice initialized.
+[2018.03.03-20.12.21:936][642]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.12.21:937][642]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.12.21
+[2018.03.03-20.12.21:937][642]LogWorld: Bringing up level for play took: 0.000518
+[2018.03.03-20.12.21:939][642]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.252
+[2018.03.03-20.12.21:939][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.44:084][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.44:121][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.12.45:992][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.13.00:693][224]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.13.04:166][616]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.13.04:179][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.04:179][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.13.04:179][616]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:13:04 AM)
+[2018.03.03-20.13.04:179][616]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.13.04:180][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001181s)
+[2018.03.03-20.13.04:181][616]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.13.04:181][616]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2018.03.03-20.13.04:181][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001913s)
+[2018.03.03-20.13.04:236][616]LogInit: FAudioDevice initialized.
+[2018.03.03-20.13.04:269][616]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.13.04:270][616]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.13.04
+[2018.03.03-20.13.04:270][616]LogWorld: Bringing up level for play took: 0.000496
+[2018.03.03-20.13.04:272][616]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.081
+[2018.03.03-20.13.04:272][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.06:303][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.06:334][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.07:027][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.13.16:187][ 18]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.13.16:200][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.16:200][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.13.16:200][ 18]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:13:16 AM)
+[2018.03.03-20.13.16:200][ 18]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.13.16:201][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001190s)
+[2018.03.03-20.13.16:202][ 18]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.13.16:202][ 18]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2018.03.03-20.13.16:202][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.001927s)
+[2018.03.03-20.13.16:230][ 18]LogInit: FAudioDevice initialized.
+[2018.03.03-20.13.16:264][ 18]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.13.16:265][ 18]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.13.16
+[2018.03.03-20.13.16:265][ 18]LogWorld: Bringing up level for play took: 0.000447
+[2018.03.03-20.13.16:266][ 18]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.075
+[2018.03.03-20.13.16:266][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.17:947][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.17:982][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.18:785][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.13.22:912][801]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.13.22:924][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.22:924][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.13.22:924][801]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:13:22 AM)
+[2018.03.03-20.13.22:924][801]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.13.22:926][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001235s)
+[2018.03.03-20.13.22:926][801]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.13.22:926][801]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2018.03.03-20.13.22:926][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002061s)
+[2018.03.03-20.13.22:953][801]LogInit: FAudioDevice initialized.
+[2018.03.03-20.13.22:981][801]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.13.22:982][801]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.13.22
+[2018.03.03-20.13.22:982][801]LogWorld: Bringing up level for play took: 0.000476
+[2018.03.03-20.13.22:984][801]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.793
+[2018.03.03-20.13.22:984][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.24:939][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.24:971][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.25:590][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.13.27:634][345]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.13.27:646][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.27:646][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.13.27:646][345]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:13:27 AM)
+[2018.03.03-20.13.27:647][345]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.13.27:648][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001664s)
+[2018.03.03-20.13.27:649][345]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.13.27:649][345]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.03.03-20.13.27:649][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002652s)
+[2018.03.03-20.13.27:676][345]LogInit: FAudioDevice initialized.
+[2018.03.03-20.13.27:706][345]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.13.27:707][345]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.13.27
+[2018.03.03-20.13.27:707][345]LogWorld: Bringing up level for play took: 0.000480
+[2018.03.03-20.13.27:709][345]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.482
+[2018.03.03-20.13.27:709][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.28:823][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.28:856][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.29:750][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.13.31:687][808]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.13.31:700][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.31:700][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.13.31:700][808]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:13:31 AM)
+[2018.03.03-20.13.31:700][808]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.13.31:702][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001439s)
+[2018.03.03-20.13.31:702][808]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.13.31:702][808]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2018.03.03-20.13.31:702][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002150s)
+[2018.03.03-20.13.31:728][808]LogInit: FAudioDevice initialized.
+[2018.03.03-20.13.31:762][808]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.13.31:763][808]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.13.31
+[2018.03.03-20.13.31:763][808]LogWorld: Bringing up level for play took: 0.000478
+[2018.03.03-20.13.31:765][808]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.426
+[2018.03.03-20.13.31:765][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.33:030][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.33:064][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.35:607][250]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.03-20.13.37:944][526]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.03-20.13.39:389][698]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.13.39:400][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.39:401][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.13.39:401][698]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:13:39 AM)
+[2018.03.03-20.13.39:401][698]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.13.39:402][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001673s)
+[2018.03.03-20.13.39:403][698]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.13.39:403][698]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.03.03-20.13.39:403][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002647s)
+[2018.03.03-20.13.39:431][698]LogInit: FAudioDevice initialized.
+[2018.03.03-20.13.39:465][698]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.13.39:467][698]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.13.39
+[2018.03.03-20.13.39:467][698]LogWorld: Bringing up level for play took: 0.000651
+[2018.03.03-20.13.39:469][698]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.722
+[2018.03.03-20.13.39:469][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.56:035][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.56:067][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.13.58:249][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.14.28:241][458]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.14.46:017][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.03-20.14.47:026][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.03-20.14.51:180][ 82]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.15.07:055][924]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.03-20.15.08:432][ 61]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.15.16:225][959]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.15.16:238][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.15.16:239][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.15.16:239][959]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:15:16 AM)
+[2018.03.03-20.15.16:239][959]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.15.16:241][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001860s)
+[2018.03.03-20.15.16:241][959]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.15.16:242][959]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2018.03.03-20.15.16:242][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002895s)
+[2018.03.03-20.15.16:300][959]LogInit: FAudioDevice initialized.
+[2018.03.03-20.15.16:331][959]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.15.16:333][959]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.15.16
+[2018.03.03-20.15.16:333][959]LogWorld: Bringing up level for play took: 0.000495
+[2018.03.03-20.15.16:334][959]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.143
+[2018.03.03-20.15.16:334][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.15.23:315][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.15.23:350][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.15.46:956][589]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.47:469][650]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.53:180][284]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.53:608][330]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.55:431][524]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.55:921][573]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.57:779][785]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.58:466][861]LogActorFactory: Actor Factory created Shape_Cube
+[2018.03.03-20.15.59:458][975]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.15.59:470][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.15.59:470][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.15.59:470][975]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:15:59 AM)
+[2018.03.03-20.15.59:470][975]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.15.59:472][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001454s)
+[2018.03.03-20.15.59:472][975]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.15.59:473][975]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2018.03.03-20.15.59:473][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002471s)
+[2018.03.03-20.15.59:503][975]LogInit: FAudioDevice initialized.
+[2018.03.03-20.15.59:536][975]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.15.59:537][975]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.15.59
+[2018.03.03-20.15.59:537][975]LogWorld: Bringing up level for play took: 0.000668
+[2018.03.03-20.15.59:539][975]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.652
+[2018.03.03-20.15.59:539][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.05:336][668]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.05:371][668]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.16:423][978]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.03-20.16.25:618][987]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.16.25:631][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.25:631][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.16.25:631][987]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:16:25 AM)
+[2018.03.03-20.16.25:631][987]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.16.25:633][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001789s)
+[2018.03.03-20.16.25:633][987]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.16.25:634][987]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2018.03.03-20.16.25:634][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002792s)
+[2018.03.03-20.16.25:688][987]LogInit: FAudioDevice initialized.
+[2018.03.03-20.16.25:718][987]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.16.25:720][987]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.16.25
+[2018.03.03-20.16.25:720][987]LogWorld: Bringing up level for play took: 0.000607
+[2018.03.03-20.16.25:721][987]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.469
+[2018.03.03-20.16.25:722][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.27:372][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.27:407][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.28:993][369]MapCheck: New page: Map Check
+[2018.03.03-20.16.29:008][369]LightingResults: New page: Lighting Build - Mar 3, 2018, 10:16:29 AM
+[2018.03.03-20.16.29:016][369]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-20.16.29:018][369]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-20.16.29:018][369]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-20.16.29:019][369]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-20.16.29:019][369]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-20.16.33:536][369]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-20.16.33:537][369]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-20.16.33:537][369]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-20.16.33:537][369]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-20.16.33:537][369]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-20.16.33:537][369]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-20.16.33:666][369]LogEditorBuildUtils: Build time 0:04
+[2018.03.03-20.16.33:696][370]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2018.03.03-20.16.33:703][370]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2018.03.03-20.16.33:727][371]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2018.03.03-20.16.33:734][371]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2018.03.03-20.16.35:943][479]Job is a success!
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2018.03.03-20.16.35:987][480]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2018.03.03-20.16.36:014][480]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.03-20.16.36:014][480]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.03-20.16.36:014][480]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.03-20.16.36:014][480]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.03-20.16.36:014][480]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 128X64)
+[2018.03.03-20.16.36:014][480]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2018.03.03-20.16.36:039][480]Lightmass on PAT-DESKTOP: 837 ms total, 96 ms importing, 25 ms setup, 385 ms photons, 297 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 1.92 sec total, 135 ms processing.
+[2018.03.03-20.16.36:044][480]LogStaticLightingSystem: Illumination: 7.02 sec (17 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2018.03.03-20.16.36:044][480]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-20.16.36:044][480]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-20.16.36:543][480]DumpUnbuiltLightIteractions
+[2018.03.03-20.16.36:543][480]Lights with unbuilt interactions: 0
+[2018.03.03-20.16.36:543][480]
+[2018.03.03-20.16.36:543][480]Primitives with unbuilt interactions: 0
+[2018.03.03-20.16.36:563][481]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-20.16.36:564][481]MapCheck: New page: Level_1 - Mar 3, 2018, 10:16:36 AM
+[2018.03.03-20.16.36:657][481]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.802ms to complete.
+[2018.03.03-20.16.37:315][560]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.16.37:327][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.16.37:328][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.16.37:328][560]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:16:37 AM)
+[2018.03.03-20.16.37:328][560]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.16.37:329][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001484s)
+[2018.03.03-20.16.37:330][560]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.16.37:330][560]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.03.03-20.16.37:330][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002266s)
+[2018.03.03-20.16.37:357][560]LogInit: FAudioDevice initialized.
+[2018.03.03-20.16.37:388][560]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.16.37:389][560]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.16.37
+[2018.03.03-20.16.37:390][560]LogWorld: Bringing up level for play took: 0.000574
+[2018.03.03-20.16.37:391][560]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.8
+[2018.03.03-20.16.37:391][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.17.22:329][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.17.22:366][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.18.40:786][396]LogSavePackage: Save=120.77ms
+[2018.03.03-20.18.40:786][396]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_Auto30D9B08A246C19C7E8068BCA429C2B599.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_Auto3.umap'
+[2018.03.03-20.18.40:788][396]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_Auto3.umap
+[2018.03.03-20.18.40:790][396]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Level_1' took 0.176
+[2018.03.03-20.18.40:790][396]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2018.03.03-20.18.40:793][396]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.03.03-20.18.40:820][396]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.03.03-20.18.40:820][396]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blueprints/ThirdPersonCharacter]
+[2018.03.03-20.18.40:874][396]LogSavePackage: Save=50.76ms
+[2018.03.03-20.18.40:874][396]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/ThirdPersonCharacter_Auto3D9231F11471DC6D389DEB49661EE6E9C.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2018.03.03-20.18.40:876][396]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Blueprints/ThirdPersonCharacter_Auto3.uasset
+[2018.03.03-20.18.40:877][396]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Maps/Level_1_BuiltData] ([1] browsable assets)...
+[2018.03.03-20.18.40:877][396]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maps/Level_1_BuiltData]
+[2018.03.03-20.18.40:885][396]LogSavePackage: Save=4.53ms
+[2018.03.03-20.18.40:885][396]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/Level_1_BuiltData_Auto3079E9165495F1DBB039A55ABE9236AFF.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_BuiltData_Auto3.uasset'
+[2018.03.03-20.18.40:886][396]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Saved/Autosaves/Game/Blueprints/Maps/Level_1_BuiltData_Auto3.uasset
+[2018.03.03-20.18.40:886][396]LogFileHelpers: Auto-saving content packages took 0.095
+[2018.03.03-20.18.56:726][579]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.18.56:740][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.18.56:740][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.18.56:740][579]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:18:56 AM)
+[2018.03.03-20.18.56:741][579]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.18.56:742][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001698s)
+[2018.03.03-20.18.56:743][579]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.18.56:744][579]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2018.03.03-20.18.56:744][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.003284s)
+[2018.03.03-20.18.56:774][579]LogInit: FAudioDevice initialized.
+[2018.03.03-20.18.56:807][579]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.18.56:810][579]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.18.56
+[2018.03.03-20.18.56:810][579]LogWorld: Bringing up level for play took: 0.001335
+[2018.03.03-20.18.56:813][579]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.622
+[2018.03.03-20.18.56:813][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.19.22:150][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.19.22:184][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.22.17:182][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube4)
+[2018.03.03-20.22.46:541][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2018.03.03-20.22.51:622][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube3)
+[2018.03.03-20.23.03:839][ 75]MapCheck: New page: Map Check
+[2018.03.03-20.23.03:853][ 75]LightingResults: New page: Lighting Build - Mar 3, 2018, 10:23:03 AM
+[2018.03.03-20.23.03:862][ 75]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.03-20.23.03:865][ 75]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.03-20.23.03:865][ 75]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.03-20.23.03:866][ 75]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.03-20.23.03:866][ 75]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13492
+[2018.03.03-20.23.08:384][ 75]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.03-20.23.08:385][ 75]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.03-20.23.08:385][ 75]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.03-20.23.08:385][ 75]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.03-20.23.08:385][ 75]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.03-20.23.08:385][ 75]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.03-20.23.08:504][ 75]LogEditorBuildUtils: Build time 0:04
+[2018.03.03-20.23.10:020][160]Job is a success!
+[2018.03.03-20.23.10:066][161]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.03.03-20.23.10:067][161]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.03-20.23.10:067][161]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2018.03.03-20.23.10:067][161]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.03-20.23.10:067][161]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2018.03.03-20.23.10:067][161]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2018.03.03-20.23.10:067][161]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2018.03.03-20.23.10:092][161]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.03-20.23.10:092][161]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.03-20.23.10:092][161]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.03-20.23.10:092][161]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.03-20.23.10:092][161]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 128X64)
+[2018.03.03-20.23.10:092][161]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 32X32)
+[2018.03.03-20.23.10:118][161]Lightmass on PAT-DESKTOP: 849 ms total, 91 ms importing, 23 ms setup, 380 ms photons, 320 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 2.08 sec total, 129 ms processing.
+[2018.03.03-20.23.10:123][161]LogStaticLightingSystem: Illumination: 6.25 sec (15 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2018.03.03-20.23.10:123][161]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.03-20.23.10:123][161]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.03-20.23.10:390][161]DumpUnbuiltLightIteractions
+[2018.03.03-20.23.10:390][161]Lights with unbuilt interactions: 0
+[2018.03.03-20.23.10:390][161]
+[2018.03.03-20.23.10:390][161]Primitives with unbuilt interactions: 0
+[2018.03.03-20.23.10:409][162]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.03-20.23.10:410][162]MapCheck: New page: Level_1 - Mar 3, 2018, 10:23:10 AM
+[2018.03.03-20.23.10:498][162]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.586ms to complete.
+[2018.03.03-20.23.13:680][533]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.03-20.23.13:690][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.23.13:691][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.03-20.23.13:691][533]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 10:23:13 AM)
+[2018.03.03-20.23.13:691][533]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.03-20.23.13:692][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001557s)
+[2018.03.03-20.23.13:693][533]LogAIModule: Creating AISystem for world Level_1
+[2018.03.03-20.23.13:693][533]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2018.03.03-20.23.13:693][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.002349s)
+[2018.03.03-20.23.13:717][533]LogInit: FAudioDevice initialized.
+[2018.03.03-20.23.13:751][533]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.03-20.23.13:752][533]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-15.23.13
+[2018.03.03-20.23.13:752][533]LogWorld: Bringing up level for play took: 0.000660
+[2018.03.03-20.23.13:754][533]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 -0.437
+[2018.03.03-20.23.13:754][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.23.29:170][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
+[2018.03.03-20.23.29:209][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level'
