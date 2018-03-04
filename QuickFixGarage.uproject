@@ -1,6 +1,10 @@
 {
 	"FileVersion": 3,
+<<<<<<< HEAD
 	"EngineAssociation": "{E1B4AF31-40EA-E11B-8620-B6AB31393476}",
+=======
+	"EngineAssociation": "{501D84D7-4417-A3A3-3B34-B98069270068}",
+>>>>>>> master
 	"Category": "",
 	"Description": ""
 }
