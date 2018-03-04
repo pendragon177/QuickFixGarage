@@ -1,0 +1,900 @@
+﻿Log file open, 03/03/18 23:02:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: QuickFixGarage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(924648208) SRandInit(924648208).
+LogInit: Read version file with build ID '7128a4ba-7b85-42c8-8e3f-ab562eb4a196'
+LogInit: Registered custom module enumerator with build ID '7128a4ba-7b85-42c8-8e3f-ab562eb4a196'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.216272
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 0).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-0
+LogInit: Engine Version: 4.18.2-0+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-0+++UE4+Release-4.18
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Mar  3 2018 17:45:23
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.04-04.02.53:032][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-04.02.53:032][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.04-04.02.53:089][  0]LogInit: Computer: HARRISON-PC
+[2018.03.04-04.02.53:089][  0]LogInit: User: Harrison
+[2018.03.04-04.02.53:089][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.03.04-04.02.53:089][  0]LogInit: High frequency timer resolution =3.429492 MHz
+[2018.03.04-04.02.53:090][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.04-04.02.53:090][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.04-04.02.53:090][  0]LogMemory: Process Physical Memory: 274.23 MB used, 274.23 MB peak
+[2018.03.04-04.02.53:090][  0]LogMemory: Process Virtual Memory: 272.01 MB used, 272.01 MB peak
+[2018.03.04-04.02.53:090][  0]LogMemory: Physical Memory: 5315.56 MB used,  2775.11 MB free, 8090.68 MB total
+[2018.03.04-04.02.53:090][  0]LogMemory: Virtual Memory: 625.74 MB used,  2775.11 MB free, 8388608.00 MB total
+[2018.03.04-04.02.54:563][  0]LogInit: Using OS detected language (en-US).
+[2018.03.04-04.02.54:563][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.04-04.02.54:567][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.04-04.02.55:132][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.03.04-04.02.55:132][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.03.04-04.02.55:132][  0]LogInit: Setting process to DPI aware
+[2018.03.04-04.02.55:141][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.03.04-04.02.55:141][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.03.04-04.02.55:141][  0]LogInit: Setting process to DPI aware
+[2018.03.04-04.02.55:683][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.04-04.02.56:347][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.04-04.02.56:347][  0]LogD3D11RHI:       4011/0/3789 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.03.04-04.02.56:348][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.04-04.02.56:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.04-04.02.56:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.04-04.02.56:357][  0]LogWindows: EnumDisplayDevices:
+[2018.03.04-04.02.56:358][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.03.04-04.02.56:359][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.04-04.02.56:360][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.03.04-04.02.56:360][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.04-04.02.56:361][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.03.04-04.02.56:361][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.03.04-04.02.56:361][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.03.04-04.02.56:361][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.03.04-04.02.56:361][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.04-04.02.56:361][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.03.04-04.02.56:362][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.03.04-04.02.56:362][  0]LogRHI: Texture pool is 2808 MB (70% of 4011 MB)
+[2018.03.04-04.02.56:386][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.04-04.02.56:404][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.04-04.02.56:744][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Intermediate/Shaders/WorkingDirectory/10272/).
+[2018.03.04-04.02.56:744][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/6AF82ECA4387A01BF828DFA31CC79AB6/'.
+[2018.03.04-04.02.56:744][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.04-04.02.59:955][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.04-04.03.00:094][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.04-04.03.00:238][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.04-04.03.00:369][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.04-04.03.00:509][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.04-04.03.03:100][  0]LogWindows: Failed to preload 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWPDeviceDetector.dll' (GetLastError=126)
+[2018.03.04-04.03.03:104][  0]LogWindows:   Missing import: vccorlib140.DLL
+[2018.03.04-04.03.03:104][  0]LogWindows:   Missing import: api-ms-win-core-winrt-l1-1-0.dll
+[2018.03.04-04.03.03:104][  0]LogWindows:   Missing import: api-ms-win-core-winrt-error-l1-1-0.dll
+[2018.03.04-04.03.03:105][  0]LogWindows:   Missing import: api-ms-win-core-winrt-string-l1-1-0.dll
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Binaries/Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.03.04-04.03.03:105][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AudioCapture\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.03.04-04.03.03:106][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:328][  0]LogWindows: Failed to preload 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWPTargetPlatform.dll' (GetLastError=126)
+[2018.03.04-04.03.03:328][  0]LogWindows:   Missing import: UE4Editor-UWPDeviceDetector.dll
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Binaries/Win64
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Binaries\Win64
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:328][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AudioCapture\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.03.04-04.03.03:329][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:535][  0]LogWindows: Failed to load 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWP32TargetPlatform.dll' (GetLastError=126)
+[2018.03.04-04.03.03:536][  0]LogWindows:   Missing import: UE4Editor-UWPTargetPlatform.dll
+[2018.03.04-04.03.03:536][  0]LogWindows:   Missing import: UE4Editor-UWPDeviceDetector.dll
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Binaries/Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AudioCapture\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.03.04-04.03.03:536][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.03.04-04.03.03:537][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.03.04-04.03.03:538][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:538][  0]LogModuleManager: Warning: ModuleManager: Unable to load module 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWP32TargetPlatform.dll' because the file couldn't be loaded by the OS.
+[2018.03.04-04.03.03:730][  0]LogWindows: Failed to preload 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWPDeviceDetector.dll' (GetLastError=126)
+[2018.03.04-04.03.03:730][  0]LogWindows:   Missing import: vccorlib140.DLL
+[2018.03.04-04.03.03:730][  0]LogWindows:   Missing import: api-ms-win-core-winrt-l1-1-0.dll
+[2018.03.04-04.03.03:730][  0]LogWindows:   Missing import: api-ms-win-core-winrt-error-l1-1-0.dll
+[2018.03.04-04.03.03:730][  0]LogWindows:   Missing import: api-ms-win-core-winrt-string-l1-1-0.dll
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Binaries/Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:730][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AudioCapture\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.03.04-04.03.03:731][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:732][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.03.04-04.03.03:733][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.04:516][  0]LogWindows: Failed to load 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWPTargetPlatform.dll' (GetLastError=126)
+[2018.03.04-04.03.04:517][  0]LogWindows:   Missing import: UE4Editor-UWPDeviceDetector.dll
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Binaries/Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\AudioCapture\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.03.04-04.03.04:517][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogWindows:   Looked in: C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.03.04-04.03.04:518][  0]LogModuleManager: Warning: ModuleManager: Unable to load module 'C:/MICROSOFT_UWP_UNREAL-release_uwp/Engine/Binaries/Win64/UE4Editor-UWPTargetPlatform.dll' because the file couldn't be loaded by the OS.
+[2018.03.04-04.03.04:615][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.04-04.03.04:745][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.04-04.03.04:847][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.04-04.03.04:944][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.04-04.03.05:044][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.04-04.03.05:146][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.04-04.03.05:245][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.04-04.03.05:349][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.04-04.03.05:450][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.04-04.03.05:660][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.04-04.03.05:660][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.04-04.03.05:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.04-04.03.05:828][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.04-04.03.05:978][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.04-04.03.06:022][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.04-04.03.06:022][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.04-04.03.06:871][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.04-04.03.08:168][  0]LogDerivedDataCache: Loaded boot cache 1.30s 78MB ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
+[2018.03.04-04.03.08:168][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc
+[2018.03.04-04.03.08:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.04-04.03.08:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.04-04.03.08:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.04-04.03.08:168][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.03.04-04.03.08:186][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.03.04-04.03.08:186][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.03.04-04.03.08:186][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.03.04-04.03.08:207][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.04-04.03.08:208][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.04-04.03.08:208][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-04.03.08:208][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-04.03.08:777][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-04.03.09:295][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.04-04.03.09:295][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.04-04.03.09:295][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.04-04.03.09:295][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.03.04-04.03.09:295][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.04-04.03.09:295][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.03.04-04.03.09:366][  0]LogNetVersion: QuickFixGarage , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109594481)
+[2018.03.04-04.03.09:629][  0]LogAssetRegistry: FAssetRegistry took 0.0336 seconds to start up
+[2018.03.04-04.03.10:449][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.090616 seconds
+[2018.03.04-04.03.10:457][  0]LogUObjectArray: 35856 objects as part of root set at end of initial load.
+[2018.03.04-04.03.10:457][  0]LogUObjectAllocator: 7364800 out of 0 bytes used by permanent object pool.
+[2018.03.04-04.03.10:457][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.04-04.03.10:561][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.03.04-04.03.11:786][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.04-04.03.11:786][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:787][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.03.04-04.03.11:787][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.03.04-04.03.11:788][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.03.04-04.03.11:788][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.03.04-04.03.11:788][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:788][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:788][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:788][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:788][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.03.04-04.03.11:788][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.03.04-04.03.11:788][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:788][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:788][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:789][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:789][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.03.04-04.03.11:790][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.03.04-04.03.11:790][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:790][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.11:790][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.03.04-04.03.11:790][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.03.04-04.03.15:430][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.04-04.03.15:495][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.04-04.03.16:682][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.04-04.03.17:417][  0]SourceControl: Source control is disabled
+[2018.03.04-04.03.17:417][  0]SourceControl: Source control is disabled
+[2018.03.04-04.03.17:513][  0]SourceControl: Source control is disabled
+[2018.03.04-04.03.17:610][  0]SourceControl: Source control is disabled
+[2018.03.04-04.03.19:131][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.04-04.03.19:632][  0]LogOcInput: OculusInput pre-init called
+[2018.03.04-04.03.20:102][  0]LogEngine: Initializing Engine...
+[2018.03.04-04.03.20:106][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.03.04-04.03.20:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.04-04.03.20:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.04-04.03.20:714][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.04-04.03.20:876][  0]LogInit: FAudioDevice initialized.
+[2018.03.04-04.03.25:296][  0]LogDerivedDataCache: Saved boot cache 4.42s 78MB ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
+[2018.03.04-04.03.25:335][  0]LogInit: Texture streaming: Enabled
+[2018.03.04-04.03.25:548][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.04-04.03.25:815][  0]LogInit: Transaction tracking system initialized
+[2018.03.04-04.03.26:442][  0]BlueprintLog: New page: Editor Load
+[2018.03.04-04.03.28:300][  0]LocalizationService: Localization service is disabled
+[2018.03.04-04.03.30:073][  0]LogConsoleResponse: Display: 
+[2018.03.04-04.03.30:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Harrison/Documents/GitHub/QuickFixGarage/Content/' took 0.02s
+[2018.03.04-04.03.30:788][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.04-04.03.30:788][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.04-04.03.30:788][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.04-04.03.33:256][  0]SourceControl: Source control is disabled
+[2018.03.04-04.03.33:256][  0]Cmd: MAP LOAD FILE="../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-04.03.33:257][  0]LightingResults: New page: Lighting Build
+[2018.03.04-04.03.33:370][  0]MapCheck: New page: Map Check
+[2018.03.04-04.03.33:370][  0]LightingResults: New page: Lighting Build
+[2018.03.04-04.03.44:249][  0]LogAIModule: Creating AISystem for world Level_1
+[2018.03.04-04.03.44:264][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-04.03.44:294][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-04.03.44:395][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.23ms to complete.
+[2018.03.04-04.03.44:395][  0]LogFileHelpers: Loading map 'Level_1' took 11.139
+[2018.03.04-04.03.45:370][  0]LogCollectionManager: Loaded 0 collections in 0.002711 seconds
+[2018.03.04-04.03.45:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Harrison/Documents/GitHub/QuickFixGarage/Saved/Collections/' took 0.01s
+[2018.03.04-04.03.45:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Developers/Harrison/Collections/' took 0.02s
+[2018.03.04-04.03.45:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Collections/' took 0.01s
+[2018.03.04-04.03.45:688][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.04-04.03.45:822][  0]LogContentBrowser: Native class hierarchy populated in 0.1337 seconds. Added 2363 classes and 519 folders.
+[2018.03.04-04.03.46:153][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.04-04.03.52:480][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.04-04.03.52:700][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.04-04.03.53:125][  0]LogSlate: Took 0.000443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-04.03.53:128][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.04-04.03.53:172][  0]LogSlate: Took 0.030207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.04-04.03.54:133][  0]LogRenderer: Reallocating scene render targets to support 904x484 Format 9 NumSamples 1 (Frame:1).
+[2018.03.04-04.03.54:732][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.04-04.03.54:733][  0]LogLoad: (Engine Initialization) Total time: 66.76 seconds
+[2018.03.04-04.03.54:733][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.04-04.03.54:733][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.04-04.03.54:733][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.04-04.03.54:768][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.03.04-04.03.55:066][  0]LogSlate: Took 0.015169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-04.03.55:179][  2]LogAssetRegistry: Asset discovery search completed in 45.5782 seconds
+[2018.03.04-04.03.55:182][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.04-04.03.55:182][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.03.04-04.03.56:055][ 46]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-04.04.21:880][ 25]LogRenderer: Reallocating scene render targets to support 1208x600 Format 9 NumSamples 1 (Frame:947).
+[2018.03.04-04.04.23:209][144]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.04-04.04.23:310][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.23:311][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-04.04.23:392][144]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 6:04:23 PM)
+[2018.03.04-04.04.23:392][144]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.04-04.04.23:397][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004981s)
+[2018.03.04-04.04.23:398][144]LogAIModule: Creating AISystem for world Level_1
+[2018.03.04-04.04.23:398][144]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2018.03.04-04.04.23:398][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.006113s)
+[2018.03.04-04.04.23:519][144]LogInit: FAudioDevice initialized.
+[2018.03.04-04.04.23:574][144]LogLoad: Game class is 'MultiplayerTest_C'
+[2018.03.04-04.04.23:578][144]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-23.04.23
+[2018.03.04-04.04.23:578][144]LogWorld: Bringing up level for play took: 0.002498
+[2018.03.04-04.04.23:689][144]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.04-04.04.23:689][144]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.04.23:689][144]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.04.23:689][144]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.04.23:716][144]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	MultiplayerTest_C /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.MultiplayerTest_C_0
+	Function /Game/Blueprints/Blueprints/MultiplayerTest.MultiplayerTest_C:Spawn Players:02D5
+[2018.03.04-04.04.23:717][144]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'Spawn Players' from node: Possess in graph: Spawn Players in object: MultiplayerTest with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.03.04-04.04.23:717][144]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.04.23:717][144]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.675
+[2018.03.04-04.04.23:717][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.26:181][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.26:226][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.40:005][134]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-04.04.40:707][134]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-04.04.40:887][134]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.03.04-04.04.42:212][134]LogSlate: Took 0.019756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.04-04.04.42:478][135]LogSlate: Took 0.001741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.04-04.04.48:599][464]LogSavePackage: Save=147.44ms
+[2018.03.04-04.04.48:599][464]LogSavePackage: Moving '../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Saved/ThirdPersonCharacterC710EA544CDEA80CE206B694A6503DBA.tmp' to '../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.04-04.04.48:614][464]LogSavePackage: Display: Finished SavePackage ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.04-04.04.49:976][514]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.04-04.04.50:002][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.50:002][514]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.04-04.04.50:029][514]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.03.04-04.04.50:501][514]LogPlayLevel: PlayLevel: Blueprint regeneration took 499 ms (1 blueprints)
+[2018.03.04-04.04.50:502][514]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 6:04:50 PM)
+[2018.03.04-04.04.50:502][514]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.04-04.04.50:507][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004876s)
+[2018.03.04-04.04.50:507][514]LogAIModule: Creating AISystem for world Level_1
+[2018.03.04-04.04.50:508][514]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2018.03.04-04.04.50:508][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.006091s)
+[2018.03.04-04.04.50:645][514]LogInit: FAudioDevice initialized.
+[2018.03.04-04.04.50:687][514]LogLoad: Game class is 'MultiplayerTest_C'
+[2018.03.04-04.04.50:689][514]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-23.04.50
+[2018.03.04-04.04.50:689][514]LogWorld: Bringing up level for play took: 0.002152
+[2018.03.04-04.04.50:690][514]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.04.50:690][514]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.04.50:690][514]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.04.50:700][514]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	MultiplayerTest_C /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.MultiplayerTest_C_0
+	Function /Game/Blueprints/Blueprints/MultiplayerTest.MultiplayerTest_C:Spawn Players:02D5
+[2018.03.04-04.04.50:700][514]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'Spawn Players' from node: Possess in graph: Spawn Players in object: MultiplayerTest with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.03.04-04.04.50:701][514]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.04.50:701][514]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 1.657
+[2018.03.04-04.04.50:701][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.52:740][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.52:783][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.53:678][704]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.04-04.04.53:700][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.04.53:700][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-04.04.53:701][704]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 6:04:53 PM)
+[2018.03.04-04.04.53:701][704]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.04-04.04.53:706][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005585s)
+[2018.03.04-04.04.53:707][704]LogAIModule: Creating AISystem for world Level_1
+[2018.03.04-04.04.53:707][704]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2018.03.04-04.04.53:707][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.006700s)
+[2018.03.04-04.04.53:849][704]LogInit: FAudioDevice initialized.
+[2018.03.04-04.04.53:888][704]LogLoad: Game class is 'MultiplayerTest_C'
+[2018.03.04-04.04.53:890][704]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-23.04.53
+[2018.03.04-04.04.53:890][704]LogWorld: Bringing up level for play took: 0.002215
+[2018.03.04-04.04.53:891][704]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.04.53:891][704]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.04.53:891][704]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.04.53:899][704]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	MultiplayerTest_C /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.MultiplayerTest_C_0
+	Function /Game/Blueprints/Blueprints/MultiplayerTest.MultiplayerTest_C:Spawn Players:02D5
+[2018.03.04-04.04.53:899][704]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'Spawn Players' from node: Possess in graph: Spawn Players in object: MultiplayerTest with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.03.04-04.04.53:899][704]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.04.53:899][704]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.856
+[2018.03.04-04.04.53:900][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.01:200][182]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.01:246][182]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.02:148][223]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart3)
+[2018.03.04-04.05.03:779][320]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.04-04.05.04:973][391]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.04-04.05.04:995][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.04:995][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-04.05.04:995][391]PIE: New page: PIE session: Level_1 (Mar 3, 2018, 6:05:04 PM)
+[2018.03.04-04.05.04:995][391]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Level_1
+[2018.03.04-04.05.05:000][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004718s)
+[2018.03.04-04.05.05:001][391]LogAIModule: Creating AISystem for world Level_1
+[2018.03.04-04.05.05:001][391]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2018.03.04-04.05.05:001][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Level_1.Level_1 to /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 (0.005898s)
+[2018.03.04-04.05.05:136][391]LogInit: FAudioDevice initialized.
+[2018.03.04-04.05.05:179][391]LogLoad: Game class is 'MultiplayerTest_C'
+[2018.03.04-04.05.05:181][391]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2018.03.03-23.05.05
+[2018.03.04-04.05.05:181][391]LogWorld: Bringing up level for play took: 0.002146
+[2018.03.04-04.05.05:182][391]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.05.05:182][391]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.04-04.05.05:182][391]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.05.05:190][391]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	MultiplayerTest_C /Game/Blueprints/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.MultiplayerTest_C_0
+	Function /Game/Blueprints/Blueprints/MultiplayerTest.MultiplayerTest_C:Spawn Players:02D5
+[2018.03.04-04.05.05:190][391]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'Spawn Players' from node: Possess in graph: Spawn Players in object: MultiplayerTest with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.03.04-04.05.05:190][391]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.04-04.05.05:190][391]PIE: Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Level_1 0.146
+[2018.03.04-04.05.05:190][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.08:147][601]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.08:189][601]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Blueprints/Maps/Level_1.Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2018.03.04-04.05.09:225][660]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart3)
+[2018.03.04-04.05.10:130][713]Cmd: TRANSACTION UNDO
+[2018.03.04-04.05.10:131][713]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.04-04.05.10:659][736]Cmd: TRANSACTION UNDO
+[2018.03.04-04.05.10:659][736]LogEditorTransaction: Undo Move Actors
+[2018.03.04-04.05.11:879][794]LogSavePackage: Save=262.56ms
+[2018.03.04-04.05.11:879][794]LogSavePackage: Moving '../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Saved/Level_1A931B2DC4594CA67120C83BC0D8287EE.tmp' to '../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap'
+[2018.03.04-04.05.11:884][794]LogSavePackage: Display: Finished SavePackage ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap
+[2018.03.04-04.05.11:916][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Level_1_BuiltData" FILE="../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2018.03.04-04.05.11:998][794]LogSavePackage: Save=63.87ms
+[2018.03.04-04.05.11:998][794]LogSavePackage: Moving '../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Saved/Level_1_BuiltDataD75A8AFC4102C72EA5A752AB6934170D.tmp' to '../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1_BuiltData.uasset'
+[2018.03.04-04.05.12:000][794]LogSavePackage: Display: Finished SavePackage ../../../../Users/Harrison/Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1_BuiltData.uasset
