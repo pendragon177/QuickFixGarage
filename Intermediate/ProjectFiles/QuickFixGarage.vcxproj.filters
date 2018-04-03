@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\QuickFixGarage.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{9C3F91E3-6973-469B-BFA6-8845410683F6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\QuickFixGarage.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\QuickFixGarageEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4B563BA4-071B-4D24-AF28-072B67E34DE4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Config\UWP">
+			<UniqueIdentifier>{65078AAD-D408-4F0B-BA5A-39C04B816F53}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\UWP\UWPEngine.ini">
+			<Filter>Config\UWP</Filter>
+		</None >
+		<Filter Include="Source\QuickFixGarage">
+			<UniqueIdentifier>{9A6EFB75-73EE-4CF0-B1DC-DFB101F6AEB4}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\QuickFixGarage\GamepadDetection.cpp">
+			<Filter>Source\QuickFixGarage</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\QuickFixGarage\GamepadDetection.h">
+			<Filter>Source\QuickFixGarage</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\QuickFixGarage\QuickFixGarage.Build.cs">
+			<Filter>Source\QuickFixGarage</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\QuickFixGarage\QuickFixGarage.cpp">
+			<Filter>Source\QuickFixGarage</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\QuickFixGarage\QuickFixGarage.h">
+			<Filter>Source\QuickFixGarage</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
