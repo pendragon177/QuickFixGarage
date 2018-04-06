@@ -1,7 +1,7 @@
 {
-	"BuildId": "54b4284d-5a42-4d7e-859a-e65b995be682",
+	"BuildId": "7128a4ba-7b85-42c8-8e3f-ab562eb4a196",
 	"Modules": 
 	{
-		"QuickFixGarage": "UE4Editor-QuickFixGarage-2657.dll"
+		"QuickFixGarage": "UE4Editor-QuickFixGarage.dll"
 	}
 }

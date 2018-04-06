@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\QuickFixGarage.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{9C3F91E3-6973-469B-BFA6-8845410683F6}</UniqueIdentifier>
+			<UniqueIdentifier>{252C3EA6-F812-488F-BFC4-3C2675C7C707}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\QuickFixGarage.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{4B563BA4-071B-4D24-AF28-072B67E34DE4}</UniqueIdentifier>
+			<UniqueIdentifier>{D4EE50FD-7E5D-478A-9D0C-D9C885DA35AB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,13 +31,13 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\UWP">
-			<UniqueIdentifier>{65078AAD-D408-4F0B-BA5A-39C04B816F53}</UniqueIdentifier>
+			<UniqueIdentifier>{F3A08BDE-DBA9-4C29-A350-ED6656D0C486}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\UWP\UWPEngine.ini">
 			<Filter>Config\UWP</Filter>
 		</None >
 		<Filter Include="Source\QuickFixGarage">
-			<UniqueIdentifier>{9A6EFB75-73EE-4CF0-B1DC-DFB101F6AEB4}</UniqueIdentifier>
+			<UniqueIdentifier>{D74B38D5-2649-4296-A8C0-91752DAAD3F6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\QuickFixGarage\GamepadDetection.cpp">
 			<Filter>Source\QuickFixGarage</Filter>
