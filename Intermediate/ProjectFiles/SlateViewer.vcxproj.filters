@@ -5,37 +5,61 @@
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\SlateViewer.Target.cs" />
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\SlateViewer.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{9EEA89DA-152C-48D2-B8EE-E1B9D74BD398}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{6F52D3FA-1E4A-4AD7-AF89-D109E7165EF8}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\SlateViewerApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\IOS">
+<<<<<<< HEAD
 			<UniqueIdentifier>{99CD51F4-FC0D-4FC0-A403-BAE11041A0AA}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{0DEDC5B8-9A55-48F0-9B9F-C8F1F131C074}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\IOS\IOSSlateViewerMain.cpp">
 			<Filter>Private\IOS</Filter>
 		</ClCompile >
 		<Filter Include="Private\Linux">
+<<<<<<< HEAD
 			<UniqueIdentifier>{A72614D7-30CB-437A-888C-D40B59A2542A}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{666A8D90-E6A1-40AA-8323-F490609AB7E2}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Linux\SlateViewerMainLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
+<<<<<<< HEAD
 			<UniqueIdentifier>{C072BBAF-09C4-4053-AB99-FE41ECC2309A}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{AA8A5919-92E1-431D-B354-EA263BA815F9}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Mac\SlateViewerMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
+<<<<<<< HEAD
 			<UniqueIdentifier>{2BDD7ECB-087A-46E1-9CD4-08751B0E81B2}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{B743AD7E-E0CD-4F3D-8843-1D3D012D1901}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Windows\SlateViewerMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{CD9C242D-04E5-442E-8A6C-C45E710E73CF}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{17555F1B-3421-47A4-83CF-5D7820287D29}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Public\SlateViewer.h">
 			<Filter>Public</Filter>
@@ -44,10 +68,17 @@
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{946C1D93-ED94-4D9B-AC59-3B8CCFB07D84}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
 			<UniqueIdentifier>{1962DC6C-97AA-4D3C-BCF2-EF85A04C5CE2}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{757A13C9-E696-4674-9BFF-8D52A3A8D805}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{1F7ED822-76C9-4E53-B846-4130BC42161E}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

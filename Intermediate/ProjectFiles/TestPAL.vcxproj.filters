@@ -5,7 +5,11 @@
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\TestPAL\TestPAL.Target.cs" />
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\TestPAL\TestPAL.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{0183CC1B-3106-41E4-A967-BF3171562F15}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{F83D6602-CAA8-40AC-AD85-60BDB2680B4D}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\TestPAL\Private\Main.cpp">
 			<Filter>Private</Filter>

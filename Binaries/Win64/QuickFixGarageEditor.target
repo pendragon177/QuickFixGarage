@@ -12,7 +12,11 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
 		"BranchName": "",
+<<<<<<< HEAD
 		"BuildId": "7128a4ba-7b85-42c8-8e3f-ab562eb4a196"
+=======
+		"BuildId": "32aac044-90ba-4a37-a459-a4383db8a86b"
+>>>>>>> Nick'sHappyPlace
 	},
 	"BuildProducts": [
 		{

@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeQuickFixGarage_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/QuickFixGarage",
 				PKG_CompiledIn | 0x00000000,
-				0xC5D93D83,
-				0x7A82172F,
+				0xEC02863D,
+				0xBE0D9E11,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

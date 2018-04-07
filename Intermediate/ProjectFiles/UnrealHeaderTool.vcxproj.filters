@@ -4,14 +4,22 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{CB22F5E7-960D-4505-9221-8DD63F41DC5E}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{6F96F186-36EF-430C-8606-5842FAB6EF3F}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{C68B76F9-46AB-4D42-9258-799891702BA5}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{16655A92-3CB0-4DF0-913F-3C07D70B65E2}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
 			<Filter>Private</Filter>
@@ -122,7 +130,11 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Specifiers">
+<<<<<<< HEAD
 			<UniqueIdentifier>{4E329711-4AB8-4945-ABEE-C6EFC68EAA75}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{3B7D61F8-71AB-42E8-AADC-4FCED575507B}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
 			<Filter>Private\Specifiers</Filter>
@@ -158,13 +170,21 @@
 			<Filter>Private\Specifiers</Filter>
 		</ClInclude >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{47E0C2EE-0306-46F6-A08D-BB004B2D007E}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{C9B0C47E-E1F2-4C96-8EBD-EEC05E355D9D}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{523E3394-D1CC-41A0-BA09-583000F8F03D}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{CA0E5184-1EEE-4BE9-956B-B6EE129A40E4}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ResourceCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc">
 			<Filter>Resources</Filter>
@@ -173,7 +193,11 @@
 			<Filter>Resources</Filter>
 		</Manifest >
 		<Filter Include="Resources\UHTDebugging">
+<<<<<<< HEAD
 			<UniqueIdentifier>{F6289754-6621-4E0D-87F9-8F967A21DFD1}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{B476EAD7-A9F6-41E4-800F-6633B9EA4611}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
 			<Filter>Resources\UHTDebugging</Filter>

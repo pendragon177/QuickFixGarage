@@ -5,19 +5,31 @@
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Target.cs" />
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{5B0D4676-44D7-4EC5-9FA0-A12CA527953B}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{9204FD70-A3FA-4616-8B30-8FAA47E0137E}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Private\UnrealAtoSApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
+<<<<<<< HEAD
 			<UniqueIdentifier>{A6860315-68A3-42F3-948D-A07361559E84}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{B886BAAD-BC37-4400-A8F6-587C1AA6A77A}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Private\Mac\UnrealAtoSMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{CA9A7AF3-8F5B-4E04-8797-2FD65D202F89}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{CDE60A45-2987-474D-BFA5-7871BE8591EA}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Public\UnrealAtoSApp.h">
 			<Filter>Public</Filter>

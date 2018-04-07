@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\QuickFixGarage.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
 			<UniqueIdentifier>{252C3EA6-F812-488F-BFC4-3C2675C7C707}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{5D260DAA-2C6C-4343-851C-3DD66E09F193}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\Source\QuickFixGarage.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +17,11 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D4EE50FD-7E5D-478A-9D0C-D9C885DA35AB}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{ABBB0B2B-B571-4AFD-8E78-3837C42C8EB3}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,14 +39,28 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\UWP">
+<<<<<<< HEAD
 			<UniqueIdentifier>{F3A08BDE-DBA9-4C29-A350-ED6656D0C486}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{532BB8DE-49E0-4AB7-A436-1C8C74FFE868}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\Config\UWP\UWPEngine.ini">
 			<Filter>Config\UWP</Filter>
 		</None >
 		<Filter Include="Source\QuickFixGarage">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D74B38D5-2649-4296-A8C0-91752DAAD3F6}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{BA841C7D-D510-4FAB-B7C7-7CD9E13FB2FD}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
+		<ClCompile Include="..\..\Source\QuickFixGarage\ControllerPull.cpp">
+			<Filter>Source\QuickFixGarage</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\QuickFixGarage\ControllerPull.h">
+			<Filter>Source\QuickFixGarage</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\QuickFixGarage\GamepadDetection.cpp">
 			<Filter>Source\QuickFixGarage</Filter>
 		</ClCompile >

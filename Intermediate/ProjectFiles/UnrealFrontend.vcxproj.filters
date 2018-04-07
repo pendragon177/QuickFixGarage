@@ -4,14 +4,22 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{9332056A-1506-4A99-8801-A53910E86ABD}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{B5074182-C5E4-438C-AFDE-6321ECAC775C}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{5BB5B412-60C4-458A-98CA-4C2376D00EB3}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{F5EA2D23-7AAE-445F-904B-275BCD0FE039}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
 			<Filter>Private</Filter>
@@ -20,7 +28,11 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Commands">
+<<<<<<< HEAD
 			<UniqueIdentifier>{6D850874-59B2-4777-A482-095D6C5303B0}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{4743B89E-CD47-4E6C-BA9A-391BD03DD9AE}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
 			<Filter>Private\Commands</Filter>
@@ -65,28 +77,47 @@
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
+<<<<<<< HEAD
 			<UniqueIdentifier>{84DBF277-B99E-4717-9C30-5837D41F8BF8}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{4C314327-B3E4-4CBC-A6B5-6C2DD58C6EC7}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
+<<<<<<< HEAD
 			<UniqueIdentifier>{43254DDD-654E-4349-8FA0-5BA000AE2E31}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{7BFA0BE4-2074-4DBC-8C35-9E22D2D202C7}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
+<<<<<<< HEAD
 			<UniqueIdentifier>{1A22D130-B2E7-4735-A64F-791BD7658FEE}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{338CB457-BED4-419B-8F24-8A76EB50B1D2}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{4D5722A4-1F2F-4D2C-B393-27271AF4D501}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
 			<UniqueIdentifier>{5EA204F4-82A5-45FE-BF27-8FBC640819D2}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{18A8DE4A-688B-42A7-A170-65E8D6412400}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{97676B5B-8025-4326-BB37-7E69DC594A5A}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

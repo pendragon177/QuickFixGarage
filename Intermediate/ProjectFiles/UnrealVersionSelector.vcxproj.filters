@@ -5,7 +5,11 @@
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{6C271D60-A197-4FA2-9B51-EEB143859DE5}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{A65F3116-0CD7-4D03-B377-C0EDABF06E3D}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
 			<Filter>Private</Filter>
@@ -20,7 +24,11 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\GenericPlatform">
+<<<<<<< HEAD
 			<UniqueIdentifier>{689A191E-4C36-4078-BF9A-7E3900D9B8C4}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{76C00290-9CD8-4CAD-8169-CF51055FC369}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
 			<Filter>Private\GenericPlatform</Filter>
@@ -29,7 +37,11 @@
 			<Filter>Private\GenericPlatform</Filter>
 		</ClInclude >
 		<Filter Include="Private\Windows">
+<<<<<<< HEAD
 			<UniqueIdentifier>{CE0FDB05-74C7-45DD-AEB6-FFECD4162E20}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{D508140C-6075-4F5F-B86B-7B3B941EAE03}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
 			<Filter>Private\Windows</Filter>
@@ -38,7 +50,11 @@
 			<Filter>Private\Windows</Filter>
 		</ClInclude >
 		<Filter Include="Private\Windows\Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{2D7E20C6-882A-4D50-AEE6-90BC8260344C}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{7F65869B-CBC4-44A2-890E-98C9CA6AA888}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico">
 			<Filter>Private\Windows\Resources</Filter>

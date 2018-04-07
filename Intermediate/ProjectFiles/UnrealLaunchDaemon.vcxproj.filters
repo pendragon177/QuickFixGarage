@@ -7,16 +7,27 @@
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.tps" />
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.uproject" />
 		<Filter Include="Build">
+<<<<<<< HEAD
 			<UniqueIdentifier>{181DA76D-AA9E-410F-950D-CA120723DCD6}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Build\IOS">
 			<UniqueIdentifier>{73ABFD3F-75A6-4288-9313-F8157641A752}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{01548BC5-A17C-4B35-8E1D-AD53EEE11978}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Build\IOS">
+			<UniqueIdentifier>{B01DE0EB-2EA6-41A3-AFDA-CF33A5DC25E7}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Build\IOS\UnrealLaunchDaemon-Info.plist">
 			<Filter>Build\IOS</Filter>
 		</None >
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{3ED983FF-6CD6-455F-B74C-B6E394D760DE}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{7E9929FA-4FF2-48C0-94F2-55E6AB3C8F2B}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.cpp">
 			<Filter>Private</Filter>
@@ -34,7 +45,11 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\IOS">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D26C74B9-D1F4-4BF5-A9AB-19CE6EDFBBF7}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{5A1D09AB-1842-42DC-9FBF-82414E14D16B}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonAppMain.cpp">
 			<Filter>Private\IOS</Filter>

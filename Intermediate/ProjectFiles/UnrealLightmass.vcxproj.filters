@@ -4,17 +4,28 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{231FE6BE-2733-4816-917B-1A4DDBCB6EF3}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{2A8986B0-D72F-418F-8D35-FD83DDB291D7}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{1B7005C9-648B-410B-AF40-7C0F89E6BFFC}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Private\CPUSolver">
 			<UniqueIdentifier>{4D6A45BE-8CE4-4D6F-B4A9-8C06DB97812C}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{E5916B82-E454-49A5-90FD-0B191471ADC1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Private\CPUSolver">
+			<UniqueIdentifier>{7F323590-18B0-4B90-B1DB-8EC3670FA99F}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
 			<Filter>Private\CPUSolver</Filter>
@@ -23,7 +34,11 @@
 			<Filter>Private\CPUSolver</Filter>
 		</ClInclude >
 		<Filter Include="Private\ImportExport">
+<<<<<<< HEAD
 			<UniqueIdentifier>{4B5C8C0A-0DB2-4FBD-A7BF-0C5BB378C5D2}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{DF47ABB8-0DAE-40AA-8D89-6C995F0A949A}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp">
 			<Filter>Private\ImportExport</Filter>
@@ -68,7 +83,11 @@
 			<Filter>Private\ImportExport</Filter>
 		</ClInclude >
 		<Filter Include="Private\Launch">
+<<<<<<< HEAD
 			<UniqueIdentifier>{8DF6AD25-FFA7-4507-A00E-38DA2D0F7155}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{02A0D99E-90C6-4A66-B315-385460A84AC3}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
 			<Filter>Private\Launch</Filter>
@@ -83,7 +102,11 @@
 			<Filter>Private\Launch</Filter>
 		</ClInclude >
 		<Filter Include="Private\Lighting">
+<<<<<<< HEAD
 			<UniqueIdentifier>{4CA4A67B-54B1-4524-B2CB-5E8D20866C36}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{1886B1B1-244F-43D9-B080-60734BF232F6}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
 			<Filter>Private\Lighting</Filter>
@@ -203,7 +226,11 @@
 			<Filter>Private\Lighting</Filter>
 		</ClCompile >
 		<Filter Include="Private\LightmassCore">
+<<<<<<< HEAD
 			<UniqueIdentifier>{FA960962-86E0-41B3-845C-97CE6D4F325A}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{795C0D3C-4E56-4305-A51B-264A6386F51D}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
 			<Filter>Private\LightmassCore</Filter>
@@ -212,7 +239,11 @@
 			<Filter>Private\LightmassCore</Filter>
 		</ClInclude >
 		<Filter Include="Private\LightmassCore\Math">
+<<<<<<< HEAD
 			<UniqueIdentifier>{C8BA3CF3-6C2D-4FC7-B0FD-2EBE27D4CD00}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{F8F17EF3-1C13-400B-A921-CFEC0C662940}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h">
 			<Filter>Private\LightmassCore\Math</Filter>
@@ -239,7 +270,11 @@
 			<Filter>Private\LightmassCore\Math</Filter>
 		</ClCompile >
 		<Filter Include="Private\LightmassCore\Misc">
+<<<<<<< HEAD
 			<UniqueIdentifier>{DD637CB5-16A7-4A06-9E47-C4624BC147D0}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{A207A1CB-3E39-4857-B7AC-32E25628BD43}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
 			<Filter>Private\LightmassCore\Misc</Filter>
@@ -260,13 +295,21 @@
 			<Filter>Private\LightmassCore\Misc</Filter>
 		</ClInclude >
 		<Filter Include="Private\LightmassCore\Templates">
+<<<<<<< HEAD
 			<UniqueIdentifier>{769712CD-EF42-4B67-A576-7B971D65A870}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{CD25B40A-33C1-4206-BF3A-F943AB0A34FA}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h">
 			<Filter>Private\LightmassCore\Templates</Filter>
 		</ClInclude >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{5FD6320E-9136-4EB9-B70D-6A2328B522FA}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{6A82255E-8D9C-4BF0-AE19-71AB83C3DFB1}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h">
 			<Filter>Public</Filter>
@@ -287,7 +330,11 @@
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{85A2DC59-50E6-4D14-B595-2E56BE20EBDF}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{E36D4E56-59E9-496F-A484-234A67D949EF}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win32.manifest">
 			<Filter>Resources</Filter>

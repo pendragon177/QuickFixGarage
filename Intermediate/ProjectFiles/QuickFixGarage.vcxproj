@@ -2297,6 +2297,8 @@
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
 		<None Include="..\..\Config\UWP\UWPEngine.ini" />
+		<ClCompile Include="..\..\Source\QuickFixGarage\ControllerPull.cpp" />
+		<ClInclude Include="..\..\Source\QuickFixGarage\ControllerPull.h" />
 		<ClCompile Include="..\..\Source\QuickFixGarage\GamepadDetection.cpp" />
 		<ClInclude Include="..\..\Source\QuickFixGarage\GamepadDetection.h" />
 		<None Include="..\..\Source\QuickFixGarage\QuickFixGarage.Build.cs" />

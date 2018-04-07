@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{517ACAAE-8990-4A4C-82B2-9508FF3D3274}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{8FA01299-550D-408A-9EF0-4D6DC15CB745}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
@@ -12,7 +16,11 @@
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{839738BD-9767-45DF-B0C1-64335C4D6868}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{49C920DC-0603-4FB2-991A-1CC05ECE85DB}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
 			<Filter>Private</Filter>
@@ -21,7 +29,11 @@
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\ToolModes">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D6509EEF-4FB7-4E69-86FA-23AA74A35E48}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{01F3FC66-8009-45BE-8ABD-AE4461CE73DD}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
 			<Filter>Private\ToolModes</Filter>
@@ -48,19 +60,31 @@
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D0D0E845-8F5D-48D4-80AB-EE13B52A2D8A}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{ADF7C6A0-3A02-4B0D-AD77-128D266B9E01}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Public\Interfaces">
+<<<<<<< HEAD
 			<UniqueIdentifier>{7F038BC0-35AA-4A29-941F-A9419B0DED58}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{0B90B0FC-98FD-4ABB-9001-3D9E8DD18C9C}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
 			<Filter>Public\Interfaces</Filter>
 		</ClInclude >
 		<Filter Include="Public\ToolModes">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D016E745-CC84-4843-8A54-321E63701766}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{663EC2BD-FD1E-46FB-B206-80D3DFABC93C}</UniqueIdentifier>
+>>>>>>> Nick'sHappyPlace
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
 			<Filter>Public\ToolModes</Filter>
