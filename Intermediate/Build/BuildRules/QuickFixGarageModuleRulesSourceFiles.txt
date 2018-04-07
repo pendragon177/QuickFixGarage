@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 C:\Users\Pendr\Documents\GitHub\QuickFixGarage\Source\QuickFixGarage\QuickFixGarage.Build.cs
 C:\Users\Pendr\Documents\GitHub\QuickFixGarage\Source\QuickFixGarage.Target.cs
 C:\Users\Pendr\Documents\GitHub\QuickFixGarage\Source\QuickFixGarageEditor.Target.cs
-=======
-C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Source\QuickFixGarage\QuickFixGarage.Build.cs
-C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Source\QuickFixGarage.Target.cs
-C:\Users\Harrison\Documents\GitHub\QuickFixGarage\Source\QuickFixGarageEditor.Target.cs
->>>>>>> Harrison's-fun-Land

@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\QuickFixGarage.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
 			<UniqueIdentifier>{1FEDD52F-D702-4061-9824-052C5B8F9D18}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{8F9F4CE0-2C32-4B45-8ED2-7E590FCA77B5}</UniqueIdentifier>
->>>>>>> Harrison's-fun-Land
 		</Filter>
 		<None Include="..\..\Source\QuickFixGarage.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
 			<UniqueIdentifier>{45415394-007D-43DC-80B6-95D60ADBAFDC}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{A7F8E3B3-AC75-447C-B733-2D3FC2A645BD}</UniqueIdentifier>
->>>>>>> Harrison's-fun-Land
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -39,21 +31,13 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\UWP">
-<<<<<<< HEAD
 			<UniqueIdentifier>{AEB248D9-682A-418E-86AC-3B8D58FBA88D}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{C791A01C-0F71-45D8-94CB-EB0EAA8446C5}</UniqueIdentifier>
->>>>>>> Harrison's-fun-Land
 		</Filter>
 		<None Include="..\..\Config\UWP\UWPEngine.ini">
 			<Filter>Config\UWP</Filter>
 		</None >
 		<Filter Include="Source\QuickFixGarage">
-<<<<<<< HEAD
 			<UniqueIdentifier>{973024BF-01D1-46B3-B374-528C6ABFB5D8}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{4237BE30-A4AC-4666-A802-89A573C4F728}</UniqueIdentifier>
->>>>>>> Harrison's-fun-Land
 		</Filter>
 		<ClCompile Include="..\..\Source\QuickFixGarage\ControllerPull.cpp">
 			<Filter>Source\QuickFixGarage</Filter>
