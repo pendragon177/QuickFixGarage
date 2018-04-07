@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup Label="ProjectConfigurations">
 		<ProjectConfiguration Include="Debug_Program|Win32">
 			<Configuration>Debug_Program</Configuration>
@@ -34,12 +34,28 @@
 			<Configuration>Mac_Debug_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|Win32">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|x64">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
 			<Configuration>HTML5_Debug_Program</Configuration>
 			<Platform>Win32</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
 			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Debug_Program|Win32">
+			<Configuration>TVOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Debug_Program|x64">
+			<Configuration>TVOS_Debug_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Development_Program|Win32">
@@ -74,12 +90,28 @@
 			<Configuration>Mac_Development_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|Win32">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|x64">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
 			<Configuration>HTML5_Development_Program</Configuration>
 			<Platform>Win32</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Development_Program|x64">
 			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Development_Program|Win32">
+			<Configuration>TVOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Development_Program|x64">
+			<Configuration>TVOS_Development_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Shipping_Program|Win32">
@@ -114,6 +146,14 @@
 			<Configuration>Mac_Shipping_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Program|Win32">
+			<Configuration>IOS_Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Program|x64">
+			<Configuration>IOS_Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Shipping_Program|Win32">
 			<Configuration>HTML5_Shipping_Program</Configuration>
 			<Platform>Win32</Platform>
@@ -122,13 +162,21 @@
 			<Configuration>HTML5_Shipping_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Shipping_Program|Win32">
+			<Configuration>TVOS_Shipping_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Shipping_Program|x64">
+			<Configuration>TVOS_Shipping_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{0FE8D894-3B56-4E36-8853-2AA69CA98B29}</ProjectGuid>
+		<ProjectGuid>{37089722-F1BA-4DEC-9CEC-212FD2B275C1}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealWatchdog</RootNamespace>
-		<PlatformToolset>v141</PlatformToolset>
-		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<PlatformToolset>v140</PlatformToolset>
+		<MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
 		<TargetRuntime>Native</TargetRuntime>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="Configuration">
@@ -137,7 +185,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -145,7 +193,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -153,7 +201,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -161,7 +209,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Shipping_Program|x64'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -169,7 +217,7 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Shipping_Program|Win32'" Label="Configuration">
 		<AppContainerApplication>true</AppContainerApplication>
@@ -177,128 +225,176 @@
 		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
 		<WindowsAppContainer>true</WindowsAppContainer>
 		<AppxPackage>true</AppxPackage>
-		<WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+		<WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Shipping_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Shipping_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Shipping_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Shipping_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
 	<ImportGroup Label="ExtensionSettings" />
@@ -315,10 +411,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealWatchdog-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealWatchdog-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -332,10 +428,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealWatchdog-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealWatchdog-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -349,10 +445,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealWatchdog-UWP64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealWatchdog-UWP64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -366,10 +462,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealWatchdog-UWP32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealWatchdog-UWP32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -383,10 +479,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealWatchdog-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealWatchdog-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog IOS Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog IOS Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog IOS Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\IOS\UnrealWatchdog-IOS-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -400,10 +513,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealWatchdog-HTML5-Debug.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealWatchdog-HTML5-Debug.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog TVOS Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog TVOS Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog TVOS Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\TVOS\UnrealWatchdog-TVOS-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -417,10 +547,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealWatchdog-Win32-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealWatchdog-Win32-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -434,10 +564,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealWatchdog-Win64-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealWatchdog-Win64-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -451,10 +581,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealWatchdog-UWP64-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealWatchdog-UWP64-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -468,10 +598,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealWatchdog-UWP32-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealWatchdog-UWP32-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -485,10 +615,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Mac Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Mac Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealWatchdog-Mac-Development</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealWatchdog-Mac-Development</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog IOS Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog IOS Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog IOS Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\IOS\UnrealWatchdog-IOS-Development</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -502,10 +649,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealWatchdog-HTML5-Development.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealWatchdog-HTML5-Development.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog TVOS Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog TVOS Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog TVOS Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\TVOS\UnrealWatchdog-TVOS-Development</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -519,10 +683,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealWatchdog.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealWatchdog.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -536,10 +700,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealWatchdog.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealWatchdog.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Shipping_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -553,10 +717,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP64 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP64 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP64 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealWatchdog.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP64 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP64 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP64 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealWatchdog.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -570,10 +734,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP32 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP32 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP32 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealWatchdog.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog UWP32 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog UWP32 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog UWP32 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealWatchdog.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -587,10 +751,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Mac Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Mac Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Mac Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealWatchdog</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Mac Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Mac Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Mac Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealWatchdog</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog IOS Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog IOS Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog IOS Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\IOS\UnrealWatchdog</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -604,25 +785,42 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog HTML5 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog HTML5 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog HTML5 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealWatchdog.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog HTML5 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog HTML5 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog HTML5 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealWatchdog.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Shipping_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealWatchdog TVOS Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog TVOS Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog TVOS Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\TVOS\UnrealWatchdog</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Build.cs" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Linux\UnrealWatchdogMainLinux.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Mac\UnrealWatchdogMainMac.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Windows\UnrealWatchdogMainWindows.cpp" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Build.cs" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.cpp" />
+		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.h" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.cpp" />
+		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.h" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Linux\UnrealWatchdogMainLinux.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Mac\UnrealWatchdogMainMac.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Windows\UnrealWatchdogMainWindows.cpp" />
 	</ItemGroup>
 	<PropertyGroup>
-		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealWatchdog-UnrealWatchdog-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UNREALWATCHDOG_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;ANALYTICS_API=;ANALYTICSET_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;APPLICATIONCORE_API=;RHI_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\UnrealWatchdog;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\Analytics\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Analytics;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\Analytics;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\AnalyticsET\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\AnalyticsET;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\AnalyticsET;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Projects;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Json;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\ApplicationCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\RHI;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealWatchdog-UnrealWatchdog-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UNREALWATCHDOG_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=1;WITH_DIRECTXMATH=0;CORE_API=;ANALYTICS_API=;ANALYTICSET_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;APPLICATIONCORE_API=;RHI_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\UnrealWatchdog;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\Analytics\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Analytics;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\Analytics;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\AnalyticsET\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\AnalyticsET;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Analytics\AnalyticsET;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Projects;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Json;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\ApplicationCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\RHI;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
