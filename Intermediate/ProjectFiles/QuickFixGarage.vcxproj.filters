@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\QuickFixGarage.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{6307A23D-06EB-4604-B8FC-803A0E84A751}</UniqueIdentifier>
+			<UniqueIdentifier>{21ADB3C2-CDB3-487C-8E71-A4A8862B4ABA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\QuickFixGarage.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{B0C4E29D-C337-42D1-8DD0-AF5E4986DAF3}</UniqueIdentifier>
+			<UniqueIdentifier>{E7A19C58-C4CC-4811-87BF-7751DBC902C7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,13 +31,13 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\UWP">
-			<UniqueIdentifier>{F8059817-870F-4055-BBFB-5D6BF3552520}</UniqueIdentifier>
+			<UniqueIdentifier>{92D85478-4617-4C8D-87B1-8BD8B44C44BB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\UWP\UWPEngine.ini">
 			<Filter>Config\UWP</Filter>
 		</None >
 		<Filter Include="Source\QuickFixGarage">
-			<UniqueIdentifier>{E5AA3E62-0405-4CD0-86C3-A6504CAF3305}</UniqueIdentifier>
+			<UniqueIdentifier>{3B99DA42-E040-4A77-8E07-8B90B574F129}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\QuickFixGarage\ControllerPull.cpp">
 			<Filter>Source\QuickFixGarage</Filter>

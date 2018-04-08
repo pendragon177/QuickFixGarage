@@ -7,16 +7,16 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.tps" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.uproject" />
 		<Filter Include="Build">
-			<UniqueIdentifier>{CD02F91B-F11B-4AD4-96FD-F74F633EB956}</UniqueIdentifier>
+			<UniqueIdentifier>{BF8DAAA0-7FFA-41CA-99F0-5C90BF155E1C}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Build\IOS">
-			<UniqueIdentifier>{EFB604B4-1C71-4FBA-B610-AA874F7320FD}</UniqueIdentifier>
+			<UniqueIdentifier>{ABCEBBDE-6F8F-457C-98A6-79D9A4D9AD19}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Build\IOS\UnrealLaunchDaemon-Info.plist">
 			<Filter>Build\IOS</Filter>
 		</None >
 		<Filter Include="Private">
-			<UniqueIdentifier>{2CA80239-00C5-493E-8B3E-9FEA5EBF2364}</UniqueIdentifier>
+			<UniqueIdentifier>{A16AAF40-996D-4CFD-BACE-3333BE7484AD}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.cpp">
 			<Filter>Private</Filter>
@@ -34,7 +34,7 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\IOS">
-			<UniqueIdentifier>{BE9CF163-7464-4D50-8158-92411CA2890A}</UniqueIdentifier>
+			<UniqueIdentifier>{20A18E9F-C086-49C6-AD4D-6BAAED5C8F2E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonAppMain.cpp">
 			<Filter>Private\IOS</Filter>
