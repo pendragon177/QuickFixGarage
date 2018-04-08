@@ -2,153 +2,153 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{0530DA6C-71A2-4FB9-9878-5897BBB123F0}</UniqueIdentifier>
+			<UniqueIdentifier>{E902D40C-C844-4325-98FA-DBB9768690A5}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini">
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{037FAE9E-0306-4357-A6E3-2F12C93F3D63}</UniqueIdentifier>
+			<UniqueIdentifier>{D5AEA841-21D7-447F-A6A6-A748C13E1E4C}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashDescription.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashDescription.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashDescription.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashDescription.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalytics.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalytics.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalytics.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalytics.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientApp.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientConfig.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientConfig.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientConfig.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientConfig.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientUnattended.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientUnattended.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientUnattended.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientUnattended.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportUtil.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashReportUtil.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashUpload.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashUpload.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashUpload.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashUpload.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\GenericErrorReport.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\GenericErrorReport.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\GenericErrorReport.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\GenericErrorReport.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\PendingReports.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\PendingReports.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\PendingReports.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\PendingReports.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\PlatformErrorReport.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\PlatformErrorReport.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{5F3F1DEA-8DB7-4002-B271-C1B741B20ACA}</UniqueIdentifier>
+			<UniqueIdentifier>{AB5F10AE-171D-4D3D-818D-90A73A93F98A}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Linux\LinuxErrorReport.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Linux\LinuxErrorReport.h">
 			<Filter>Private\Linux</Filter>
 		</ClInclude >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{1AC619D6-5951-459A-8EE4-536D5D0366AD}</UniqueIdentifier>
+			<UniqueIdentifier>{31D269EE-6F69-4891-92FE-103E07BD1627}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\MacErrorReport.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\MacErrorReport.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\MacErrorReport.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\MacErrorReport.h">
 			<Filter>Private\Mac</Filter>
 		</ClInclude >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{6C6D4C6E-245D-40EA-9253-E556C73A9496}</UniqueIdentifier>
+			<UniqueIdentifier>{AEDEDF69-68D0-4FE4-89AB-B739B40FF56C}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\WindowsErrorReport.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\WindowsErrorReport.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\WindowsErrorReport.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\WindowsErrorReport.h">
 			<Filter>Private\Windows</Filter>
 		</ClInclude >
 		<Filter Include="Public">
-			<UniqueIdentifier>{A9B40F1A-4E6C-4F0C-86EA-CD70646154AF}</UniqueIdentifier>
+			<UniqueIdentifier>{FAF4D9A7-7538-436F-A86B-28C04123958C}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{0A9BDDB6-2A45-443F-B4E9-392DEE9DFB0B}</UniqueIdentifier>
+			<UniqueIdentifier>{E07758DE-C28B-4EEA-AE90-F5D01EA790A1}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{90427C10-915B-4563-9389-B4ED24D15898}</UniqueIdentifier>
+			<UniqueIdentifier>{D82B3C9B-49DA-447E-BD0C-4F864B455D62}</UniqueIdentifier>
 		</Filter>
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient-Win64.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient.ico">
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient.ico">
 			<Filter>Resources\Windows</Filter>
 		</None >
-		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient.rc">
+		<ResourceCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient.rc">
 			<Filter>Resources\Windows</Filter>
 		</ResourceCompile >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win32.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win64.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
 	</ItemGroup>

@@ -2,15 +2,15 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{A2E4E7DD-C056-4C17-89D2-94B3923A33D5}</UniqueIdentifier>
+			<UniqueIdentifier>{FCDA161D-B22A-4159-A467-E72960052834}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 	</ItemGroup>

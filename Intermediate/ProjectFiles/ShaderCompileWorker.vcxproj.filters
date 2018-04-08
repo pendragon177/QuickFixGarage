@@ -2,48 +2,48 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{BA9A6B61-5A38-4560-8B35-4C16A326F3F6}</UniqueIdentifier>
+			<UniqueIdentifier>{6665477A-A2F7-44B1-8544-9F4776C524F7}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\Mac">
-			<UniqueIdentifier>{51BC9213-CADF-4297-BEA6-D34648235444}</UniqueIdentifier>
+			<UniqueIdentifier>{A0C90375-5B03-474B-80EA-1E2B02815583}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
 			<Filter>Config\Mac</Filter>
 		</None >
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{BD79E4B8-4267-4F4A-966C-35B6E697DD14}</UniqueIdentifier>
+			<UniqueIdentifier>{3C44951A-91B5-4545-855F-FE4B336B1432}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{652A8F55-DFD6-4F4E-9C61-645209871234}</UniqueIdentifier>
+			<UniqueIdentifier>{19D6426F-1EDA-4DD3-9261-116B6526F643}</UniqueIdentifier>
 		</Filter>
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
 			<Filter>Resources</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
 			<Filter>Resources</Filter>
 		</Manifest >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
 			<Filter>Resources</Filter>
 		</ClInclude >
-		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
+		<ResourceCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
 			<Filter>Resources</Filter>
 		</ResourceCompile >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
 			<Filter>Resources</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
 			<Filter>Resources</Filter>
 		</Manifest >
 	</ItemGroup>

@@ -2,66 +2,66 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\SlateViewer.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\SlateViewer.Build.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\SlateViewer.Target.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\SlateViewer.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{9A770B9C-814F-4C87-9E70-C36E6A3E9397}</UniqueIdentifier>
+			<UniqueIdentifier>{4293C9AF-18C0-485A-8359-8B39BBEA44D7}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\SlateViewerApp.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\SlateViewerApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\IOS">
-			<UniqueIdentifier>{601A36B1-5169-4000-8586-9D07B2A9B451}</UniqueIdentifier>
+			<UniqueIdentifier>{014400C3-D8F8-4EAF-A040-3FD547AA037A}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\IOS\IOSSlateViewerMain.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\IOS\IOSSlateViewerMain.cpp">
 			<Filter>Private\IOS</Filter>
 		</ClCompile >
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{C11636C7-7C18-4DC5-9425-790B47956B51}</UniqueIdentifier>
+			<UniqueIdentifier>{08D5EC02-759D-4436-9DFB-F82C987861EB}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Linux\SlateViewerMainLinux.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Linux\SlateViewerMainLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{7FC3939F-CA07-494C-AE02-CE473F8BF465}</UniqueIdentifier>
+			<UniqueIdentifier>{246EC425-21A7-4EB1-935D-19EB8839B129}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Mac\SlateViewerMainMac.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Mac\SlateViewerMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{CFEEF40A-1B50-414B-8030-C9F0B09F90FF}</UniqueIdentifier>
+			<UniqueIdentifier>{3C117337-A9FC-44E1-BD7C-02C521B25360}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Windows\SlateViewerMainWindows.cpp">
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Private\Windows\SlateViewerMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{694C24DA-015E-4A83-9B63-8EBFDDCB9967}</UniqueIdentifier>
+			<UniqueIdentifier>{CE1BCEAA-09D1-4CF1-8A5F-BD3555DC11F4}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Public\SlateViewer.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Public\SlateViewer.h">
 			<Filter>Public</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Public\SlateViewerApp.h">
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Public\SlateViewerApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{53281593-7CF4-4C16-9FBC-9612070DB8A2}</UniqueIdentifier>
+			<UniqueIdentifier>{E5BDEC18-B0EF-446F-ACE8-05107BFE245E}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{85CA0709-805B-4700-8A87-61E4978A9E82}</UniqueIdentifier>
+			<UniqueIdentifier>{54BFE1E3-9FCD-4F4D-B915-EAADE3D91DF2}</UniqueIdentifier>
 		</Filter>
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win32.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win64.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\Debug-PCLaunch-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch-Win32.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch-Win64.manifest">
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch.rc">
+		<ResourceCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SlateViewer\Resources\Windows\PCLaunch.rc">
 			<Filter>Resources\Windows</Filter>
 		</ResourceCompile >
 	</ItemGroup>

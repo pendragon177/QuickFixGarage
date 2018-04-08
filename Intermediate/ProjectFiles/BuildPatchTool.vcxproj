@@ -124,7 +124,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{D2A79DB0-E824-4422-A0D0-575B7D359E88}</ProjectGuid>
+		<ProjectGuid>{EB8D7D79-A4D8-4128-8CE8-E480751AB5BB}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>BuildPatchTool</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -315,10 +315,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\BuildPatchTool-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\BuildPatchTool-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -332,10 +332,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\BuildPatchTool-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\BuildPatchTool-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -349,10 +349,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\BuildPatchTool-UWP64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\BuildPatchTool-UWP64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -366,10 +366,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\BuildPatchTool-UWP32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\BuildPatchTool-UWP32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -383,10 +383,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\BuildPatchTool-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\BuildPatchTool-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -400,10 +400,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Debug.js</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Debug.js</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -417,10 +417,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\BuildPatchTool-Win32-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\BuildPatchTool-Win32-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -434,10 +434,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\BuildPatchTool-Win64-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\BuildPatchTool-Win64-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -451,10 +451,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\BuildPatchTool-UWP64-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\BuildPatchTool-UWP64-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -468,10 +468,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\BuildPatchTool-UWP32-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\BuildPatchTool-UWP32-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -485,10 +485,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\BuildPatchTool-Mac-Development</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Mac Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Mac Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\BuildPatchTool-Mac-Development</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -502,10 +502,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Development.js</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Development.js</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -519,10 +519,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Win32 Shipping -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Win32 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Win32 Shipping -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -536,10 +536,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Win64 Shipping -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Win64 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Win64 Shipping -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Shipping_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -553,10 +553,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool UWP64 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool UWP64 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool UWP64 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool UWP64 Shipping -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool UWP64 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool UWP64 Shipping -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -570,10 +570,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool UWP32 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool UWP32 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool UWP32 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool UWP32 Shipping -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool UWP32 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool UWP32 Shipping -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -587,10 +587,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\BuildPatchTool</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool Mac Shipping -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool Mac Shipping -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool Mac Shipping -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\BuildPatchTool</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -604,40 +604,40 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Shipping -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Shipping -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\BuildPatchTool.js</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" BuildPatchTool HTML5 Shipping -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" BuildPatchTool HTML5 Shipping -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" BuildPatchTool HTML5 Shipping -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\BuildPatchTool.js</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h" />
 	</ItemGroup>
 	<PropertyGroup>
 		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="BuildPatchTool-BuildPatchTool-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;BUILDPATCHTOOL_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;APPLICATIONCORE_API=;RHI_API=;BUILDPATCHSERVICES_API=;COREUOBJECT_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;PAKFILE_API=;SANDBOXFILE_API=;ENABLE_HTTP_FOR_NF=0;NETWORKFILE_API=;STREAMINGFILE_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;MESSAGING_API=;AUTOMATIONWORKER_API=;AUTOMATIONCONTROLLER_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchTool;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\ApplicationCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\RHI;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Online\BuildPatchServices\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Online\BuildPatchServices\Public\Interfaces;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchServices;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Online\BuildPatchServices;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\CoreUObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Projects;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Json;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\PakFile\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\PakFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\PakFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\SandboxFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Interfaces;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\NetworkFile\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetworkFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\NetworkFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\StreamingFile\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\StreamingFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\StreamingFile;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Sockets\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Sockets;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Sockets;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Messaging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\AutomationWorker\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationWorker;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\AutomationWorker;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\AutomationController\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationController;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\AutomationController;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchTool;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\ApplicationCore;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\RHI;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Online\BuildPatchServices\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Online\BuildPatchServices\Public\Interfaces;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchServices;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Online\BuildPatchServices;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Blueprint;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Internationalization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Misc;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Serialization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Templates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\UObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\CoreUObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Projects;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Json;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\PakFile\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\PakFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\PakFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\SandboxFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Interfaces;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\NetworkFile\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetworkFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\NetworkFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\StreamingFile\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\StreamingFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\StreamingFile;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Sockets\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Sockets;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Sockets;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Messaging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\AutomationWorker\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationWorker;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\AutomationWorker;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\AutomationController\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\AutomationController;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\AutomationController;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>

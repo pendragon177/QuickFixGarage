@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{089B92EA-97F1-4DC6-8ECC-6C1998D3EC36}</ProjectGuid>
+		<ProjectGuid>{BCAEBD60-EFE4-4097-B9F4-99948FBC09C0}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealLightmass</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -219,10 +219,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealLightmass-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealLightmass-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -236,10 +236,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealLightmass-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealLightmass-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -253,10 +253,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealLightmass-UWP64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealLightmass-UWP64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -270,10 +270,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealLightmass-UWP32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealLightmass-UWP32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -287,10 +287,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealLightmass-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealLightmass-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -304,10 +304,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealLightmass-HTML5-Debug.js</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealLightmass-HTML5-Debug.js</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -321,10 +321,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealLightmass.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\UnrealLightmass.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -338,10 +338,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealLightmass.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\UnrealLightmass.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -355,10 +355,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealLightmass.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\UnrealLightmass.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -372,10 +372,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealLightmass.exe</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\UnrealLightmass.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -389,10 +389,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass Mac Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass Mac Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealLightmass</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass Mac Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass Mac Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\UnrealLightmass</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -406,107 +406,107 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat UnrealLightmass HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat UnrealLightmass HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat UnrealLightmass HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealLightmass.js</NMakeOutput>
+		<NMakeBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat" UnrealLightmass HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat" UnrealLightmass HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat" UnrealLightmass HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\UnrealLightmass.js</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\GatheredLightingSample.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.inl" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Radiosity.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMappingSetup.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\MersennePrimeTwister.tps" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win32.manifest" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win64.manifest" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\resource.h" />
-		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Resource.rc" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Win32.manifest" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Win64.manifest" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\GatheredLightingSample.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.inl" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Radiosity.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMappingSetup.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h" />
+		<None Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\MersennePrimeTwister.tps" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h" />
+		<ClCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h" />
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win32.manifest" />
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win64.manifest" />
+		<ClInclude Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\resource.h" />
+		<ResourceCompile Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Resource.rc" />
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Win32.manifest" />
+		<Manifest Include="D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Win64.manifest" />
 	</ItemGroup>
 	<PropertyGroup>
 		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ALLOW_LOG_FILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealLightmass.exe";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UE_LIGHTMASS=1;USE_EMBREE=1;UNREALLIGHTMASS_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;SWARMINTERFACE_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;APPLICATIONCORE_API=;RHI_API=;MESSAGING_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Types;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\IntelEmbree\Embree270\Win64\include;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\UnrealLightmass;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\CoreUObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\zlib\v1.2.8\include\Win64\VS2015;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\zlib;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Editor\SwarmInterface\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\SwarmInterface;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Editor\SwarmInterface;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Projects;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Json;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\ApplicationCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\RHI;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\Windows\DX9;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Messaging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\Windows\DirectXLegacy\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Types;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\IntelEmbree\Embree270\Win64\include;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\UnrealLightmass;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Blueprint;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Internationalization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Misc;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Serialization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Templates;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\UObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\CoreUObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\zlib\v1.2.8\include\Win64\VS2015;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\zlib;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Editor\SwarmInterface\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\SwarmInterface;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Editor\SwarmInterface;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Projects;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Json;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\ApplicationCore;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\RHI;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\Windows\DX9;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging\Public;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Messaging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Messaging;D:\College Files\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\ThirdParty\Windows\DirectXLegacy\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
