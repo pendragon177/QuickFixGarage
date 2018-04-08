@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{2A312E97-19DE-40FF-8313-374A0841755D}</UniqueIdentifier>
+			<UniqueIdentifier>{8B64A58A-B0B0-418B-9302-BE439B0E5C67}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\Private\DsymExporterApp.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\Private\DsymExporterApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{EF90746C-C314-4735-87F6-115024A44DCC}</UniqueIdentifier>
+			<UniqueIdentifier>{D5852E02-9609-46E1-9741-83048615608B}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\Private\Mac\DsymExporterMainMac.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\Private\Mac\DsymExporterMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{BBA05882-1909-4C99-80BB-D2BACAB226BE}</UniqueIdentifier>
+			<UniqueIdentifier>{4E9A9137-6DDB-4481-9C98-117F44E1373A}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\Public\DsymExporterApp.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\DsymExporter\Public\DsymExporterApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 	</ItemGroup>

@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{F1BBF032-BC3B-472F-81F1-C2EB165E7A9B}</UniqueIdentifier>
+			<UniqueIdentifier>{C7A2E63B-963F-4638-B5BA-5FC5EE70640B}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\GenericPlatform">
-			<UniqueIdentifier>{0CC43C1F-0317-4F90-8A6E-459FFEDCCC62}</UniqueIdentifier>
+			<UniqueIdentifier>{E414B13F-9622-4AAE-9248-1EE7A570E84F}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
 			<Filter>Private\GenericPlatform</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h">
 			<Filter>Private\GenericPlatform</Filter>
 		</ClInclude >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{5267638E-E77B-4685-BD90-6EFAFF1DF43F}</UniqueIdentifier>
+			<UniqueIdentifier>{2116AA03-076F-4C29-891D-FE754482AB32}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h">
 			<Filter>Private\Windows</Filter>
 		</ClInclude >
 		<Filter Include="Private\Windows\Resources">
-			<UniqueIdentifier>{F11CC0BF-8DF6-4FCA-A881-D03DAE04AACD}</UniqueIdentifier>
+			<UniqueIdentifier>{D72CC2D5-AA5F-4DD6-BF99-C15B01ED61B1}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico">
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico">
 			<Filter>Private\Windows\Resources</Filter>
 		</None >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h">
 			<Filter>Private\Windows\Resources</Filter>
 		</ClInclude >
-		<ResourceCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc">
+		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc">
 			<Filter>Private\Windows\Resources</Filter>
 		</ResourceCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\VersionResource.inl">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\VersionResource.inl">
 			<Filter>Private\Windows\Resources</Filter>
 		</ClInclude >
 	</ItemGroup>

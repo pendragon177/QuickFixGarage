@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{7B11C210-A129-4D14-9D09-9971F2B9048A}</UniqueIdentifier>
+			<UniqueIdentifier>{4EF63E12-9A9C-47D0-8322-C3ECD384AA2C}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{790E7DCC-A35C-4A31-A1C5-23ED37AF2E20}</UniqueIdentifier>
+			<UniqueIdentifier>{DD075ABE-3C75-43F0-BDD2-5662E22818B9}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Linux\UnrealWatchdogMainLinux.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Linux\UnrealWatchdogMainLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{DAEAB1E4-BEA3-4CB0-8744-25DCE5770852}</UniqueIdentifier>
+			<UniqueIdentifier>{7C98DAE0-1953-4744-B742-67AC0EA1EE2D}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Mac\UnrealWatchdogMainMac.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Mac\UnrealWatchdogMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{2EE652FB-BF36-4675-969F-85BCF76CD774}</UniqueIdentifier>
+			<UniqueIdentifier>{CB1CF71D-1B21-4A2A-B82E-2ABA3928B7AF}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Windows\UnrealWatchdogMainWindows.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Windows\UnrealWatchdogMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 	</ItemGroup>

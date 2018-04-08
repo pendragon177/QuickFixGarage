@@ -1,89 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{933B5AD7-3B54-42C3-8CA6-09F31BEBDDCA}</UniqueIdentifier>
+			<UniqueIdentifier>{D297AB5B-D717-4630-B1C4-DFE5204A3F5B}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{EA89EFCE-AB24-48AE-AFFB-EBC94EFA3770}</UniqueIdentifier>
+			<UniqueIdentifier>{41564BE0-8272-4F9A-9169-E7B5B2703A4F}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\ToolModes">
-			<UniqueIdentifier>{A5A96651-95E9-44CF-BF89-CE1CB9A04D99}</UniqueIdentifier>
+			<UniqueIdentifier>{29CD33A1-4B6A-48A9-8974-1714AA9A098D}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{E1EE507F-D0E8-47C2-8366-113BB7DCEC04}</UniqueIdentifier>
+			<UniqueIdentifier>{A13DB161-8260-4924-A808-676B1E224588}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Public\Interfaces">
-			<UniqueIdentifier>{3FF6B1F0-54AE-4FE3-88AF-4775FEC49102}</UniqueIdentifier>
+			<UniqueIdentifier>{8773303A-B338-43B3-9701-071ACDAA2E18}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
 			<Filter>Public\Interfaces</Filter>
 		</ClInclude >
 		<Filter Include="Public\ToolModes">
-			<UniqueIdentifier>{1F774516-B1A2-4569-BD0C-6BCEC26FB228}</UniqueIdentifier>
+			<UniqueIdentifier>{8C8CEC2A-738C-4A11-8BC3-73D5D30151D9}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h">
 			<Filter>Public\ToolModes</Filter>
 		</ClInclude >
 	</ItemGroup>
