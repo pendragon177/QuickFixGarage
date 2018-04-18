@@ -4,14 +4,14 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{6435B4D8-B1E5-491F-A856-D187D4DB21AF}</UniqueIdentifier>
+			<UniqueIdentifier>{07D86DE6-63EC-465E-97D9-E97C3B5D1817}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{6EAB6BDD-CDF0-4149-9879-DA441B18A68D}</UniqueIdentifier>
+			<UniqueIdentifier>{B451D57D-EB23-4675-8061-BB446E26FD32}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\CrashDescription.cpp">
 			<Filter>Private</Filter>
@@ -89,7 +89,7 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{8C47D19B-4421-4264-B233-C8B9A3460B8D}</UniqueIdentifier>
+			<UniqueIdentifier>{7ACB9A5F-5F32-461D-82F3-ACAEF04773D1}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
 			<Filter>Private\Linux</Filter>
@@ -98,7 +98,7 @@
 			<Filter>Private\Linux</Filter>
 		</ClInclude >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{C82B10A5-C496-42BA-9ACF-E254572B3289}</UniqueIdentifier>
+			<UniqueIdentifier>{578C63E0-EC60-4F81-8049-6A92E45DE9D6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
 			<Filter>Private\Mac</Filter>
@@ -110,7 +110,7 @@
 			<Filter>Private\Mac</Filter>
 		</ClInclude >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{D52AF96A-73DA-4E23-9F7E-81A3BFD4121C}</UniqueIdentifier>
+			<UniqueIdentifier>{2841242C-8AC7-44BE-9B2B-C31D75738A81}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
@@ -122,16 +122,16 @@
 			<Filter>Private\Windows</Filter>
 		</ClInclude >
 		<Filter Include="Public">
-			<UniqueIdentifier>{9F8748A5-E8B7-49BD-9809-A202305E4577}</UniqueIdentifier>
+			<UniqueIdentifier>{76B33ECF-3446-4DE7-8FEA-F2CC97C4915E}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{30CF0239-7439-4805-97A2-79BADC723F31}</UniqueIdentifier>
+			<UniqueIdentifier>{3A7CBB89-286C-4B09-85BD-04CCB0B3FD47}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{0362CE1C-9C1C-4E14-9BD5-FF02CF05523E}</UniqueIdentifier>
+			<UniqueIdentifier>{CC4962BE-1454-4FF7-AB05-B9BFDD2422B7}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
