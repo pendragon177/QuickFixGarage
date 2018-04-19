@@ -5,7 +5,7 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\TestPAL\TestPAL.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\TestPAL\TestPAL.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{17EE3283-8CE7-406E-A143-5CA2F9256515}</UniqueIdentifier>
+			<UniqueIdentifier>{0FF7F865-E87B-4359-B03D-C5F2851643FA}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\TestPAL\Private\Main.cpp">
 			<Filter>Private</Filter>

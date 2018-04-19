@@ -5,7 +5,7 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{0BBE1E5F-041A-4170-BA13-D61350FB997A}</UniqueIdentifier>
+			<UniqueIdentifier>{1F019865-7268-4E22-8D96-2E03DD1DB70C}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\Private\SSymbolDebugger.cpp">
 			<Filter>Private</Filter>
@@ -23,28 +23,28 @@
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{86CCB3E3-27A3-4738-9725-F1B17512BD57}</UniqueIdentifier>
+			<UniqueIdentifier>{9486EBE7-852D-4143-9F49-0FE2FA438850}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\Private\Mac\SymbolDebuggerMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{E7743ED7-2DAF-45EB-B0DB-4DBB3C2E4327}</UniqueIdentifier>
+			<UniqueIdentifier>{C72FFD79-5180-441E-A98E-F5C1616B59E0}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\Private\Windows\SymbolDebuggerMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{3F6A7005-7D14-4D0B-9F26-A368BF67AAB4}</UniqueIdentifier>
+			<UniqueIdentifier>{D90F711E-91D0-48D4-AF40-7119B229E4FC}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\Public\SymbolDebuggerApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{1BD503A1-08A7-4CA7-A20C-7687168552C0}</UniqueIdentifier>
+			<UniqueIdentifier>{6C2E8A16-0A93-4A6B-AB87-9591E8B17714}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{E15E1FF0-74DD-486F-BEFB-2E4659DBFA62}</UniqueIdentifier>
+			<UniqueIdentifier>{32ED4F3F-276E-4245-B1D4-D1CE76C54337}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\SymbolDebugger\Resources\Windows\Debug-PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

@@ -4,14 +4,14 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{F13BB1F8-CF8F-4D64-9534-AAFB663DBAC5}</UniqueIdentifier>
+			<UniqueIdentifier>{99A699FC-DE94-4AC8-B395-1EEC8C5D8993}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{F05F3A06-617B-4D81-A137-5455961D373E}</UniqueIdentifier>
+			<UniqueIdentifier>{FC718329-A585-4637-A926-F14D1FFBD65B}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
 			<Filter>Private</Filter>
@@ -122,7 +122,7 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Specifiers">
-			<UniqueIdentifier>{A047487A-E7AF-4EB7-99EC-D94A822A7167}</UniqueIdentifier>
+			<UniqueIdentifier>{EBDD566A-BC70-4F8A-AEAA-95A36CD2E34E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
 			<Filter>Private\Specifiers</Filter>
@@ -158,13 +158,13 @@
 			<Filter>Private\Specifiers</Filter>
 		</ClInclude >
 		<Filter Include="Public">
-			<UniqueIdentifier>{C405957E-573E-47F6-B11D-6A3DDCCBD736}</UniqueIdentifier>
+			<UniqueIdentifier>{657C7969-B7F8-4D21-A0CB-9D81E8EA5B2C}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{CA5EE157-AF3E-47F0-AA32-619A861C5894}</UniqueIdentifier>
+			<UniqueIdentifier>{953D1D15-7691-4FBF-A8B6-66F927DFDADE}</UniqueIdentifier>
 		</Filter>
 		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc">
 			<Filter>Resources</Filter>
@@ -173,7 +173,7 @@
 			<Filter>Resources</Filter>
 		</Manifest >
 		<Filter Include="Resources\UHTDebugging">
-			<UniqueIdentifier>{52853155-A576-41E6-A858-464B75F84A97}</UniqueIdentifier>
+			<UniqueIdentifier>{598EA987-7D78-493C-9261-0D01C32011E7}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
 			<Filter>Resources\UHTDebugging</Filter>
