@@ -4,20 +4,20 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{EA2FE3A7-3EE5-4C78-8E92-B4C9776546D5}</UniqueIdentifier>
+			<UniqueIdentifier>{55408ABC-2B8F-47E1-AE65-E7FCB65B90D1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\Mac">
-			<UniqueIdentifier>{CCDE7C2E-DA82-454D-9EBF-05AD39FD0BED}</UniqueIdentifier>
+			<UniqueIdentifier>{07854CED-78B6-4F6E-BAF5-1DEDEB455978}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
 			<Filter>Config\Mac</Filter>
 		</None >
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{2B1F4277-C87E-41F8-88E5-D574058412CD}</UniqueIdentifier>
+			<UniqueIdentifier>{4952852E-71B4-4246-8353-9F370E9C9A9E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
 			<Filter>Private</Filter>
@@ -26,7 +26,7 @@
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{4294B949-2FA3-479E-8E40-0BD296EBF4EA}</UniqueIdentifier>
+			<UniqueIdentifier>{7073772B-1669-40DF-B11E-CEB0BAA14A2E}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
 			<Filter>Resources</Filter>

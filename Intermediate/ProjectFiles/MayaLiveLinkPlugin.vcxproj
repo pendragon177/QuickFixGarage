@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{0B87B69B-7211-4B7A-8650-1518EED983E2}</ProjectGuid>
+		<ProjectGuid>{509AFC75-1644-4477-8316-DC5B6D169EA0}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>MayaLiveLinkPlugin</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -219,10 +219,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\MayaLiveLinkPlugin-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\MayaLiveLinkPlugin-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -236,10 +236,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\MayaLiveLinkPlugin-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\MayaLiveLinkPlugin-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -253,10 +253,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\MayaLiveLinkPlugin-UWP64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\MayaLiveLinkPlugin-UWP64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -270,10 +270,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\MayaLiveLinkPlugin-UWP32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\MayaLiveLinkPlugin-UWP32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -287,10 +287,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\MayaLiveLinkPlugin-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\MayaLiveLinkPlugin-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -304,10 +304,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\MayaLiveLinkPlugin-HTML5-Debug.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\MayaLiveLinkPlugin-HTML5-Debug.js</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -321,10 +321,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\MayaLiveLinkPlugin.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\MayaLiveLinkPlugin.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -338,10 +338,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\MayaLiveLinkPlugin.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\MayaLiveLinkPlugin.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -355,10 +355,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\MayaLiveLinkPlugin.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\MayaLiveLinkPlugin.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -372,10 +372,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\MayaLiveLinkPlugin.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\MayaLiveLinkPlugin.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -389,10 +389,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Mac Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Mac Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\MayaLiveLinkPlugin</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin Mac Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin Mac Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\MayaLiveLinkPlugin</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -406,10 +406,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\MayaLiveLinkPlugin.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat MayaLiveLinkPlugin HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat MayaLiveLinkPlugin HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat MayaLiveLinkPlugin HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\MayaLiveLinkPlugin.js</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MayaLiveLinkPlugin\MayaLiveLinkPlugin.Target.cs" />
@@ -418,7 +418,7 @@
 	</ItemGroup>
 	<PropertyGroup>
 		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="MayaLiveLinkPlugin-MayaLiveLinkPlugin.mll";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;MAYALIVELINKPLUGIN_API=;UE_ENABLE_ICU=0;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;APPLICATIONCORE_API=;RHI_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;UDPMESSAGING_API=;LIVELINKINTERFACE_API=;LIVELINKMESSAGEBUSFRAMEWORK_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\MayaLiveLinkPlugin;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MayaLiveLinkPlugin;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\CoreUObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\ApplicationCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\RHI;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\Projects;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\Json;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\UdpMessaging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkInterface\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\LiveLinkInterface;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkInterface;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkMessageBusFramework\Public;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\LiveLinkMessageBusFramework;C:\Users\Pendr\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkMessageBusFramework;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\MayaLiveLinkPlugin;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MayaLiveLinkPlugin;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\CoreUObject;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\CoreUObject;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\ApplicationCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\RHI;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\Projects;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\Json;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\UdpMessaging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkInterface\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\LiveLinkInterface;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkInterface;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkMessageBusFramework\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\MayaLiveLinkPlugin\Inc\LiveLinkMessageBusFramework;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\LiveLinkMessageBusFramework;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>

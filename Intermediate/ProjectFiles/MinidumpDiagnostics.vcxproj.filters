@@ -5,34 +5,34 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\MinidumpDiagnostics.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\MinidumpDiagnostics.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{50A7515C-A7D1-48A9-A582-E13525A3B3EA}</UniqueIdentifier>
+			<UniqueIdentifier>{D9BA6B64-D0A9-44C9-8569-8673CA4862FC}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\Private\MinidumpDiagnosticsApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{E350E5FA-B7A7-4B19-9302-6DB18710268B}</UniqueIdentifier>
+			<UniqueIdentifier>{5FF0ACE8-1579-4826-B30B-FB337676183B}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\Private\Mac\MinidumpDiagnosticsMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{8DF849E8-F764-4301-BCEC-B52AF1F1D394}</UniqueIdentifier>
+			<UniqueIdentifier>{6217585F-95A3-4CB7-BF46-6560FFDC07AC}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\Private\Windows\MinidumpDiagnosticsMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{EA1433CB-0432-4E8C-A367-548B280CE397}</UniqueIdentifier>
+			<UniqueIdentifier>{EF973F2F-C8E8-4E07-AC61-73AD954549AF}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\Public\MinidumpDiagnosticsApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{1BA3C5C5-C5C9-492F-8D8E-6ECDA516CEDA}</UniqueIdentifier>
+			<UniqueIdentifier>{3BB43C3B-636C-4388-8508-3F1969ADA219}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{E72A66C7-A0D9-49CB-88FB-AF2554690915}</UniqueIdentifier>
+			<UniqueIdentifier>{C96B176F-4E69-418F-9BF6-D241602C0755}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
