@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup Label="ProjectConfigurations">
 		<ProjectConfiguration Include="Debug_Program|Win32">
 			<Configuration>Debug_Program</Configuration>
@@ -34,12 +34,28 @@
 			<Configuration>Mac_Debug_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|Win32">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Program|x64">
+			<Configuration>IOS_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
 			<Configuration>HTML5_Debug_Program</Configuration>
 			<Platform>Win32</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
 			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Debug_Program|Win32">
+			<Configuration>TVOS_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Debug_Program|x64">
+			<Configuration>TVOS_Debug_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Development_Program|Win32">
@@ -74,6 +90,14 @@
 			<Configuration>Mac_Development_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|Win32">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Program|x64">
+			<Configuration>IOS_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
 			<Configuration>HTML5_Development_Program</Configuration>
 			<Platform>Win32</Platform>
@@ -82,13 +106,21 @@
 			<Configuration>HTML5_Development_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Development_Program|Win32">
+			<Configuration>TVOS_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="TVOS_Development_Program|x64">
+			<Configuration>TVOS_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
 		<ProjectGuid>{2BEC4AD6-614A-4762-8BAC-56C16EB7E74F}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>ShaderCompileWorker</RootNamespace>
-		<PlatformToolset>v141</PlatformToolset>
-		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<PlatformToolset>v140</PlatformToolset>
+		<MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
 		<TargetRuntime>Native</TargetRuntime>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="Configuration">
@@ -126,83 +158,115 @@
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
-		<PlatformToolset>v141</PlatformToolset>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
 	</PropertyGroup>
 	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
 	<ImportGroup Label="ExtensionSettings" />
@@ -219,10 +283,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\ShaderCompileWorker-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\ShaderCompileWorker-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -236,10 +300,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\ShaderCompileWorker-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\ShaderCompileWorker-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -253,10 +317,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP64 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP64 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP64 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\ShaderCompileWorker-UWP64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\ShaderCompileWorker-UWP64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -270,10 +334,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP32 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP32 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP32 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\ShaderCompileWorker-UWP32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\ShaderCompileWorker-UWP32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -287,10 +351,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Mac Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Mac Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Mac Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\ShaderCompileWorker-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\ShaderCompileWorker-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker IOS Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker IOS Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker IOS Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\IOS\ShaderCompileWorker-IOS-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -304,10 +385,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker HTML5 Debug -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker HTML5 Debug -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker HTML5 Debug -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\ShaderCompileWorker-HTML5-Debug.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\ShaderCompileWorker-HTML5-Debug.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker TVOS Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker TVOS Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker TVOS Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\TVOS\ShaderCompileWorker-TVOS-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -321,10 +419,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\ShaderCompileWorker.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win32\ShaderCompileWorker.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -338,10 +436,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\ShaderCompileWorker.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Win64\ShaderCompileWorker.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP64_Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -355,10 +453,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP64 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP64 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP64 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\ShaderCompileWorker.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP64\ShaderCompileWorker.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='UWP32_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -372,10 +470,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP32 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP32 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP32 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\ShaderCompileWorker.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker UWP32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker UWP32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker UWP32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\UWP32\ShaderCompileWorker.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -389,10 +487,27 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Mac Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Mac Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Mac Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\ShaderCompileWorker</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\Mac\ShaderCompileWorker</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker IOS Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker IOS Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker IOS Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\IOS\ShaderCompileWorker</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -406,28 +521,45 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker HTML5 Development -waitmutex -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker HTML5 Development -waitmutex -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker HTML5 Development -waitmutex -2017</NMakeCleanCommandLine>
-		<NMakeOutput>C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\ShaderCompileWorker.js</NMakeOutput>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\HTML5\ShaderCompileWorker.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TVOS_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Build.bat ShaderCompileWorker TVOS Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Rebuild.bat ShaderCompileWorker TVOS Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Build\BatchFiles\Clean.bat ShaderCompileWorker TVOS Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Binaries\TVOS\ShaderCompileWorker</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp" />
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest" />
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h" />
-		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest" />
-		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp" />
+		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest" />
+		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest" />
+		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h" />
+		<ResourceCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc" />
+		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest" />
+		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest" />
 	</ItemGroup>
 	<PropertyGroup>
-		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ALLOW_LOG_FILE=0;ALLOW_WINDOWS_ERROR_REPORT_LIB=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=0;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="ShaderCompileWorker.exe";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;SHADERCOMPILEWORKER_API=;UE_ENABLE_ICU=0;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;SHADERCORE_API=;RHI_API=;RENDERCORE_API=;SANDBOXFILE_API=;TARGETPLATFORM_API=;DESKTOPPLATFORM_API=;LAUNCHERPLATFORM_API=;APPLICATIONCORE_API=;WITH_LAUNCHERCHECK=0;LAUNCH_API=;PROFILERSERVICE_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ShaderCompileWorker;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\Projects;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\Json;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ShaderCore\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ShaderCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ShaderCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\RHI;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RenderCore\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\RenderCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RenderCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\SandboxFile;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform\Public\Common;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform\Public\Interfaces;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\TargetPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\DesktopPlatform\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\DesktopPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\DesktopPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Portal\LauncherPlatform\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\LauncherPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Portal\LauncherPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ApplicationCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\Launch;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\ProfilerService\Public;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ProfilerService;C:\Users\Patrique\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\ProfilerService;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ALLOW_LOG_FILE=0;ALLOW_WINDOWS_ERROR_REPORT_LIB=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=0;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0602;WINVER=0x0602;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="ShaderCompileWorker.exe";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;SHADERCOMPILEWORKER_API=;UE_ENABLE_ICU=0;WITH_VS_PERF_PROFILER=1;WITH_DIRECTXMATH=0;CORE_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=;SHADERCORE_API=;RHI_API=;RENDERCORE_API=;SANDBOXFILE_API=;TARGETPLATFORM_API=;DESKTOPPLATFORM_API=;LAUNCHERPLATFORM_API=;APPLICATIONCORE_API=;WITH_LAUNCHERCHECK=0;LAUNCH_API=;PROFILERSERVICE_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Private;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ShaderCompileWorker;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\ShaderCompileWorker;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Internationalization;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Async;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Concurrency;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Containers;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Delegates;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\HAL;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Logging;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Math;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Misc;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Stats;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Templates;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\UObject;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core\Public\Windows;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Core;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects\Public\Interfaces;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\Projects;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Projects;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Dom;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Policies;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json\Public\Serialization;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\Json;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Json;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ShaderCore\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ShaderCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ShaderCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\RHI;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RHI;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RenderCore\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\RenderCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\RenderCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\SandboxFile;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\SandboxFile;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform\Public\Common;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform\Public\Interfaces;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\TargetPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\TargetPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\DesktopPlatform\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\DesktopPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\DesktopPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Portal\LauncherPlatform\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\LauncherPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Portal\LauncherPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ApplicationCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\ApplicationCore;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\Launch;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Runtime\Launch;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\ProfilerService\Public;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Inc\ProfilerService;C:\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Developer\ProfilerService;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>

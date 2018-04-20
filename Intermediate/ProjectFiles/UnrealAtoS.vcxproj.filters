@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Target.cs" />
-		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Build.cs" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Target.cs" />
+		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{4801520B-08FA-4EE0-8AF0-E21035E3316D}</UniqueIdentifier>
+			<UniqueIdentifier>{7A64CD3A-A791-4DBA-A522-FAF1845A3215}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Private\UnrealAtoSApp.cpp">
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Private\UnrealAtoSApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{99A4A095-5C9B-49A7-B407-6001C60E5F83}</UniqueIdentifier>
+			<UniqueIdentifier>{B1CEF8E7-C99B-4580-A04B-B8F4D006D1FE}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Private\Mac\UnrealAtoSMainMac.cpp">
+		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Private\Mac\UnrealAtoSMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{6F8BDF57-C3A7-4071-99C0-3897587B165E}</UniqueIdentifier>
+			<UniqueIdentifier>{FD9D99A4-3863-42D3-8040-63426C72092F}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Public\UnrealAtoSApp.h">
+		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UnrealAtoS\Public\UnrealAtoSApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 	</ItemGroup>
