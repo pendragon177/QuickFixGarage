@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Build.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.tps" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.uproject" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.tps" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.uproject" />
 		<Filter Include="Build">
-			<UniqueIdentifier>{B35EBDD9-3011-485E-8EF8-05072D3E1A84}</UniqueIdentifier>
+			<UniqueIdentifier>{68E45191-4EC8-42E5-B598-665C30CB154B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Build\IOS">
-			<UniqueIdentifier>{959A44AC-E0A9-4218-9E45-9AC5C67FBD75}</UniqueIdentifier>
+			<UniqueIdentifier>{B974727F-A331-455A-9CEF-C7F1C4BE4AC0}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Build\IOS\UnrealLaunchDaemon-Info.plist">
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Build\IOS\UnrealLaunchDaemon-Info.plist">
 			<Filter>Build\IOS</Filter>
 		</None >
 		<Filter Include="Private">
-			<UniqueIdentifier>{3A78C09E-8288-42E1-9390-6692D8E9D15C}</UniqueIdentifier>
+			<UniqueIdentifier>{F65286A9-3E71-4C23-ACD8-5C5DB2158805}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemon.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemon.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\IOS">
-			<UniqueIdentifier>{1374355E-08AF-439C-A6B4-CB690B4AF877}</UniqueIdentifier>
+			<UniqueIdentifier>{F85C0494-73A8-4B66-94A6-2336A187C486}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonAppMain.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonAppMain.cpp">
 			<Filter>Private\IOS</Filter>
 		</ClCompile >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.cpp">
 			<Filter>Private\IOS</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.h">
 			<Filter>Private\IOS</Filter>
 		</ClInclude >
 	</ItemGroup>

@@ -1,79 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{06C900D7-9513-46EE-8A42-F678A2ED850D}</UniqueIdentifier>
+			<UniqueIdentifier>{B9A8E49C-4C43-44FF-AD11-2C0BC45E7DE5}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{FC22C83B-DC65-4A40-B409-832387A618D2}</UniqueIdentifier>
+			<UniqueIdentifier>{32BB1B79-CE8E-4BA3-A1AA-E90A25049121}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{48EC4260-7089-458F-BDDE-03CE40CDE344}</UniqueIdentifier>
+			<UniqueIdentifier>{EB4A57C4-3E95-4D57-95F5-CB3446F071D6}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{1601075D-AE6F-4830-BE22-BD1892BE3CEB}</UniqueIdentifier>
+			<UniqueIdentifier>{6E78B28F-AF9E-414A-AFB6-83ED8E3835B3}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{286193F3-643F-4D47-8AB6-4AD5756B4BDB}</UniqueIdentifier>
+			<UniqueIdentifier>{313F0852-5A8C-4B33-AA16-AE02864073ED}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{ABF1608B-6166-478F-A589-DE96E0DB4851}</UniqueIdentifier>
+			<UniqueIdentifier>{4F38595B-E1CB-4A05-9EF5-D2714189AC73}</UniqueIdentifier>
 		</Filter>
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win64.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win32.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win64.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<ResourceCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess.rc">
+		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess.rc">
 			<Filter>Resources\Windows</Filter>
 		</ResourceCompile >
 	</ItemGroup>

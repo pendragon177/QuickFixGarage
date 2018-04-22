@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{51149F3B-3801-4B40-9839-2B9D6A684B13}</UniqueIdentifier>
+			<UniqueIdentifier>{BD731B96-9DB1-46C2-8D1E-BA8DA0DB77AB}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\Primes.inl">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\Primes.inl">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{33616300-16AE-4360-AFC2-790FAE71F443}</UniqueIdentifier>
+			<UniqueIdentifier>{0D4CC16E-1F93-4D1B-81C2-4D41938B2873}</UniqueIdentifier>
 		</Filter>
-		<ResourceCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
+		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
 			<Filter>Resources</Filter>
 		</ResourceCompile >
 	</ItemGroup>

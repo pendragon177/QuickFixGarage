@@ -1,109 +1,109 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{C368279B-766D-4EBD-8E0F-5D0ABE4A60AF}</UniqueIdentifier>
+			<UniqueIdentifier>{18921A6C-C29D-4142-8E03-06AD648B4F16}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{AAB9AE52-B530-46D9-81AA-BBE62A66AD9F}</UniqueIdentifier>
+			<UniqueIdentifier>{CEC64DC8-7F1D-4709-9CC4-6ED030DD0226}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Commands">
-			<UniqueIdentifier>{4A0AB5A9-FDA4-478B-8043-96F687339DA3}</UniqueIdentifier>
+			<UniqueIdentifier>{0183C5E8-4AB8-411D-8E76-258553D7F2FE}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
 			<Filter>Private\Commands</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h">
+		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h">
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{151B1B7B-3BEC-47AE-AD1B-1FF0D4A3FBE2}</UniqueIdentifier>
+			<UniqueIdentifier>{A8A81773-1F7C-4559-B137-C631B295B6BB}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{DE65A3DC-D722-47C3-810C-FF6ECEE3D830}</UniqueIdentifier>
+			<UniqueIdentifier>{373F0A4C-89B4-4105-B584-786CBA0178BD}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{1A3EF209-F7ED-4AC7-97B0-D4B6171199AD}</UniqueIdentifier>
+			<UniqueIdentifier>{8FB9BBA5-B90B-462C-B852-041216DB1E78}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
+		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{61A0B92A-648C-4257-9522-1B3D2FC026B5}</UniqueIdentifier>
+			<UniqueIdentifier>{F9ED9B5A-E069-43A2-87CB-14EA9DA3544A}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{3F8F4B17-F801-42AC-BBFB-C4FEBF19C255}</UniqueIdentifier>
+			<UniqueIdentifier>{850B6E55-DBE3-4C7F-9225-761266FB1892}</UniqueIdentifier>
 		</Filter>
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<Manifest Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest">
+		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest">
 			<Filter>Resources\Windows</Filter>
 		</Manifest >
-		<None Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico">
+		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico">
 			<Filter>Resources\Windows</Filter>
 		</None >
-		<ResourceCompile Include="..\..\..\..\..\..\..\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc">
+		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc">
 			<Filter>Resources\Windows</Filter>
 		</ResourceCompile >
 	</ItemGroup>

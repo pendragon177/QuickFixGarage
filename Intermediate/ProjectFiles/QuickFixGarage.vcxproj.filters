@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\QuickFixGarage.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{081BDADC-072E-4300-AABC-CBBE567C0D80}</UniqueIdentifier>
+			<UniqueIdentifier>{B9039738-FD09-4809-843A-A20BCB60E8C4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\QuickFixGarage.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8D38B5EB-3432-4E2F-977A-038512C92A4F}</UniqueIdentifier>
+			<UniqueIdentifier>{D179ED76-70A2-4E13-89AB-2EDBCB8CF5F3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,13 +31,13 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\UWP">
-			<UniqueIdentifier>{FAD4F6AA-D52E-47B5-B47C-E43973C5D8EF}</UniqueIdentifier>
+			<UniqueIdentifier>{2C5A1824-140D-4C04-AD19-58EA829E1261}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\UWP\UWPEngine.ini">
 			<Filter>Config\UWP</Filter>
 		</None >
 		<Filter Include="Source\QuickFixGarage">
-			<UniqueIdentifier>{6C0539E7-94E6-47E9-9764-523356014605}</UniqueIdentifier>
+			<UniqueIdentifier>{63F0C6F5-C8B9-4D8D-A982-486584EAA295}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\QuickFixGarage\ControllerPull.cpp">
 			<Filter>Source\QuickFixGarage</Filter>
