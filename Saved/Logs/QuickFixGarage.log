@@ -1,4 +1,4 @@
-﻿Log file open, 04/22/18 11:51:06
+﻿Log file open, 04/22/18 11:55:13
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,11 +7,11 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: QuickFixGarage
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1854011652) SRandInit(-1854011651).
+LogInit: Display: RandInit(-891279843) SRandInit(-891279843).
 LogInit: Read version file with build ID '9b291dfd-61a1-4ab7-b4ae-1effdb1c508d'
 LogInit: Registered custom module enumerator with build ID '9b291dfd-61a1-4ab7-b4ae-1effdb1c508d'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.177132
+LogStats: Stats thread started at 0.167625
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -198,562 +198,579 @@ LogInit: Base directory: C:/Users/Patrique/Desktop/MICROSOFT_UWP_UNREAL-release_
 LogInit: Installed Engine Build: 0
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.22-15.51.08:904][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.22-15.51.08:905][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.22-15.51.08:916][  0]LogInit: Computer: PAT-DESKTOP
-[2018.04.22-15.51.08:916][  0]LogInit: User: Patrique
-[2018.04.22-15.51.08:916][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.22-15.51.08:916][  0]LogInit: High frequency timer resolution =3.903988 MHz
-[2018.04.22-15.51.08:916][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.22-15.51.08:916][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.22-15.51.08:916][  0]LogMemory: Process Physical Memory: 273.88 MB used, 273.88 MB peak
-[2018.04.22-15.51.08:916][  0]LogMemory: Process Virtual Memory: 271.66 MB used, 271.66 MB peak
-[2018.04.22-15.51.08:916][  0]LogMemory: Physical Memory: 6332.89 MB used,  9993.78 MB free, 16326.66 MB total
-[2018.04.22-15.51.08:916][  0]LogMemory: Virtual Memory: 690.67 MB used,  9993.78 MB free, 134217728.00 MB total
-[2018.04.22-15.51.09:060][  0]LogInit: Using OS detected language (en-US).
-[2018.04.22-15.51.09:060][  0]LogInit: Using OS detected locale (en-CA).
-[2018.04.22-15.51.09:063][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.22-15.51.09:417][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.22-15.51.09:635][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.22-15.51.09:685][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.04.22-15.51.09:685][  0]LogD3D11RHI:       4043/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.04.22-15.51.09:687][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.22-15.51.09:687][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.22-15.51.09:687][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.22-15.51.09:693][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.22-15.51.09:693][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.22-15.51.09:693][  0]LogWindows: EnumDisplayDevices:
-[2018.04.22-15.51.09:693][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.04.22-15.51.09:693][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.04.22-15.51.09:693][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.22-15.51.09:693][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.22-15.51.09:693][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.22-15.51.09:693][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.04.22-15.51.09:693][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.22-15.51.09:693][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.22-15.51.09:693][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.04.22-15.51.09:724][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.22-15.51.09:740][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.22-15.51.09:831][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Documents/GitHub/QuickFixGarage/Intermediate/Shaders/WorkingDirectory/4604/).
-[2018.04.22-15.51.09:831][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Patrique/AppData/Local/Temp/UnrealShaderWorkingDir/7B82A6CD4CE726210DCB07AB37B644A6/'.
-[2018.04.22-15.51.09:831][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.22-15.51.10:824][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.22-15.51.10:875][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.22-15.51.10:949][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.22-15.51.10:999][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.22-15.51.11:049][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.22-15.51.11:131][  0]LogTemp: Display: Loaded TP UWP32TargetPlatform
-[2018.04.22-15.51.11:178][  0]LogTemp: Display: Loaded TP UWPTargetPlatform
-[2018.04.22-15.51.11:228][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.22-15.51.11:278][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.22-15.51.11:328][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.22-15.51.11:390][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.22-15.51.11:437][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.22-15.51.11:485][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.22-15.51.11:550][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.22-15.51.11:618][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.22-15.51.11:681][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.22-15.51.11:777][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.22-15.51.11:777][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.22-15.51.11:826][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.22-15.51.11:866][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.22-15.51.12:001][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.22-15.51.12:025][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.22-15.51.12:025][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.22-15.51.12:554][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.22-15.51.12:621][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
-[2018.04.22-15.51.12:622][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc
-[2018.04.22-15.51.12:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.22-15.51.12:622][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.22-15.51.12:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.22-15.51.12:622][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2018.04.22-15.51.12:635][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2018.04.22-15.51.12:635][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.04.22-15.51.12:635][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.04.22-15.51.12:644][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.22-15.51.12:644][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.22-15.51.12:645][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.22-15.51.12:645][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.22-15.51.13:120][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.22-15.51.13:424][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.22-15.51.13:424][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.22-15.51.13:424][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.22-15.51.13:424][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2018.04.22-15.51.13:424][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.22-15.51.13:424][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2018.04.22-15.51.13:471][  0]LogNetVersion: QuickFixGarage , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109594481)
-[2018.04.22-15.51.13:616][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
-[2018.04.22-15.51.14:075][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.058461 seconds
-[2018.04.22-15.51.14:079][  0]LogUObjectArray: 35857 objects as part of root set at end of initial load.
-[2018.04.22-15.51.14:079][  0]LogUObjectAllocator: 7365024 out of 0 bytes used by permanent object pool.
-[2018.04.22-15.51.14:079][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.04.22-15.51.14:891][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.04.22-15.51.14:891][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:892][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2018.04.22-15.51.14:892][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.14:893][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.04.22-15.51.14:893][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.04.22-15.51.16:921][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.22-15.51.16:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.22-15.51.18:002][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.22-15.51.18:553][  0]SourceControl: Source control is disabled
-[2018.04.22-15.51.18:553][  0]SourceControl: Source control is disabled
-[2018.04.22-15.51.18:668][  0]SourceControl: Source control is disabled
-[2018.04.22-15.51.18:776][  0]SourceControl: Source control is disabled
-[2018.04.22-15.51.19:862][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.22-15.51.20:194][  0]LogOcInput: OculusInput pre-init called
-[2018.04.22-15.51.20:566][  0]LogEngine: Initializing Engine...
-[2018.04.22-15.51.20:569][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.22-15.51.20:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.22-15.51.20:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.22-15.51.20:886][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.22-15.51.20:920][  0]LogInit: FAudioDevice initialized.
-[2018.04.22-15.51.21:958][  0]LogDerivedDataCache: Saved boot cache 1.04s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
-[2018.04.22-15.51.21:989][  0]LogInit: Texture streaming: Enabled
-[2018.04.22-15.51.22:216][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.22-15.51.22:349][  0]LogInit: Transaction tracking system initialized
-[2018.04.22-15.51.22:805][  0]BlueprintLog: New page: Editor Load
-[2018.04.22-15.51.23:989][  0]LocalizationService: Localization service is disabled
-[2018.04.22-15.51.24:746][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.04.22-15.51.24:746][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.04.22-15.51.24:746][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2018.04.22-15.51.25:020][  0]LogConsoleResponse: Display: 
-[2018.04.22-15.51.25:183][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.22-15.51.25:183][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.22-15.51.25:183][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.22-15.51.25:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/' took 0.02s
-[2018.04.22-15.51.26:563][  0]SourceControl: Source control is disabled
-[2018.04.22-15.51.26:563][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.22-15.51.26:566][  0]LightingResults: New page: Lighting Build
-[2018.04.22-15.51.26:630][  0]MapCheck: New page: Map Check
-[2018.04.22-15.51.26:630][  0]LightingResults: New page: Lighting Build
-[2018.04.22-15.51.27:862][  0]LogAIModule: Creating AISystem for world Level_1
-[2018.04.22-15.51.27:878][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.22-15.51.27:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.22-15.51.27:962][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.242ms to complete.
-[2018.04.22-15.51.27:962][  0]LogFileHelpers: Loading map 'Level_1' took 1.399
-[2018.04.22-15.51.28:247][  0]LogCollectionManager: Loaded 0 collections in 0.002970 seconds
-[2018.04.22-15.51.28:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Saved/Collections/' took 0.01s
-[2018.04.22-15.51.28:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Developers/Patrique/Collections/' took 0.01s
-[2018.04.22-15.51.28:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Collections/' took 0.01s
-[2018.04.22-15.51.28:411][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.22-15.51.28:423][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2365 classes and 521 folders.
-[2018.04.22-15.51.28:498][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.04.22-15.51.28:538][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.04.22-15.51.28:582][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.04.22-15.51.28:674][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.22-15.51.28:675][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.22-15.51.28:680][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.22-15.51.28:740][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.04.22-15.51.28:953][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.04.22-15.51.28:953][  0]LogLoad: (Engine Initialization) Total time: 22.88 seconds
-[2018.04.22-15.51.28:953][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.22-15.51.28:954][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.22-15.51.29:316][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.22-15.51.29:356][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.22-15.51.29:654][  1]LogAssetRegistry: Asset discovery search completed in 16.0593 seconds
-[2018.04.22-15.51.29:658][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.22-15.51.29:658][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
-[2018.04.22-15.51.30:329][  3]LogSlate: Took 0.000590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.22-15.51.34:067][ 25]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.22-15.51.34:328][ 25]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
-[2018.04.22-15.51.34:919][ 25]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.22-15.51.41:520][524]LogConsoleManager: Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
-[2018.04.22-15.51.46:419][917]BlueprintLog: New page: Compile StatsWidget
-[2018.04.22-15.51.47:493][  1]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.22-15.52.14:752][220]BlueprintLog: New page: Compile StatsWidget
-[2018.04.22-15.52.24:881][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/StatsWidget" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/StatsWidget.uasset" SILENT=true
-[2018.04.22-15.52.24:947][164]LogSavePackage: Save=19.94ms
-[2018.04.22-15.52.24:947][164]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/StatsWidgetE462DCE8418DF94E95C3238E7E9D3C39.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/StatsWidget.uasset'
-[2018.04.22-15.52.24:949][164]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/StatsWidget.uasset
-[2018.04.22-15.52.25:009][164]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.22-15.52.25:168][165]Cmd: QUIT_EDITOR
-[2018.04.22-15.52.25:189][165]LogExit: Preparing to exit.
-[2018.04.22-15.52.26:056][165]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/', and we were unable to create a new request.
-[2018.04.22-15.52.26:102][165]LogExit: Editor shut down
-[2018.04.22-15.52.26:105][165]LogExit: Transaction tracking system shut down
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../../../Documents/GitHub/QuickFixGarage/Content/' was aborted.
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.22-15.52.26:279][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.22-15.52.26:359][165]LogExit: Object subsystem successfully closed.
-[2018.04.22-15.52.26:382][165]LogD3D11RHI: Shutdown
-[2018.04.22-15.52.26:382][165]LogD3D11RHI: CleanupD3DDevice
-[2018.04.22-15.52.26:384][165]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.22-15.52.26:399][165]LogModuleManager: Shutting down and abandoning module SequencerWidgets (551)
-[2018.04.22-15.52.26:399][165]LogModuleManager: Shutting down and abandoning module BlueprintGraph (549)
-[2018.04.22-15.52.26:399][165]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (547)
-[2018.04.22-15.52.26:399][165]LogModuleManager: Shutting down and abandoning module DesktopPlatform (545)
-[2018.04.22-15.52.26:399][165]LogModuleManager: Shutting down and abandoning module SceneOutliner (543)
-[2018.04.22-15.52.26:399][165]LogModuleManager: Shutting down and abandoning module AddContentDialog (541)
-[2018.04.22-15.52.26:399][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Desktop/MICROSOFT_UWP_UNREAL-release_uwp/FeaturePacks/' was aborted.
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module WidgetCarousel (540)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module EditorWidgets (537)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module CollectionManager (535)
-[2018.04.22-15.52.26:400][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Collections/' was aborted.
-[2018.04.22-15.52.26:400][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Developers/Patrique/Collections/' was aborted.
-[2018.04.22-15.52.26:400][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Saved/Collections/' was aborted.
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module StatsViewer (533)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module FoliageEdit (531)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module LandscapeEditor (529)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module MeshPaintMode (527)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (525)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module ActorPickerMode (523)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module GeometryMode (521)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module TextureAlignMode (519)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module BspMode (517)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (515)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module HardwareSurvey (513)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (511)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module AutomationWorker (509)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (507)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (505)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module PlacementMode (504)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (501)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (499)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (497)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (495)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (493)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (491)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (489)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (487)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (485)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module CharacterAI (483)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module AudioCapture (481)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module SequenceRecorder (480)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module SmartSnapping (477)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module SessionServices (475)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module ViewportSnapping (473)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module ViewportInteraction (471)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module ClothPainter (469)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (468)
-[2018.04.22-15.52.26:400][165]LogModuleManager: Shutting down and abandoning module LogVisualizer (465)
-[2018.04.22-15.52.26:401][165]LogModuleManager: Shutting down and abandoning module IntroTutorials (463)
-[2018.04.22-15.52.26:401][165]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (462)
-[2018.04.22-15.52.26:401][165]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (459)
-[2018.04.22-15.52.26:401][165]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (457)
-[2018.04.22-15.52.26:401][165]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (455)
-[2018.04.22-15.52.26:401][165]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (454)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (451)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module UWPPlatformEditor (449)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (447)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (445)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module InputBindingEditor (443)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module MergeActors (441)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module SizeMap (439)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module TreeMap (437)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module ReferenceViewer (435)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (433)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module LocalizationService (432)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module HardwareTargeting (429)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (427)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module UndoHistory (425)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module XmlParser (423)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module Blutility (421)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (419)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (418)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (415)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module SettingsEditor (413)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module ProjectLauncher (411)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module SessionFrontend (409)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module ProfilerClient (407)
-[2018.04.22-15.52.26:578][165]LogModuleManager: Shutting down and abandoning module DeviceManager (405)
-[2018.04.22-15.52.26:579][165]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (404)
-[2018.04.22-15.52.26:652][165]LogModuleManager: Shutting down and abandoning module AutomationController (401)
-[2018.04.22-15.52.26:652][165]LogModuleManager: Shutting down and abandoning module AutomationWindow (399)
-[2018.04.22-15.52.26:652][165]LogModuleManager: Shutting down and abandoning module Layers (397)
-[2018.04.22-15.52.26:653][165]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (395)
-[2018.04.22-15.52.26:653][165]LogModuleManager: Shutting down and abandoning module DetailCustomizations (393)
-[2018.04.22-15.52.26:653][165]LogModuleManager: Shutting down and abandoning module PackagesDialog (391)
-[2018.04.22-15.52.26:653][165]LogModuleManager: Shutting down and abandoning module Persona (389)
-[2018.04.22-15.52.26:654][165]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (388)
-[2018.04.22-15.52.26:654][165]LogModuleManager: Shutting down and abandoning module AnimGraph (386)
-[2018.04.22-15.52.26:654][165]LogModuleManager: Shutting down and abandoning module Kismet (383)
-[2018.04.22-15.52.26:681][165]LogModuleManager: Shutting down and abandoning module ClassViewer (381)
-[2018.04.22-15.52.26:681][165]LogModuleManager: Shutting down and abandoning module Toolbox (379)
-[2018.04.22-15.52.26:681][165]LogModuleManager: Shutting down and abandoning module ModuleUI (377)
-[2018.04.22-15.52.26:681][165]LogModuleManager: Shutting down and abandoning module MovieSceneTools (375)
-[2018.04.22-15.52.26:682][165]LogModuleManager: Shutting down and abandoning module OutputLog (373)
-[2018.04.22-15.52.26:682][165]LogModuleManager: Shutting down and abandoning module GammaUI (371)
-[2018.04.22-15.52.26:682][165]LogModuleManager: Shutting down and abandoning module Documentation (369)
-[2018.04.22-15.52.26:682][165]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (367)
-[2018.04.22-15.52.26:682][165]LogModuleManager: Shutting down and abandoning module MovieScene (365)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (363)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module LauncherPlatform (361)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module AnalyticsET (359)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module PortalServices (357)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module PortalRpc (355)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module MessagingRpc (353)
-[2018.04.22-15.52.26:683][165]LogModuleManager: Shutting down and abandoning module AIModule (351)
-[2018.04.22-15.52.26:684][165]LogModuleManager: Shutting down and abandoning module GameplayDebugger (350)
-[2018.04.22-15.52.26:684][165]LogModuleManager: Shutting down and abandoning module AITestSuite (348)
-[2018.04.22-15.52.26:684][165]LogModuleManager: Shutting down and abandoning module ProfilerService (345)
-[2018.04.22-15.52.26:856][165]LogModuleManager: Shutting down and abandoning module TaskGraph (343)
-[2018.04.22-15.52.26:856][165]LogModuleManager: Shutting down and abandoning module SteamVRController (341)
-[2018.04.22-15.52.26:856][165]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (339)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (337)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module OculusInput (335)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (333)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (331)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module CableComponent (329)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (327)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module AndroidPermission (325)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module ActorSequence (323)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (321)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (319)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module MediaCompositing (317)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module HTML5Networking (315)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module AlembicImporter (313)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module AlembicLibrary (312)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module GeometryCache (311)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (310)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (305)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module PluginBrowser (303)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (301)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (299)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (297)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module UObjectPlugin (295)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (293)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (291)
-[2018.04.22-15.52.26:857][165]LogModuleManager: Shutting down and abandoning module GitSourceControl (289)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module SourceControl (288)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (285)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (283)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (281)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module Paper2DEditor (279)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module MeshPaint (278)
-[2018.04.22-15.52.26:858][165]LogModuleManager: Shutting down and abandoning module LevelEditor (276)
-[2018.04.22-15.52.26:859][165]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (275)
-[2018.04.22-15.52.26:859][165]LogModuleManager: Shutting down and abandoning module MainFrame (273)
-[2018.04.22-15.52.26:859][165]LogModuleManager: Shutting down and abandoning module HotReload (272)
-[2018.04.22-15.52.26:859][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Binaries/Win64' was aborted.
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module QuickFixGarage (267)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (265)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (263)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module PhysXVehicles (261)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module OculusEditor (259)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (257)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (255)
-[2018.04.22-15.52.26:860][165]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (253)
-[2018.04.22-15.52.26:861][165]LogModuleManager: Shutting down and abandoning module UdpMessaging (251)
-[2018.04.22-15.52.26:961][165]LogModuleManager: Shutting down and abandoning module TcpMessaging (249)
-[2018.04.22-15.52.27:062][165]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (247)
-[2018.04.22-15.52.27:062][165]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (245)
-[2018.04.22-15.52.27:062][165]LogModuleManager: Shutting down and abandoning module FacialAnimation (243)
-[2018.04.22-15.52.27:062][165]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (241)
-[2018.04.22-15.52.27:062][165]LogModuleManager: Shutting down and abandoning module GraphEditor (240)
-[2018.04.22-15.52.27:062][165]LogModuleManager: Shutting down and abandoning module ContentBrowser (238)
-[2018.04.22-15.52.27:066][165]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (235)
-[2018.04.22-15.52.27:066][165]LogModuleManager: Shutting down and abandoning module Paper2D (233)
-[2018.04.22-15.52.27:066][165]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (231)
-[2018.04.22-15.52.27:066][165]LogModuleManager: Shutting down and abandoning module WmfMedia (229)
-[2018.04.22-15.52.27:071][165]LogModuleManager: Shutting down and abandoning module ImgMedia (227)
-[2018.04.22-15.52.27:071][165]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
-[2018.04.22-15.52.27:071][165]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
-[2018.04.22-15.52.27:072][165]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
-[2018.04.22-15.52.27:072][165]LogModuleManager: Shutting down and abandoning module MediaAssets (219)
-[2018.04.22-15.52.27:072][165]LogModuleManager: Shutting down and abandoning module Media (218)
-[2018.04.22-15.52.27:078][165]LogModuleManager: Shutting down and abandoning module Overlay (215)
-[2018.04.22-15.52.27:078][165]LogModuleManager: Shutting down and abandoning module OverlayEditor (214)
-[2018.04.22-15.52.27:078][165]LogModuleManager: Shutting down and abandoning module VREditor (211)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module StringTableEditor (209)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (207)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (205)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module FunctionalTesting (203)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (201)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (200)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module UMG (197)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module UMGEditor (196)
-[2018.04.22-15.52.27:079][165]LogModuleManager: Shutting down and abandoning module Sequencer (195)
-[2018.04.22-15.52.27:080][165]LogModuleManager: Shutting down and abandoning module MessageLog (192)
-[2018.04.22-15.52.27:080][165]LogModuleManager: Shutting down and abandoning module SlateReflector (187)
-[2018.04.22-15.52.27:080][165]LogModuleManager: Shutting down and abandoning module Slate (185)
-[2018.04.22-15.52.27:080][165]LogModuleManager: Shutting down and abandoning module EditorStyle (183)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module MRMesh (181)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (179)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (177)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module XAudio2 (175)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module Networking (173)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module Core (171)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
-[2018.04.22-15.52.27:089][165]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.04.22-15.52.27:092][165]LogModuleManager: Shutting down and abandoning module KismetCompiler (163)
-[2018.04.22-15.52.27:092][165]LogModuleManager: Shutting down and abandoning module MeshUtilities (161)
-[2018.04.22-15.52.27:092][165]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (160)
-[2018.04.22-15.52.27:092][165]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (159)
-[2018.04.22-15.52.27:092][165]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
-[2018.04.22-15.52.27:092][165]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
-[2018.04.22-15.52.27:093][165]LogModuleManager: Shutting down and abandoning module DerivedDataCache (151)
-[2018.04.22-15.52.27:177][165]LogDerivedDataCache: Shutdown
-[2018.04.22-15.52.27:177][165]LogModuleManager: Shutting down and abandoning module TargetPlatform (149)
-[2018.04.22-15.52.27:177][165]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (148)
-[2018.04.22-15.52.27:177][165]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (146)
-[2018.04.22-15.52.27:177][165]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (144)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (142)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (140)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (138)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (136)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (134)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (132)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (130)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module ImageWrapper (129)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (126)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (124)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (122)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (120)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (118)
-[2018.04.22-15.52.27:178][165]LogModuleManager: Shutting down and abandoning module Messaging (116)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (114)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (112)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (110)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (108)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (106)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (104)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (102)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (100)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (98)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (96)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (94)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (92)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (90)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (88)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module UWPTargetPlatform (86)
-[2018.04.22-15.52.27:179][165]LogModuleManager: Shutting down and abandoning module UWPDeviceDetector (84)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module UWP32TargetPlatform (82)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (80)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (78)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (76)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (74)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (72)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module InputCore (69)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module Settings (67)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module PhysXCooking (65)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module SteamVR (63)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module OculusHMD (61)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (59)
-[2018.04.22-15.52.27:180][165]LogModuleManager: Shutting down and abandoning module AppleARKit (57)
-[2018.04.22-15.52.27:181][165]LogModuleManager: Shutting down and abandoning module AugmentedReality (56)
-[2018.04.22-15.52.27:181][165]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
-[2018.04.22-15.52.27:181][165]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
-[2018.04.22-15.52.27:181][165]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.04.22-15.52.27:181][165]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2018.04.22-15.52.27:182][165]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2018.04.22-15.52.27:183][165]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2018.04.22-15.52.27:183][165]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.22-15.52.27:183][165]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.22-15.52.27:183][165]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.22-15.52.27:183][165]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0E9DFBEC-403A-0A1C-5414-1C95B4BDCC6F%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.18.2-0%2B%2B%2BUE4%2BRelease-4.18&UserID=b0c8f0ab48c2a61507a5d7858176abed%7C8188d1f451ea4a559898d354cc353d53%7C45a0b155-8bc0-4877-97c5-e3ab8ce1847e&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
-[2018.04.22-15.52.27:187][165]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.22-15.52.27:191][165]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.22-15.52.27:191][165]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.22-15.52.27:191][165]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.22-15.52.27:191][165]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.22-15.52.27:192][165]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.22-15.52.27:192][165]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.22-15.52.27:192][165]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.22-15.52.27:195][165]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.22-15.52.27:196][165]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.22-15.52.27:196][165]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.22-15.52.27:196][165]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.22-15.52.27:196][165]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.22-15.52.27:208][165]LogExit: Exiting.
-[2018.04.22-15.52.27:255][165]Log file closed, 04/22/18 11:52:27
+[2018.04.22-15.55.15:649][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.22-15.55.15:649][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.22-15.55.15:685][  0]LogInit: Computer: PAT-DESKTOP
+[2018.04.22-15.55.15:685][  0]LogInit: User: Patrique
+[2018.04.22-15.55.15:685][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.22-15.55.15:685][  0]LogInit: High frequency timer resolution =3.903988 MHz
+[2018.04.22-15.55.15:686][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.22-15.55.15:686][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.22-15.55.15:686][  0]LogMemory: Process Physical Memory: 274.02 MB used, 274.02 MB peak
+[2018.04.22-15.55.15:686][  0]LogMemory: Process Virtual Memory: 271.57 MB used, 271.57 MB peak
+[2018.04.22-15.55.15:686][  0]LogMemory: Physical Memory: 6428.40 MB used,  9898.27 MB free, 16326.66 MB total
+[2018.04.22-15.55.15:686][  0]LogMemory: Virtual Memory: 690.67 MB used,  9898.27 MB free, 134217728.00 MB total
+[2018.04.22-15.55.15:846][  0]LogInit: Using OS detected language (en-US).
+[2018.04.22-15.55.15:846][  0]LogInit: Using OS detected locale (en-CA).
+[2018.04.22-15.55.15:848][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.22-15.55.16:247][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.22-15.55.16:471][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.22-15.55.16:510][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.22-15.55.16:510][  0]LogD3D11RHI:       4043/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.22-15.55.16:512][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.22-15.55.16:512][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.22-15.55.16:512][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.22-15.55.16:517][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.22-15.55.16:517][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.22-15.55.16:517][  0]LogWindows: EnumDisplayDevices:
+[2018.04.22-15.55.16:517][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.22-15.55.16:517][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.04.22-15.55.16:517][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.22-15.55.16:518][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.22-15.55.16:518][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.22-15.55.16:518][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.22-15.55.16:518][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.22-15.55.16:518][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.22-15.55.16:518][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.04.22-15.55.16:547][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.22-15.55.16:564][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.22-15.55.16:657][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../Documents/GitHub/QuickFixGarage/Intermediate/Shaders/WorkingDirectory/12740/).
+[2018.04.22-15.55.16:658][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Patrique/AppData/Local/Temp/UnrealShaderWorkingDir/345A7D6B48810892991DBC8541312997/'.
+[2018.04.22-15.55.16:658][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.22-15.55.17:507][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.22-15.55.17:557][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.22-15.55.17:607][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.22-15.55.17:658][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.22-15.55.17:707][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.22-15.55.17:792][  0]LogTemp: Display: Loaded TP UWP32TargetPlatform
+[2018.04.22-15.55.17:839][  0]LogTemp: Display: Loaded TP UWPTargetPlatform
+[2018.04.22-15.55.17:889][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.22-15.55.17:938][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.22-15.55.17:988][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.22-15.55.18:033][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.22-15.55.18:081][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.22-15.55.18:129][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.22-15.55.18:178][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.22-15.55.18:226][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.22-15.55.18:275][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.22-15.55.18:425][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.22-15.55.18:425][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.22-15.55.18:508][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.22-15.55.18:548][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.22-15.55.18:636][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.22-15.55.18:660][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.22-15.55.18:660][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.22-15.55.19:175][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.22-15.55.19:240][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
+[2018.04.22-15.55.19:240][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc
+[2018.04.22-15.55.19:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.22-15.55.19:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.22-15.55.19:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.22-15.55.19:240][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.04.22-15.55.19:253][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.04.22-15.55.19:253][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.04.22-15.55.19:253][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.04.22-15.55.19:263][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.22-15.55.19:263][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.22-15.55.19:264][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.22-15.55.19:264][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.22-15.55.19:568][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.22-15.55.19:852][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.22-15.55.19:852][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.22-15.55.19:852][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.22-15.55.19:852][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.04.22-15.55.19:852][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.22-15.55.19:852][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.04.22-15.55.19:883][  0]LogNetVersion: QuickFixGarage , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109594481)
+[2018.04.22-15.55.20:030][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.04.22-15.55.20:525][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.052582 seconds
+[2018.04.22-15.55.20:530][  0]LogUObjectArray: 35857 objects as part of root set at end of initial load.
+[2018.04.22-15.55.20:530][  0]LogUObjectAllocator: 7365024 out of 0 bytes used by permanent object pool.
+[2018.04.22-15.55.20:530][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.22-15.55.21:142][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.22-15.55.21:142][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.22-15.55.21:142][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:142][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:142][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:142][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:142][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.22-15.55.21:142][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:143][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.04.22-15.55.21:143][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:144][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.04.22-15.55.21:144][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.04.22-15.55.21:145][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:145][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:145][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:145][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:145][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.04.22-15.55.21:145][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.04.22-15.55.21:145][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:145][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.21:145][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.04.22-15.55.21:145][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.04.22-15.55.23:192][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.22-15.55.23:252][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.22-15.55.24:089][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.22-15.55.24:529][  0]SourceControl: Source control is disabled
+[2018.04.22-15.55.24:529][  0]SourceControl: Source control is disabled
+[2018.04.22-15.55.24:633][  0]SourceControl: Source control is disabled
+[2018.04.22-15.55.24:689][  0]SourceControl: Source control is disabled
+[2018.04.22-15.55.25:595][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.22-15.55.25:912][  0]LogOcInput: OculusInput pre-init called
+[2018.04.22-15.55.26:194][  0]LogEngine: Initializing Engine...
+[2018.04.22-15.55.26:196][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.22-15.55.26:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.22-15.55.26:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.22-15.55.26:515][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.22-15.55.26:537][  0]LogInit: FAudioDevice initialized.
+[2018.04.22-15.55.27:189][  0]LogDerivedDataCache: Saved boot cache 0.65s 78MB ../../../../../Documents/GitHub/QuickFixGarage/DerivedDataCache/Boot.ddc.
+[2018.04.22-15.55.27:213][  0]LogInit: Texture streaming: Enabled
+[2018.04.22-15.55.27:349][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.22-15.55.27:543][  0]LogInit: Transaction tracking system initialized
+[2018.04.22-15.55.27:867][  0]BlueprintLog: New page: Editor Load
+[2018.04.22-15.55.28:903][  0]LocalizationService: Localization service is disabled
+[2018.04.22-15.55.29:513][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.04.22-15.55.29:513][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.04.22-15.55.29:513][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2018.04.22-15.55.29:739][  0]LogConsoleResponse: Display: 
+[2018.04.22-15.55.29:909][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.22-15.55.29:909][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.22-15.55.29:909][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.22-15.55.31:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/' took 0.01s
+[2018.04.22-15.55.31:225][  0]SourceControl: Source control is disabled
+[2018.04.22-15.55.31:225][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.22-15.55.31:228][  0]LightingResults: New page: Lighting Build
+[2018.04.22-15.55.31:271][  0]MapCheck: New page: Map Check
+[2018.04.22-15.55.31:271][  0]LightingResults: New page: Lighting Build
+[2018.04.22-15.55.32:430][  0]LogAIModule: Creating AISystem for world Level_1
+[2018.04.22-15.55.32:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.22-15.55.32:463][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.22-15.55.32:528][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.569ms to complete.
+[2018.04.22-15.55.32:528][  0]LogFileHelpers: Loading map 'Level_1' took 1.303
+[2018.04.22-15.55.32:707][  0]LogCollectionManager: Loaded 0 collections in 0.002141 seconds
+[2018.04.22-15.55.32:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Saved/Collections/' took 0.01s
+[2018.04.22-15.55.32:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Developers/Patrique/Collections/' took 0.01s
+[2018.04.22-15.55.32:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Collections/' took 0.01s
+[2018.04.22-15.55.32:834][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.22-15.55.32:843][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2365 classes and 521 folders.
+[2018.04.22-15.55.32:911][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.04.22-15.55.32:952][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.22-15.55.32:998][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.04.22-15.55.33:087][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.22-15.55.33:089][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.22-15.55.33:092][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.22-15.55.33:155][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.22-15.55.33:337][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.04.22-15.55.33:337][  0]LogLoad: (Engine Initialization) Total time: 20.66 seconds
+[2018.04.22-15.55.33:337][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.22-15.55.33:337][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.22-15.55.33:346][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.22-15.55.33:365][  0]LogAssetRegistry: Asset discovery search completed in 13.3577 seconds
+[2018.04.22-15.55.33:367][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.22-15.55.33:367][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2018.04.22-15.55.33:369][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.22-15.55.33:412][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.22-15.55.52:770][294]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.22-15.55.53:025][294]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.04.22-15.55.53:604][294]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.22-15.55.53:604][294]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.22-15.55.55:030][404]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.22-15.55.58:826][803]LogBlueprint: Warning: [StatsWidget] 'carMoney' variable not found. Base class was probably changed. /Game/Blueprints/Maps/StatsWidget.StatsWidget
+[2018.04.22-15.55.58:826][803]LogBlueprint: Warning: [StatsWidget] 'carFixed' variable not found. Base class was probably changed. /Game/Blueprints/Maps/StatsWidget.StatsWidget
+[2018.04.22-15.56.05:582][496]BlueprintLog: New page: Compile StatsWidget
+[2018.04.22-15.56.05:590][496]LogBlueprint: Warning: [Compiler StatsWidget] Could not find a variable named "carFixed" in 'GameInstanceMulti_C'.
+Make sure 'GameInstanceMulti_C' has been compiled for  Get carFixed
+[2018.04.22-15.56.05:590][496]LogBlueprint: Warning: [Compiler StatsWidget] Could not find a variable named "carMoney" in 'GameInstanceMulti_C'.
+Make sure 'GameInstanceMulti_C' has been compiled for  Get carMoney
+[2018.04.22-15.56.05:591][496]LogBlueprint: Error: [Compiler StatsWidget] The property associated with  Car Fixed  could not be found
+[2018.04.22-15.56.05:591][496]LogBlueprint: Error: [Compiler StatsWidget] The property associated with  Car Money  could not be found
+[2018.04.22-15.56.05:612][496]LogBlueprint: Warning: [Compiler StatsWidget] [0052.93] Compile of StatsWidget failed. 2 Fatal Issue(s) 2 Warning(s) [in 30 ms] (/Game/Blueprints/Maps/StatsWidget.StatsWidget)
+[2018.04.22-15.56.59:927][512]BlueprintLog: New page: Compile StatsWidget
+[2018.04.22-15.56.59:935][512]LogBlueprint: Warning: [Compiler StatsWidget] Could not find a variable named "carFixed" in 'GameInstanceMulti_C'.
+Make sure 'GameInstanceMulti_C' has been compiled for  Get carFixed
+[2018.04.22-15.56.59:935][512]LogBlueprint: Warning: [Compiler StatsWidget] Could not find a variable named "carMoney" in 'GameInstanceMulti_C'.
+Make sure 'GameInstanceMulti_C' has been compiled for  Get carMoney
+[2018.04.22-15.56.59:935][512]LogBlueprint: Error: [Compiler StatsWidget] The property associated with  Car Fixed  could not be found
+[2018.04.22-15.56.59:936][512]LogBlueprint: Error: [Compiler StatsWidget] The property associated with  Car Money  could not be found
+[2018.04.22-15.56.59:956][512]LogBlueprint: Warning: [Compiler StatsWidget] [0107.27] Compile of StatsWidget failed. 2 Fatal Issue(s) 2 Warning(s) [in 28 ms] (/Game/Blueprints/Maps/StatsWidget.StatsWidget)
+[2018.04.22-15.57.07:791][366]PIE: Warning: Constraint in '/Engine/Transient.World_6:PersistentLevel.fuelHose_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.04.22-15.57.30:520][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/StatsWidget" FILE="../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/StatsWidget.uasset" SILENT=true
+[2018.04.22-15.57.30:597][493]LogSavePackage: Save=29.45ms
+[2018.04.22-15.57.30:597][493]LogSavePackage: Moving '../../../../../Documents/GitHub/QuickFixGarage/Saved/StatsWidget96B0C05047A6B5415156B9AD0AEE1317.tmp' to '../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/StatsWidget.uasset'
+[2018.04.22-15.57.30:600][493]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/GitHub/QuickFixGarage/Content/Blueprints/Maps/StatsWidget.uasset
+[2018.04.22-15.57.30:765][493]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.22-15.57.31:002][494]Cmd: QUIT_EDITOR
+[2018.04.22-15.57.31:070][494]LogExit: Preparing to exit.
+[2018.04.22-15.57.31:365][494]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/', and we were unable to create a new request.
+[2018.04.22-15.57.31:411][494]LogExit: Editor shut down
+[2018.04.22-15.57.31:415][494]LogExit: Transaction tracking system shut down
+[2018.04.22-15.57.31:679][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.22-15.57.31:680][494]LogDirectoryWatcher: A directory notification for '../../../../../Documents/GitHub/QuickFixGarage/Content/' was aborted.
+[2018.04.22-15.57.31:680][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.22-15.57.31:680][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.22-15.57.31:680][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.22-15.57.31:680][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.22-15.57.31:680][494]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.22-15.57.31:834][494]LogExit: Object subsystem successfully closed.
+[2018.04.22-15.57.31:857][494]LogD3D11RHI: Shutdown
+[2018.04.22-15.57.31:857][494]LogD3D11RHI: CleanupD3DDevice
+[2018.04.22-15.57.31:860][494]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.22-15.57.31:884][494]LogModuleManager: Shutting down and abandoning module SequencerWidgets (551)
+[2018.04.22-15.57.31:884][494]LogModuleManager: Shutting down and abandoning module BlueprintGraph (549)
+[2018.04.22-15.57.31:884][494]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (547)
+[2018.04.22-15.57.31:884][494]LogModuleManager: Shutting down and abandoning module DesktopPlatform (545)
+[2018.04.22-15.57.31:884][494]LogModuleManager: Shutting down and abandoning module SceneOutliner (543)
+[2018.04.22-15.57.31:884][494]LogModuleManager: Shutting down and abandoning module AddContentDialog (541)
+[2018.04.22-15.57.31:884][494]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Desktop/MICROSOFT_UWP_UNREAL-release_uwp/FeaturePacks/' was aborted.
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module WidgetCarousel (540)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module EditorWidgets (537)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module CollectionManager (535)
+[2018.04.22-15.57.31:885][494]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Collections/' was aborted.
+[2018.04.22-15.57.31:885][494]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Content/Developers/Patrique/Collections/' was aborted.
+[2018.04.22-15.57.31:885][494]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Saved/Collections/' was aborted.
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module StatsViewer (533)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module FoliageEdit (531)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module LandscapeEditor (529)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module MeshPaintMode (527)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (525)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module ActorPickerMode (523)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module GeometryMode (521)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module TextureAlignMode (519)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module BspMode (517)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (515)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module HardwareSurvey (513)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (511)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module AutomationWorker (509)
+[2018.04.22-15.57.31:885][494]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (507)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (505)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module PlacementMode (504)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (501)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (499)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (497)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (495)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (493)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (491)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (489)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (487)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (485)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module CharacterAI (483)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AudioCapture (481)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module SequenceRecorder (480)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module SmartSnapping (477)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module SessionServices (475)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module ViewportSnapping (473)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module ViewportInteraction (471)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module ClothPainter (469)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (468)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module LogVisualizer (465)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module IntroTutorials (463)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (462)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (459)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (457)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (455)
+[2018.04.22-15.57.31:886][494]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (454)
+[2018.04.22-15.57.32:411][494]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (451)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module UWPPlatformEditor (449)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (447)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (445)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module InputBindingEditor (443)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module MergeActors (441)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module SizeMap (439)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module TreeMap (437)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module ReferenceViewer (435)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (433)
+[2018.04.22-15.57.32:412][494]LogModuleManager: Shutting down and abandoning module LocalizationService (432)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module HardwareTargeting (429)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (427)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module UndoHistory (425)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module XmlParser (423)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module Blutility (421)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (419)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (418)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (415)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module SettingsEditor (413)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module ProjectLauncher (411)
+[2018.04.22-15.57.32:413][494]LogModuleManager: Shutting down and abandoning module SessionFrontend (409)
+[2018.04.22-15.57.32:414][494]LogModuleManager: Shutting down and abandoning module ProfilerClient (407)
+[2018.04.22-15.57.32:414][494]LogModuleManager: Shutting down and abandoning module DeviceManager (405)
+[2018.04.22-15.57.32:414][494]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (404)
+[2018.04.22-15.57.32:486][494]LogModuleManager: Shutting down and abandoning module AutomationController (401)
+[2018.04.22-15.57.32:486][494]LogModuleManager: Shutting down and abandoning module AutomationWindow (399)
+[2018.04.22-15.57.32:486][494]LogModuleManager: Shutting down and abandoning module Layers (397)
+[2018.04.22-15.57.32:486][494]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (395)
+[2018.04.22-15.57.32:486][494]LogModuleManager: Shutting down and abandoning module DetailCustomizations (393)
+[2018.04.22-15.57.32:486][494]LogModuleManager: Shutting down and abandoning module PackagesDialog (391)
+[2018.04.22-15.57.32:487][494]LogModuleManager: Shutting down and abandoning module Persona (389)
+[2018.04.22-15.57.32:487][494]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (388)
+[2018.04.22-15.57.32:487][494]LogModuleManager: Shutting down and abandoning module AnimGraph (386)
+[2018.04.22-15.57.32:487][494]LogModuleManager: Shutting down and abandoning module Kismet (383)
+[2018.04.22-15.57.32:512][494]LogModuleManager: Shutting down and abandoning module ClassViewer (381)
+[2018.04.22-15.57.32:512][494]LogModuleManager: Shutting down and abandoning module Toolbox (379)
+[2018.04.22-15.57.32:512][494]LogModuleManager: Shutting down and abandoning module ModuleUI (377)
+[2018.04.22-15.57.32:512][494]LogModuleManager: Shutting down and abandoning module MovieSceneTools (375)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module OutputLog (373)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module GammaUI (371)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module Documentation (369)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (367)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module MovieScene (365)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (363)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module LauncherPlatform (361)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module AnalyticsET (359)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module PortalServices (357)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module PortalRpc (355)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module MessagingRpc (353)
+[2018.04.22-15.57.32:513][494]LogModuleManager: Shutting down and abandoning module AIModule (351)
+[2018.04.22-15.57.32:514][494]LogModuleManager: Shutting down and abandoning module GameplayDebugger (350)
+[2018.04.22-15.57.32:514][494]LogModuleManager: Shutting down and abandoning module AITestSuite (348)
+[2018.04.22-15.57.32:514][494]LogModuleManager: Shutting down and abandoning module ProfilerService (345)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module TaskGraph (343)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module SteamVRController (341)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (339)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (337)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module OculusInput (335)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (333)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (331)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module CableComponent (329)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (327)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module AndroidPermission (325)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module ActorSequence (323)
+[2018.04.22-15.57.32:614][494]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (321)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (319)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module MediaCompositing (317)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module HTML5Networking (315)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module AlembicImporter (313)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module AlembicLibrary (312)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module GeometryCache (311)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (310)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (305)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module PluginBrowser (303)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (301)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (299)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (297)
+[2018.04.22-15.57.32:615][494]LogModuleManager: Shutting down and abandoning module UObjectPlugin (295)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (293)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (291)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module GitSourceControl (289)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module SourceControl (288)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (285)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (283)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (281)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module Paper2DEditor (279)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module MeshPaint (278)
+[2018.04.22-15.57.32:616][494]LogModuleManager: Shutting down and abandoning module LevelEditor (276)
+[2018.04.22-15.57.32:618][494]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (275)
+[2018.04.22-15.57.32:619][494]LogModuleManager: Shutting down and abandoning module MainFrame (273)
+[2018.04.22-15.57.32:619][494]LogModuleManager: Shutting down and abandoning module HotReload (272)
+[2018.04.22-15.57.32:619][494]LogDirectoryWatcher: A directory notification for 'C:/Users/Patrique/Documents/GitHub/QuickFixGarage/Binaries/Win64' was aborted.
+[2018.04.22-15.57.32:620][494]LogModuleManager: Shutting down and abandoning module QuickFixGarage (267)
+[2018.04.22-15.57.32:620][494]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (265)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (263)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module PhysXVehicles (261)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module OculusEditor (259)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (257)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (255)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (253)
+[2018.04.22-15.57.32:621][494]LogModuleManager: Shutting down and abandoning module UdpMessaging (251)
+[2018.04.22-15.57.32:721][494]LogModuleManager: Shutting down and abandoning module TcpMessaging (249)
+[2018.04.22-15.57.32:822][494]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (247)
+[2018.04.22-15.57.32:822][494]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (245)
+[2018.04.22-15.57.32:822][494]LogModuleManager: Shutting down and abandoning module FacialAnimation (243)
+[2018.04.22-15.57.32:822][494]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (241)
+[2018.04.22-15.57.32:823][494]LogModuleManager: Shutting down and abandoning module GraphEditor (240)
+[2018.04.22-15.57.32:823][494]LogModuleManager: Shutting down and abandoning module ContentBrowser (238)
+[2018.04.22-15.57.32:826][494]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (235)
+[2018.04.22-15.57.32:826][494]LogModuleManager: Shutting down and abandoning module Paper2D (233)
+[2018.04.22-15.57.32:826][494]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (231)
+[2018.04.22-15.57.32:827][494]LogModuleManager: Shutting down and abandoning module WmfMedia (229)
+[2018.04.22-15.57.32:833][494]LogModuleManager: Shutting down and abandoning module ImgMedia (227)
+[2018.04.22-15.57.32:834][494]LogModuleManager: Shutting down and abandoning module PacketHandler (225)
+[2018.04.22-15.57.32:834][494]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (223)
+[2018.04.22-15.57.32:834][494]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (221)
+[2018.04.22-15.57.32:834][494]LogModuleManager: Shutting down and abandoning module MediaAssets (219)
+[2018.04.22-15.57.32:834][494]LogModuleManager: Shutting down and abandoning module Media (218)
+[2018.04.22-15.57.32:840][494]LogModuleManager: Shutting down and abandoning module Overlay (215)
+[2018.04.22-15.57.32:840][494]LogModuleManager: Shutting down and abandoning module OverlayEditor (214)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module VREditor (211)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module StringTableEditor (209)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (207)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (205)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module FunctionalTesting (203)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (201)
+[2018.04.22-15.57.32:841][494]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (200)
+[2018.04.22-15.57.32:842][494]LogModuleManager: Shutting down and abandoning module UMG (197)
+[2018.04.22-15.57.32:842][494]LogModuleManager: Shutting down and abandoning module UMGEditor (196)
+[2018.04.22-15.57.32:842][494]LogModuleManager: Shutting down and abandoning module Sequencer (195)
+[2018.04.22-15.57.32:842][494]LogModuleManager: Shutting down and abandoning module MessageLog (192)
+[2018.04.22-15.57.32:842][494]LogModuleManager: Shutting down and abandoning module SlateReflector (187)
+[2018.04.22-15.57.32:843][494]LogModuleManager: Shutting down and abandoning module Slate (185)
+[2018.04.22-15.57.32:843][494]LogModuleManager: Shutting down and abandoning module EditorStyle (183)
+[2018.04.22-15.57.32:853][494]LogModuleManager: Shutting down and abandoning module MRMesh (181)
+[2018.04.22-15.57.32:853][494]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (179)
+[2018.04.22-15.57.32:853][494]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (177)
+[2018.04.22-15.57.32:853][494]LogModuleManager: Shutting down and abandoning module XAudio2 (175)
+[2018.04.22-15.57.32:853][494]LogModuleManager: Shutting down and abandoning module Networking (173)
+[2018.04.22-15.57.32:853][494]LogModuleManager: Shutting down and abandoning module Core (171)
+[2018.04.22-15.57.32:854][494]LogModuleManager: Shutting down and abandoning module LevelSequence (167)
+[2018.04.22-15.57.32:854][494]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module KismetCompiler (163)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module MeshUtilities (161)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (160)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (159)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (158)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module MaterialBaking (154)
+[2018.04.22-15.57.32:856][494]LogModuleManager: Shutting down and abandoning module DerivedDataCache (151)
+[2018.04.22-15.57.32:921][494]LogDerivedDataCache: Shutdown
+[2018.04.22-15.57.32:921][494]LogModuleManager: Shutting down and abandoning module TargetPlatform (149)
+[2018.04.22-15.57.32:921][494]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (148)
+[2018.04.22-15.57.32:921][494]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (146)
+[2018.04.22-15.57.32:921][494]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (144)
+[2018.04.22-15.57.32:921][494]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (142)
+[2018.04.22-15.57.32:921][494]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (140)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (138)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (136)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (134)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (132)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (130)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module ImageWrapper (129)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (126)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (124)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (122)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (120)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (118)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Messaging (116)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (114)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (112)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (110)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (108)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (106)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (104)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (102)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (100)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (98)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (96)
+[2018.04.22-15.57.32:922][494]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (94)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (92)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (90)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (88)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module UWPTargetPlatform (86)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module UWPDeviceDetector (84)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module UWP32TargetPlatform (82)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (80)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (78)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (76)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (74)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (72)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module InputCore (69)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module Settings (67)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module PhysXCooking (65)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module SteamVR (63)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module OculusHMD (61)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (59)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module AppleARKit (57)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module AugmentedReality (56)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2018.04.22-15.57.32:923][494]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (49)
+[2018.04.22-15.57.32:924][494]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.04.22-15.57.32:924][494]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.04.22-15.57.32:925][494]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.04.22-15.57.32:925][494]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.04.22-15.57.32:925][494]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.22-15.57.32:925][494]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.22-15.57.32:925][494]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.22-15.57.32:925][494]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04D8B040-4752-9FBB-CA98-9F98E38F6A9A%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.18.2-0%2B%2B%2BUE4%2BRelease-4.18&UserID=b0c8f0ab48c2a61507a5d7858176abed%7C8188d1f451ea4a559898d354cc353d53%7C45a0b155-8bc0-4877-97c5-e3ab8ce1847e&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.04.22-15.57.32:932][494]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.22-15.57.32:936][494]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.22-15.57.32:936][494]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.22-15.57.32:936][494]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.22-15.57.32:936][494]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.22-15.57.32:937][494]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.22-15.57.32:937][494]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.22-15.57.32:937][494]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.22-15.57.32:939][494]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.22-15.57.32:946][494]LogExit: Exiting.
+[2018.04.22-15.57.32:976][494]Log file closed, 04/22/18 11:57:32
