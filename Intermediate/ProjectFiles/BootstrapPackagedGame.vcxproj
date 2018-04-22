@@ -124,7 +124,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{28B80D71-C6DA-466B-96BF-9FEDC018F53A}</ProjectGuid>
+=======
+		<ProjectGuid>{30429D39-5CA2-4270-A9E7-337495E608FE}</ProjectGuid>
+>>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>BootstrapPackagedGame</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

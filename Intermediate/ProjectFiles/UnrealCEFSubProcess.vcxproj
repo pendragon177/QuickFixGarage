@@ -124,7 +124,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{925A58E4-E281-4E9C-9722-BD22B78CC3E6}</ProjectGuid>
+=======
+		<ProjectGuid>{3DE262FB-161D-4409-9C82-A2D8C9A01931}</ProjectGuid>
+>>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealCEFSubProcess</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

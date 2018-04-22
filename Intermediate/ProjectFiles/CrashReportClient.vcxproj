@@ -124,7 +124,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{633F1555-065A-446C-AE58-A679691A125F}</ProjectGuid>
+=======
+		<ProjectGuid>{FCA034D6-E1F2-4DE5-80F8-8FC7696E3921}</ProjectGuid>
+>>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>CrashReportClient</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

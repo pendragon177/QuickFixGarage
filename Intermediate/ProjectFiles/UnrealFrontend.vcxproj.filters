@@ -4,14 +4,22 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{19D548FC-FC0F-428D-9E5F-5E8EE4F94FE1}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{18203C19-7DF5-4D89-B036-C610A4CF598E}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{CD6ACB4F-EFC8-4D05-9687-4AB0EC383684}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{3E91A0E4-30EB-4428-BABF-4FABA2C38FC6}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
 			<Filter>Private</Filter>
@@ -20,7 +28,11 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Commands">
+<<<<<<< HEAD
 			<UniqueIdentifier>{7E3B6309-352C-42EB-AF55-723CBDF5FFD4}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{2DE0F0B7-A437-4763-8F41-9E564F67D4D7}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
 			<Filter>Private\Commands</Filter>
@@ -65,28 +77,47 @@
 			<Filter>Private\Commands</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
+<<<<<<< HEAD
 			<UniqueIdentifier>{80CBBF21-92EA-4A91-ACA8-75569D8B4134}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{E6C9BD04-2874-46DA-9899-E37280A5D73C}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
+<<<<<<< HEAD
 			<UniqueIdentifier>{A5D59932-6F15-4A40-8D6C-9379D749CD60}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{A2DD814E-F78C-4099-B910-D9F9FE496C30}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
+<<<<<<< HEAD
 			<UniqueIdentifier>{02DAB352-E387-4666-BD15-AED690A50A18}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{F06BADE9-7F9A-4913-8EA2-984A40D071B8}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{78AE9B41-6DC3-4941-BBF8-A9474DACAA0D}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
 			<UniqueIdentifier>{2EE0DB65-2D01-486F-9E4D-B5917E557230}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{5E9C525D-7D5D-4FAA-9E99-4EFF4D525EFE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{5AB3F339-E547-4637-BE03-4976991EA18E}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

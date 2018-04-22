@@ -4,14 +4,22 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{27DCF9DD-5CC9-40DA-88ED-B0F7CA0A3E71}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{CD695E6D-E36A-4B9B-9E4F-D2EAD9536C14}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{6863EE26-3016-4FDA-AE13-D6F8E4FAF0BA}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{6179A3A3-326C-4B1B-AD44-B330529A6F3D}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
 			<Filter>Private</Filter>
@@ -122,7 +130,11 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Specifiers">
+<<<<<<< HEAD
 			<UniqueIdentifier>{FA929E07-129B-46DD-8FF6-07344571AED8}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{CDFDB1C6-A5BA-44D0-BBCB-C8EFC2313AD5}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
 			<Filter>Private\Specifiers</Filter>
@@ -158,13 +170,21 @@
 			<Filter>Private\Specifiers</Filter>
 		</ClInclude >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{02D59285-4262-4F3F-9E04-6D177F1F1CD2}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{39E79835-B903-4063-8742-EDE375A50DED}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
+<<<<<<< HEAD
 			<UniqueIdentifier>{E073B149-6BAB-49E3-9864-1D08E9F44091}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{08A55B2C-1A53-4C06-902B-D1D786F09208}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc">
 			<Filter>Resources</Filter>
@@ -173,7 +193,11 @@
 			<Filter>Resources</Filter>
 		</Manifest >
 		<Filter Include="Resources\UHTDebugging">
+<<<<<<< HEAD
 			<UniqueIdentifier>{A547E5C9-28BF-454E-BD30-D3B0F716C0FB}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{F19A643F-B649-4605-B639-EC2FF7F5BB2C}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
 			<Filter>Resources\UHTDebugging</Filter>

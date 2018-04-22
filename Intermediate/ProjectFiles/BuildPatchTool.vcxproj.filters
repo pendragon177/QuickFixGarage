@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
 		<Filter Include="Config">
+<<<<<<< HEAD
 			<UniqueIdentifier>{3AF84B8E-2408-42BF-AC95-EF64EA0F3496}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{7AEBF0D2-E6E6-48EA-9E9C-CA5E336E5E1C}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
@@ -12,7 +16,11 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{F196AA64-F9F2-4A90-AE2C-C0B9B855E4A9}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{8CB3F0D9-38DE-426E-8E12-2FE0BB118DF1}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
 			<Filter>Private</Filter>
@@ -21,7 +29,11 @@
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\ToolModes">
+<<<<<<< HEAD
 			<UniqueIdentifier>{EE8CD0A1-ECBA-42D9-BDCA-F5968F7BE673}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{B7859E84-A2F0-4B3B-9E9C-CEA86AB921AD}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
 			<Filter>Private\ToolModes</Filter>
@@ -48,19 +60,31 @@
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
 		<Filter Include="Public">
+<<<<<<< HEAD
 			<UniqueIdentifier>{9C6C8446-70BA-4799-840A-20E6DC04CDB7}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{12142154-FED3-4DC6-AB2E-D1F65B332F2B}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Public\Interfaces">
+<<<<<<< HEAD
 			<UniqueIdentifier>{A399208A-F8B6-4571-9C43-C5E079D02D6E}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{21DB8C79-6F18-4542-A49D-B98156A4A385}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
 			<Filter>Public\Interfaces</Filter>
 		</ClInclude >
 		<Filter Include="Public\ToolModes">
+<<<<<<< HEAD
 			<UniqueIdentifier>{59F194F4-101E-484E-9573-B68EBC524B84}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{E51056DE-66E8-47BD-86BD-3CD0468FB500}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
 			<Filter>Public\ToolModes</Filter>

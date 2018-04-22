@@ -84,7 +84,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{69BEF0E1-81EF-4BE4-8B65-B53F408E67AA}</ProjectGuid>
+=======
+		<ProjectGuid>{27C3F898-6C4E-4A26-995D-D9CF5BF8A411}</ProjectGuid>
+>>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>DsymExporter</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

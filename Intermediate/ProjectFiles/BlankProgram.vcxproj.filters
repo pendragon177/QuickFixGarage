@@ -5,7 +5,11 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{D161D20D-F535-496A-A376-29D0AAEEFB48}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{DF94759C-63F0-43C3-B0FE-5BB9E63D28C2}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
 			<Filter>Private</Filter>

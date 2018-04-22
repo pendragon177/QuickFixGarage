@@ -324,7 +324,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{214A4907-57A3-4173-AF87-5988AD49CCCB}</ProjectGuid>
+=======
+		<ProjectGuid>{8156107A-3D32-4E4F-AA46-8644BDE9084D}</ProjectGuid>
+>>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>QuickFixGarage</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

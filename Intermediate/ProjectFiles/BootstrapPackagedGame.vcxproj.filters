@@ -5,7 +5,11 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs" />
 		<Filter Include="Private">
+<<<<<<< HEAD
 			<UniqueIdentifier>{6AA7B783-3043-4DDD-9C56-56CE8F23901F}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{869DF7B0-1538-4D92-A8ED-0B923B51E370}</UniqueIdentifier>
+>>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
 			<Filter>Private</Filter>

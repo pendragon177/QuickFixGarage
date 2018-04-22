@@ -84,7 +84,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{E3E530FB-9DC4-4FB0-8953-E0940F1FB71D}</ProjectGuid>
+=======
+		<ProjectGuid>{DC20C540-60E1-4A2C-ABDB-B08171205730}</ProjectGuid>
+>>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealHeaderTool</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
