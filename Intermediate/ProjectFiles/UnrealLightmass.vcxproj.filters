@@ -4,28 +4,17 @@
 	<ItemGroup>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
 		<Filter Include="Config">
-<<<<<<< HEAD
 			<UniqueIdentifier>{2E01E66C-DF75-4896-9F3A-F3FE53AEC179}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{12A92261-2C90-494A-9ADD-496A87890022}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
 		<Filter Include="Private">
-<<<<<<< HEAD
 			<UniqueIdentifier>{5389D5D0-08DC-4CB2-A956-6E5CB2FD8743}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Private\CPUSolver">
 			<UniqueIdentifier>{01202C8E-B4C5-482F-B6B2-4FA4A817EC1A}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E42A38D5-C497-4FD4-AB6F-A71EC6455963}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Private\CPUSolver">
-			<UniqueIdentifier>{E3AC6415-EFD3-45A7-9215-040CC1A6D855}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
 			<Filter>Private\CPUSolver</Filter>
@@ -34,11 +23,7 @@
 			<Filter>Private\CPUSolver</Filter>
 		</ClInclude >
 		<Filter Include="Private\ImportExport">
-<<<<<<< HEAD
 			<UniqueIdentifier>{F933D63B-D564-4ABE-A686-6AA373E64A93}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{990D49A6-AF2C-42F9-8E8A-8D21ACD5C064}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp">
 			<Filter>Private\ImportExport</Filter>
@@ -83,11 +68,7 @@
 			<Filter>Private\ImportExport</Filter>
 		</ClInclude >
 		<Filter Include="Private\Launch">
-<<<<<<< HEAD
 			<UniqueIdentifier>{8251831E-56E8-4371-B218-CB609F44CF4D}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{DB9B6822-D9E9-48D9-927F-ACC4E9B8F6C2}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
 			<Filter>Private\Launch</Filter>
@@ -102,11 +83,7 @@
 			<Filter>Private\Launch</Filter>
 		</ClInclude >
 		<Filter Include="Private\Lighting">
-<<<<<<< HEAD
 			<UniqueIdentifier>{2705C418-5127-4C0D-B999-0650B1C54981}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{D9FE9F59-DF3D-4CCE-8C65-1D9C4BC58ECD}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
 			<Filter>Private\Lighting</Filter>
@@ -226,11 +203,7 @@
 			<Filter>Private\Lighting</Filter>
 		</ClCompile >
 		<Filter Include="Private\LightmassCore">
-<<<<<<< HEAD
 			<UniqueIdentifier>{14ECD15F-338F-4E47-A538-7E11223C9BA6}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{DC29681E-0130-4596-8DA6-2AC291B5CAF8}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
 			<Filter>Private\LightmassCore</Filter>
@@ -239,11 +212,7 @@
 			<Filter>Private\LightmassCore</Filter>
 		</ClInclude >
 		<Filter Include="Private\LightmassCore\Math">
-<<<<<<< HEAD
 			<UniqueIdentifier>{47AECE28-D6DA-443B-BDC7-D1C6D4CC3E96}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{A57BB6FF-9E13-43A6-96A6-3425CCDA6871}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h">
 			<Filter>Private\LightmassCore\Math</Filter>
@@ -270,11 +239,7 @@
 			<Filter>Private\LightmassCore\Math</Filter>
 		</ClCompile >
 		<Filter Include="Private\LightmassCore\Misc">
-<<<<<<< HEAD
 			<UniqueIdentifier>{592D8A86-860A-44EA-9D64-3D1E31B9B10D}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{AC43A096-EB18-4551-92B2-52B3681E04CC}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
 			<Filter>Private\LightmassCore\Misc</Filter>
@@ -295,21 +260,13 @@
 			<Filter>Private\LightmassCore\Misc</Filter>
 		</ClInclude >
 		<Filter Include="Private\LightmassCore\Templates">
-<<<<<<< HEAD
 			<UniqueIdentifier>{0C02F230-3409-4EB0-A7C8-7205266A0C6C}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{252E3869-151E-495F-93AF-B15149DE99ED}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h">
 			<Filter>Private\LightmassCore\Templates</Filter>
 		</ClInclude >
 		<Filter Include="Public">
-<<<<<<< HEAD
 			<UniqueIdentifier>{46B2BF6D-7A17-47A6-A091-709E26AECC6D}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{92E462CE-0B64-4335-84AD-2850449F9BC7}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClInclude Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h">
 			<Filter>Public</Filter>
@@ -330,11 +287,7 @@
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-<<<<<<< HEAD
 			<UniqueIdentifier>{B490BDF3-BB68-487E-92DE-6F60B650AA85}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{89065237-24D0-414A-97F5-6F1B20F5A7BC}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win32.manifest">
 			<Filter>Resources</Filter>

@@ -5,11 +5,7 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
 		<Filter Include="Private">
-<<<<<<< HEAD
 			<UniqueIdentifier>{D38315F1-A852-4EC5-8BC1-70FF36D16394}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{64A3CA37-3CC9-497B-B23C-C8DDE32B2C9F}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
 			<Filter>Private</Filter>
@@ -33,11 +29,7 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-<<<<<<< HEAD
 			<UniqueIdentifier>{FA18B49A-0B64-4922-8998-FCFF2C8C75A6}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{1F369728-2FFF-4FF9-A9C0-31FE3B41B7CE}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ResourceCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
 			<Filter>Resources</Filter>

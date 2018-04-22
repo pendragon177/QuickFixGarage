@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\QuickFixGarage.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
 			<UniqueIdentifier>{1FF0557C-B76B-4339-A769-A9D2EAAC31F6}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{CA421E6B-5F81-40B3-9569-B9CF08DEABE8}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\Source\QuickFixGarage.Target.cs">
 			<Filter>Source</Filter>
@@ -17,11 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-<<<<<<< HEAD
 			<UniqueIdentifier>{5895D7C4-493A-431D-924D-99D027A10997}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{618CC50B-ECAF-40B0-A7E9-F38DBCD04930}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -39,21 +31,13 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Config\UWP">
-<<<<<<< HEAD
 			<UniqueIdentifier>{58E0538B-1A75-4349-8229-DE0F28AA9A42}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{DBF6F424-CE10-45E7-B6E2-2446C8D5458F}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<None Include="..\..\Config\UWP\UWPEngine.ini">
 			<Filter>Config\UWP</Filter>
 		</None >
 		<Filter Include="Source\QuickFixGarage">
-<<<<<<< HEAD
 			<UniqueIdentifier>{D26A7C9D-C919-4659-8608-74AA8E99EB9B}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{0479FB95-D9DB-4EBA-9591-6A029E99B8A0}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\Source\QuickFixGarage\ControllerPull.cpp">
 			<Filter>Source\QuickFixGarage</Filter>

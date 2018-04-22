@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{DDA2FB0E-70AD-4A5E-91FD-5CA58CFFF906}</ProjectGuid>
-=======
-		<ProjectGuid>{017A66EC-CEAF-411E-B714-359F71B0E202}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealFrontend</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

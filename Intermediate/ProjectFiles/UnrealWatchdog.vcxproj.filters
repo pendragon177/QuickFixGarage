@@ -5,11 +5,7 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Build.cs" />
 		<Filter Include="Private">
-<<<<<<< HEAD
 			<UniqueIdentifier>{0B8E0984-58CD-480A-A2BF-335CF638C6AB}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{E0B6F61E-F1AF-4EB3-98DC-9D9823C9D57E}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.cpp">
 			<Filter>Private</Filter>
@@ -24,31 +20,19 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-<<<<<<< HEAD
 			<UniqueIdentifier>{1485A084-B2FA-4257-B0BA-2099948492AA}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{1DB0C36D-99EB-4353-8019-5A8B9BDB28C0}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Linux\UnrealWatchdogMainLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-<<<<<<< HEAD
 			<UniqueIdentifier>{4725F90A-092E-449A-845E-2583E10F6D24}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{C5B04D86-2BDF-4010-B0E0-0EE102F8BB89}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Mac\UnrealWatchdogMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-<<<<<<< HEAD
 			<UniqueIdentifier>{0B4C8E41-F12A-4A20-A1BF-9600BCEA15C7}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{C9E7DF75-48E4-4C1C-88EA-5AAC51C29036}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealWatchdog\Private\Windows\UnrealWatchdogMainWindows.cpp">
 			<Filter>Private\Windows</Filter>

@@ -124,11 +124,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{EB0ACEB5-24C4-48B9-8B71-FE76EDCD0BAB}</ProjectGuid>
-=======
-		<ProjectGuid>{B75BA5FD-0CC0-4E49-A0AF-A2ACFC216270}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealWatchdog</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

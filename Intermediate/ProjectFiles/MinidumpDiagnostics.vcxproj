@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{2E094562-DCBA-464F-A7AB-7E7EA83EA49F}</ProjectGuid>
-=======
-		<ProjectGuid>{E2400073-3B01-4C34-944F-2A1C9965455A}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>MinidumpDiagnostics</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

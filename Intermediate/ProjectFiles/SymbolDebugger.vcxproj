@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{2E535806-9959-497F-B0F2-9261919B1030}</ProjectGuid>
-=======
-		<ProjectGuid>{B10A3E74-AB84-4455-8C77-BFCBBE4DF8F4}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>SymbolDebugger</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

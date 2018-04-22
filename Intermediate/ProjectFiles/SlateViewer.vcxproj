@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{13D7C47C-F4AC-47F8-AE8D-1C34C8935374}</ProjectGuid>
-=======
-		<ProjectGuid>{6F4AFB3F-7A02-4887-BE69-1A3937DE7839}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>SlateViewer</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

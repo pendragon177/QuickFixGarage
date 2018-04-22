@@ -5,27 +5,16 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Build.cs" />
 		<Filter Include="Private">
-<<<<<<< HEAD
 			<UniqueIdentifier>{714ADB9D-448D-434E-956B-96DC1CAA5075}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Private\Linux">
 			<UniqueIdentifier>{B169DD0F-C0D1-4D5D-819D-05FB0894E53D}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{CD514724-AB2D-4482-A22D-D394667D4005}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{2676E283-875D-483F-943E-4614944ED17D}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UE4EditorServices\Private\Linux\UE4EditorServicesMain.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-<<<<<<< HEAD
 			<UniqueIdentifier>{0986AED3-EE85-4390-B968-E2FFDF85979D}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{2CD4006B-727D-4F86-82C7-A3AC4C5AAC7F}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.cpp">
 			<Filter>Private\Mac</Filter>
@@ -37,11 +26,7 @@
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-<<<<<<< HEAD
 			<UniqueIdentifier>{05406F91-3C65-4261-9B34-D289F2789831}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{BD0BE5F5-50E3-4371-870A-CDAFE5DD349F}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\Mac\UE4EditorServices\Private\Windows\UE4EditorServicesMain.cpp">
 			<Filter>Private\Windows</Filter>

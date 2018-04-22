@@ -5,11 +5,7 @@
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
 		<None Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
 		<Filter Include="Private">
-<<<<<<< HEAD
 			<UniqueIdentifier>{8C8AD3A4-B685-4362-B209-751B3EB1DB9C}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{238F7016-7687-46A4-83DF-4B35D0E5A6E1}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
 			<Filter>Private</Filter>
@@ -42,47 +38,28 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Linux">
-<<<<<<< HEAD
 			<UniqueIdentifier>{E9F518B2-065F-4E2B-8111-35B26D4B6F20}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{1C4DA041-FBAE-43B5-BFD7-90EAFD681319}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-<<<<<<< HEAD
 			<UniqueIdentifier>{6ED1296A-53D3-483B-A450-22BA2D117B0A}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{B509AF23-18F7-46C7-AAD5-90BB581D5DE2}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-<<<<<<< HEAD
 			<UniqueIdentifier>{66F8509C-CC27-4E0C-BC48-6F0EC538CA80}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{692F3F4D-A3A6-430C-9BB7-0BAFE5BC6CDB}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-<<<<<<< HEAD
 			<UniqueIdentifier>{E6A9E765-047D-481F-9412-42EF61EF66F9}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
 			<UniqueIdentifier>{402EB363-1117-41C0-AB68-8FC40D807074}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{BF5EF642-35B5-4D3E-AABE-3BA69CF46A36}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{F8056A3E-3C19-49E3-99F5-527CE4BF1770}</UniqueIdentifier>
->>>>>>> UserInt-Jeff
 		</Filter>
 		<Manifest Include="..\..\..\..\..\Desktop\MICROSOFT_UWP_UNREAL-release_uwp\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

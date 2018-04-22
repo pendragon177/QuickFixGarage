@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{1597546D-DCA9-4CF6-820D-2020E81CEE25}</ProjectGuid>
-=======
-		<ProjectGuid>{F73DDFF2-70F4-457A-A3BB-DECB96F9435F}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealPak</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

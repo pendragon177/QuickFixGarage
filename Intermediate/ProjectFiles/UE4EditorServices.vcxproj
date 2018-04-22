@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{E307946A-D916-4EF1-8685-5B8E1FC52079}</ProjectGuid>
-=======
-		<ProjectGuid>{958F0A86-3EC0-43F8-8880-85B9F5DADFFA}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UE4EditorServices</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

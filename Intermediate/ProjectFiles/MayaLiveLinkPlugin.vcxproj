@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{2302D275-3C63-4566-A257-4C7B9D6D50BF}</ProjectGuid>
-=======
-		<ProjectGuid>{B4780D20-98ED-46FE-B200-138FD4F7DA7E}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>MayaLiveLinkPlugin</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

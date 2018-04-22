@@ -124,11 +124,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{0B9F4C7F-1F72-4D80-BA34-48821C128F17}</ProjectGuid>
-=======
-		<ProjectGuid>{50798E47-7EE9-411B-942C-DCB74EA97B06}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>BuildPatchTool</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>

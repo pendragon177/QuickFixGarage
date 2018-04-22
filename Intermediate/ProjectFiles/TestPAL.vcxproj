@@ -84,11 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-<<<<<<< HEAD
 		<ProjectGuid>{7E1895D7-D6C9-4BE2-B670-7072333074A3}</ProjectGuid>
-=======
-		<ProjectGuid>{275E0887-ED0D-42DC-93FB-568575E64448}</ProjectGuid>
->>>>>>> UserInt-Jeff
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>TestPAL</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
